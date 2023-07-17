@@ -318,72 +318,65 @@ Another solution in the family of passive devices is the QR-code. Such technique
 	\label{fig:qrnfccoin}
 \end{figure}
 
-We first check the above strategies against the Universal Design Principles \cite{udi97a}:
+A preliminary check verifies compliance with the Universal Design Principles \cite{udi97a}:
 
-\begin{enumerate}
-	\item Equitable Use
-	\item Flexibility in Use
-	\item Simple and Intuitive
-	\item Perceptible Information
-	\item Tolerance for Error
-	\item Low Physical Effort
-	\item Size and Space for Approach and Use
-\end{enumerate}
+%\begin{enumerate}
+%	\item Equitable Use
+%	\item Flexibility in Use
+%	\item Simple and Intuitive
+%	\item Perceptible Information
+%	\item Tolerance for Error
+%	\item Low Physical Effort
+%	\item Size and Space for Approach and Use
+%\end{enumerate}
 
-The labels are self-descriptive, and we address the reader to the discussion in the referenced document for a more detailed explanation.
+%The labels are self-descriptive, and we address the reader to the discussion in the referenced document for a more detailed explanation.
+%Checking passive devices solutions against the Universal Design principles, we assess their accessibility.
 
-Such minimalistic solutions (se figure \ref{fig:qrnfccoin}) compares surprisingly well when compared with other solutions that make use of the user's smartphone. There is a trade-off concerning capacity, but in many circumstances a capacity of 2-300 words is sufficient to convey the description of the site, or provide directions for the the visit. In exchange, a solution besed on NFC or QR-codes:
+\begin{itemize}
+	\item {\em Equitable use} is tighly related to the smartphone technology, which is itself considered a vehicle for equitability,
+	\item {\em Flexibility in use} is enabled by the computing capabilities of the device, which allows to listen to the info instead or reading, or translate the information in a different language,
+	\item {\em Simple and intuitive use} holds since the operation requires a single application, possibly already installed since useful in many circumstances, and tag reading requires a single touch
+	\item{\em Perceptible information} is a critical requirement, which contrasts with the aim of keeping low the environmental intrusion. This point will be further discussed in the section devoted to the implementation
+	\item{\em Tolerance for error}: there are no margins to use the device in a way that compromises user safety. The deliberate or accidental release of the passive device into the environment determines a minor pollution
+	\item{\em Low physical effort} holds, although the user needs to carry the smartphone
+	\item{Size and Space for approach and use} have to be carefully considered. In the case of the NFC the smartphone needs to be nearly in touch with the passive device, while the QR-code must be in line of sight and frameable without effort
+\end{itemize}
+
+Such a minimalistic solutions (se figure \ref{fig:qrnfccoin}) compares well compared with other solutions that make use of the user's smartphone. There is a trade-off concerning capacity, but in many circumstances a capacity of 2-300 words is sufficient to convey the description of the site, or provide directions for the the visit. If capacity is not an issue a solution based on NFC or QR-codes exhibits a number of advantages:
 \begin{itemize} 
 \item does not require any power supply
-\item is easy to use
 \item has a limited impact on the landscape
 \item is not exposed to theft
 \item has a negligible cost
 \item is durable
 \item produces a limited quantity of waste when disposed
-\item is readable at a moderate distance, a feature that differentiates NFP and QR-codes
-\item can be read aloud or translated
-\item can be stored by the user's device.
+\item the content can be stored by the user's device for successive utilization
 \end{itemize}
 
-Checking passive devices solutions against the Universal Design principles, we assess their accessibility.
+%It significantly outperforms any active device, except for the capacity, and the NFC compares favorably only when capacity and size are prominent.  
+
+A solution based on the user smartphone associated with passive devices compares favorably with traditional signage boards. Considering the limits of the latter approach listed in table \ref{tab:board}:
+
+%The adoption of passive devices compares favorably with traditional boards, considering the strengths and limits as listed above.
 
 \begin{itemize}
-	\item {\em Equitable use} is tighly related to the smartphone technology, which is itself considered a vehicle for equitability,
-	\item {\em Flexibility in use} is allowed by the computing capabilities of the device, which allows to listen to the info instead or reading, or translate the information in a different language,
-	\item {\em Simple and intuitive use} holds since the operation requires an application, possibly already installed since useful in many occasions, and tag reading requires
-	\item{\em Perceptible information} is a critical requirement, which contrast with the aim of keeping low the environmental intrusion. This point will be further discussed in the section devoted to the implementation
-	\item{\em Tolerance for error}: there are no margins to use the device in a way that comprimizes user safety. The deliberate or accidental release of the passive device into the environment determines a minor pollution
-	\item{\em Low physical effort} holds, although the user needs to carry the smartphone
-	\item{Size and Space for approach and use} have to be carefully considered, since in the case of the NFC the smartphone need to be almost in touch with the passive device, while the QR-code must be in line of sight and frameable without effort
-\end{itemize}
-
-It significantly outperforms any active device, except for the capacity, and the NFC compares favorably only when capacity and size are prominent.  
-
-The adoption of QR-codes compares favorably with traditional boards, considering the strengths and limits as listed above.
-
-\begin{itemize}
-	\item dimensions: a 2-300 characters QR-code has the dimensione of a poker card
-	\item logistics: QR-code board can be installed on any sort of preexisting support
+	\item dimensions: a 2-300 characters QR-code has a dimension in the order of 100 $cm^2$
+	\item logistics: QR-code board can be installed on any sort of pre-existent or natural support
 	\item impact: the board has a minimal interference with the landscape and may easely go un-noticed if not properly advertised
 	\item accessibility for the visually impaired: the text can be read aloud
 	\item international: the text can be translated
-	\item update: the board can be easely replaced when the content turns obsolete
+	\item update: the board can be easely replaced when the content becomes obsolete
 	\item disposal: the card releases a limited quantity of pollutants related with ink support (paper or plastic)
 \end{itemize}
 		
-		One of the issues the host must resolve is the availability of support for electronic devices. The provisioon of such support has a footprint that ha
+%One of the issues the host must resolve is the availability of support for electronic devices. The provisioon of such support has a footprint that ha		
+%may be present, but, in the spirit of our investigation, power supply should be address renewable sources, like wind, sunlight and similar.
+%One option discriminates the use of an electronic device on the side of the user. 
+%In case we assume the user does not have a electronic device with her, the 
+%One option is to introduce active electronics: the touristic site administration provides a 
 		
-		may be present, but, in the spirit of our investigation, power supply should be address renewable sources, like wind, sunlight and similar.
-		
-		
-		
-		One option discriminates the use of an electronic device on the side of the user. 
-		
-		In case we assume the user does not have a electronic device with her, the 
-		One option is to introduce active electronics: the touristic site administration provides a 
-		
-
+There are two relevant trade-offs that the host needs to resolve. One is related with the visibility of the tag. The trade-off is among the  
 
 \section{Materials and Methods}
 
