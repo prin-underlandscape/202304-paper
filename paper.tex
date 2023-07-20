@@ -386,9 +386,7 @@ In conclusion, we have reasons to select a QR-code based solution as a good cand
 %In case we assume the user does not have a electronic device with her, the 
 %One option is to introduce active electronics: the touristic site administration provides a 
 		
-There are two relevant trade-offs that the host needs to resolve. One is related with the visibility of the tag. The trade-off is among visuali impact, and visibility.
-
-Il secondo?
+There are two relevant trade-offs that the host needs to resolve. One is related with the visibility of the tag. The trade-off is among visuali impact, and visibility. The other is related with monitoring tag utilization. This may be useful for all sorts of planning activities, and is discussed in section \ref{sec:results}.
 
 \section{Materials and Methods}
 
@@ -548,7 +546,11 @@ Riparo sottoroccia lungo percorso Piella & 10.68397 & 44.03704 & kwr1wx & 286 \\
 
 A card sample is in Figure \ref{fig:toscana-casoli}. On the top there is the logo of the funding project, a descriptive title ({\em Castle} in english) and concise directions for use {\em Scan fo further information}). Under the QR-code is the notice that other QR-codes are present in the vicinity, and a reference to the funding project.
 
-The text in the QR-code (in figure \ref{fig:qrcodecontent}) contains the main text with 614 characters (100 words) and a URL 86 characters long. The URL is useful only if the Internet is reachable, and brings to a new page containing a map with the location of all the tags (Figure \ref{fig:linkmap}) and a short survey form. Note that, while the QR-tag content is always available, the URL is reachable in locations with broadband coverage. In our case, during a recon to the {\em Piella} cave none of the smartphones of the participants received sufficient broadband network signal.
+The tag is printed on Synaps™, a non-biodegradable polyester synthetic film by Agfa-Gevaert NV. Agfa documents the production process giving guarantees of sustainability \cite{agfa}. According to Agfa, Synaps is more sustainable than laminated paper. From previous experience it is also more durable.
+
+To keep the environmental footprint as leightweight as possible, the tags are tied to pre-existent structures, like trees or poles. The tag is tied with a thin biodegradable string. 
+
+The text encode on the QR-tag (in figure \ref{fig:qrcodecontent}) contains the main text with 614 characters (100 words) and a URL 86 characters long. The URL is useful only if the Internet is reachable, and brings to a new page containing a map with the location of all the tags (Figure \ref{fig:linkmap}) and a short survey form. Note that, while the QR-tag content is always available, the URL is reachable in locations with broadband coverage. In our case, during a recon to the {\em Piella} cave none of the smartphones of the participants received sufficient broadband network signal.
 
 \begin{figure}
 \subfloat[QR-tag content]{
@@ -609,7 +611,59 @@ Clearly, our methodology does not aim to replace CAI signage, which is recognize
 %\end{quote}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Results}
+\section{Results and discussion \label{sec:results}}
+
+Our point is to evaluate all aspects of a signage system addressing the guidance of visitors in a rural area with a cultural heritage to be protected and exploited at the same time.
+
+The selected site exhibits the aspects of interest: a history that goes back to the Paleolithic Era, human artifacts as well as natural formations that witness past events. The site is not included in mass turism circuits, but is not far from touristic site. It is exposed to depopulation by absence of productive activities. ({\bf Mariagrazia per favore conferma o nega}).
+
+Studying site heritage we found reasons of interest by a motivated, non-casual visitor: a cave inhabited since the pre-history with a difficult but viable access, a village with historical buildings, nearby sites dating back to the Middle Ages.
+
+The task of guiding the visitor and tell the location story has been left in charge to a dozen of QR-code tags placed at key locations. The costo of the QR-codes amounts to a few Euros for the printing service, but finding a shop with an appropriate printing device was not easy.
+
+The production of the graphical file was based on a simple script taking a geojson file as input and producing an image with all the QR.codes ready for printing on an A0 sheet.
+
+The preparation an implementation of the signage was therefore simple and with a low cost, but required a solid and pre-existent knowledge of the site.
+
+We include three stakeholder communities in the evaluation of the response to the initiative. We do not speak about {\em success} since the initiative is deliberately soft, and an outcome is expected in years, and its evaluation as successful or not will pose new questions. So we are content to see if the stakeholders regarded the initiative as an intrusion, as helpful, or simply neutral.
+
+We considered four stakeholder communities:
+
+\begin{itemize}
+	\item {\em the residents} the local community that currently inhabits the site
+	\item {\em entrepreneurs} who currently have a business in the site
+	\item {\em administrators} that are in charge of managing the site resources and that, at due time, will respond to the two stakeholders above, and finally
+	\item {\em the users}, those that come to Casoli to visit the Village or La Piella and that we find the QR-codes on their way
+\end{itemize}
+
+The category of the users escapes an evaluation since the QR-tag does not record reading operations. We added to the text message in the QR-tag an external link, that we monitor for the number of hits on pages dedicated to the specific tag: however this feedback certainly underestimates the number of times the tag is read. In Figure \ref{tab:hits} we see the number of hits during from May to July 2023.  
+
+\begin{table}
+\begin{tabular}{|l|c|c|}
+\hline
+\textbf{Pagina di destinazione} & \textbf{Sessioni} \\
+\hline
+3w44wr & 4 \\
+e4n2js & 4 \\
+fxq83v & 4 \\
+t5ysrm & 4 \\
+mprs0w & 3 \\
+4l4r6y & 2 \\
+kwr1wx & 2 \\
+lwtyx6 & 2 \\
+sbgnl0 & 2 \\
+BM6cAj & 1 \\
+8tml9x & 1 \\
+bm6caj & 1 \\
+xqjpbk & 1 \\
+\hline
+\end{tabular}
+\caption{Number of hits per URL linked to a tag \label{tab:hits}]}
+\end{table}
+
+\section{Conclusions}
+
+There is a demand for low-power devices able to manifest themselves to the visitor and to monitor...
 
 %This section may be divided by subheadings. It should provide a concise and precise description of the experimental results, their interpretation as well as the experimental conclusions that can be drawn.
 %\subsection{Subsection}
