@@ -105,38 +105,38 @@
 
 %=================================================================
 % Full title of the paper (Capitalized)
-\Title{A sustainable approach to tourist signage on (historical) trails}
-
+\Title{A sustainable approach to tourist signage on heritage trails\footnote{This research has been supported by the Ministry of University and Research under the "Underlandscape" project (2020428LS8)}}
 % MDPI internal command: Title for citation in the left column
-\TitleCitation{A sustainable approach to tourist signage on historical trails}
-
+\TitleCitation{A sustainable approach to tourist signage on heritage trails}
 % Author Orchid ID: enter ID or remove command
-\newcommand{\orcidauthorA}{0000-0000-0000-000X} % Add \orcidA{} behind the author's name
-%\newcommand{\orcidauthorB}{0000-0000-0000-000X} % Add \orcidB{} behind the author's name
+\newcommand{\orcidauthorA}{0009-0003-1136-570X} % Add \orcidA{} behind the author's name
+\newcommand{\orcidauthorB}{0000-0002-9734-2044} % Add \orcidA{} behind the author's name
+\newcommand{\orcidauthorC}{0000-0002-5542-7891} % Add \orcidB{} behind the author's name
 
 % Authors, for the paper (add full first names)
-\Author{Firstname Lastname $^{1,\dagger,\ddagger}$\orcidA{}, Firstname Lastname $^{2,\ddagger}$ and Firstname Lastname $^{2,}$*}
+\Author{ Maria Grazia Deri $^{2,}$*\orcidC{}, Letizia Chiti $^{3}$\orcidA{}, Augusto Ciuffoletti $^{1}$\orcidB{} } 
 
 %\longauthorlist{yes}
 
 % MDPI internal command: Authors, for metadata in PDF
-\AuthorNames{Firstname Lastname, Firstname Lastname and Firstname Lastname}
+\AuthorNames{Maria Grazia Deri, Letizia Chiti, and Augusto Ciuffoletti}
 
 % MDPI internal command: Authors, for citation in the left column
-\AuthorCitation{Lastname, F.; Lastname, F.; Lastname, F.}
+\AuthorCitation{ Deri, M.G.; Chiti, L.; Ciuffoletti, A.}
 % If this is a Chicago style journal: Lastname, Firstname, Firstname Lastname, and Firstname Lastname.
 
 % Affiliations / Addresses (Add [1] after \address if there is only one affiliation.)
 \address{%
-$^{1}$ \quad Affiliation 1; e-mail@e-mail.com\\
-$^{2}$ \quad Affiliation 2; e-mail@e-mail.com}
+$^{1}$ \quad University of Pisa (retired); augusto.ciuffoletti@unipi.it\\
+$^{2}$ \quad University of Pisa; mariagrazia.deri@sp.unipi.it\\
+$^{3}$ \quad University of Pisa; l.chiti2@studenti.unipi.it}
 
 % Contact information of the corresponding author
-\corres{Correspondence: e-mail@e-mail.com; Tel.: (optional; include country code; if there are multiple corresponding authors, add author initials) +xx-xxxx-xxx-xxxx (F.L.)}
+\corres{Correspondence: augusto.ciuffoletti@unipi.it}
 
 % Current address and/or shared authorship
-\firstnote{Current address: Affiliation 3.} 
-\secondnote{These authors contributed equally to this work.}
+%\firstnote{Current address: Affiliation 3.} 
+%\secondnote{These authors contributed equally to this work.}
 % The commands \thirdnote{} till \eighthnote{} are available for further notes
 
 %\simplesumm{} % Simple summary
@@ -144,11 +144,11 @@ $^{2}$ \quad Affiliation 2; e-mail@e-mail.com}
 %\conference{} % An extended version of a conference paper
 
 % Abstract (Do not insert blank lines, i.e. \\)
-\abstract{Guiding the visitor to appreciate all the attractions of a region is paramount for building a memorable experience. In the literature, we find many articles exploring the use of sophisticated technologies towards such a goal. The case of wilderness resources exhibits a peculiar aspect, since the presence of human artifacts and the signage may damage the experience, and introduce pollutants as well. In this paper, we consider the case of a natural trail targeted to niche tourism to understand the available options for signage aiming to provide directions, guide the exploration, and warn about dangers. The footprints of the various options are evaluated, and we describe the outcomes of an experimental setup implemented to verify the applicability of our approach.}
+\abstract{Guiding the visitor to appreciate the sights during an excursion is crucial to building a memorable experience. In the literature, we find many articles exploring the use of sophisticated technologies towards such a goal. The case of tourism proposals for inland areas exhibits a noteworthy aspect, since the presence of human artifacts and the signage may damage the experience, and introduce pollutants as well. This paper analyzes the signage for a natural trail putting into practice a holistic methodology that takes into account all aspects of the problem, starting from the touristic vocation of the area and the social fabric. The analysis indicates slow, community-involved tourism as the preferable target, with extreme requirements of sustainability in the social, economic, and environmental domains for the signage solution. Appropriate governance guidelines are given to implement the proposal. Footprint evaluations address the QR-code technology, which is used to design a real-scale solution finally deployed on the field.}
 %\abstract{A single paragraph of about 200 words maximum. For research articles, abstracts should give a pertinent overview of the work. We strongly encourage authors to use the following style of structured abstracts, but without headings: (1) Background: place the question addressed in a broad context and highlight the purpose of the study; (2) Methods: describe briefly the main methods or treatments applied; (3) Results: summarize the article's main findings; (4) Conclusions: indicate the main conclusions or interpretations. The abstract should be an objective representation of the article, it must not contain results that are not presented and substantiated in the main text and should not exaggerate the main conclusions.}
 
 % Keywords
-\keyword{keyword 1; keyword 2; keyword 3 (List three to ten pertinent keywords specific to the article; yet reasonably common within the subject discipline.)} 
+\keyword{Inland areas; heritage trail; digital sustainability; slow tourism; destination governance; community-involved tourism; cultural heritage; holistic approach; QR-code; trail signage} 
 
 % The fields PACS, MSC, and JEL may be left empty or commented out if not applicable
 %\PACS{J0101}
@@ -200,11 +200,7 @@ $^{2}$ \quad Affiliation 2; e-mail@e-mail.com}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%\newcites{Main}{References}
-%\newcites{Sitology}{Sitology}
-
-
-\tableofcontents
+%\tableofcontents
 
 
 %\setcounter{section}{-1} %% Remove this when starting to work on the template.
@@ -216,21 +212,21 @@ $^{2}$ \quad Affiliation 2; e-mail@e-mail.com}
 
 \section{Introduction}
 
-Although an official decision is still pending, there is a widely agreed proposal for the naming of the time that we are living as the Anthropocene.  Behind this proposal is the recognition that humans have the potential to significantly alter the environment in which they live on a global scale.
+Although an official decision is still pending, there is a widely agreed proposal for the naming of the time that we are living as the Anthropocene.  Behind this proposal is the recognition that humans have the potential to significantly alter on a global scale the environment in which they live.
 
-The problem with the above fact is that we humans are not able to understand long-term consequences of deploying such a potential, nor even to keep it under control. Even worse, such capacities are often used with the aim of short-term local effects, ignoring long-term global ones, with the risk of long-term global deterioration. This attitude pervades all activities, starting with the most basic ones such as the supply of food and homes, and is often influenced by economic profit.
+The problem with the above fact is that we humans are not able to understand the long-term consequences of deploying such a potential, nor even to keep it under control. Even worse, such capacities are often used with the aim of short-term local effects, ignoring long-term global ones, with the risk of long-term global deterioration. This attitude pervades all activities, starting with the most basic ones such as the supply of food and homes, and is often influenced by economic profit.
 
 Leisure activities play an important role in bringing profit to niche businesses. This creates a reinforcing effect that follows the negative dynamics seen above: a leisure activity that is neutral in itself (e.g., skying) can have a significant impact due to induced effects (lifts) that strengthen the success of the activity (easier to practice) bringing more investment and impact. Unlike the beneficial effects, which are usually well localized, the negative impact has a very broad spectrum that includes environmental, social, and economic sectors, as discussed by Patthey in \cite{pat08a}.
 
-To manage this situation, international agencies promote the keyword "sustainability" as a guideline for the conservation of our habitat. Jeffry Ramsey et al. \cite{ram15a} consider the concept behind this word as "vague and disputed but not meaningless" and that cannot be used without a concrete framework, especially in a normative context. To solve to problem of measuring sustainability, Tom Kuhlman et al. \cite{kuh10a} point out an inherent tension in the term between growth and stability. This tension has been attenuated by a change in the meaning of the word, which has gone from focusing on preservation for an indefinite future to a concept that includes three "pillars", society, economy, and environment, as determinants that need to be protected in the present to promote sustainable development in the future. The authors relate artificial and environmental goods, discriminating the two cases where a loss in the latter can or cannot be compensated by an increase in the former, introducing the terms of {\em weak} and {\em strong} sustainability.
+To manage this situation, international agencies promote the keyword "sustainability" as a guideline for the conservation of our habitat. Jeffry Ramsey et al. \cite{ram15a} consider the concept behind this word as "vague and disputed but not meaningless" and that cannot be used without a concrete framework, especially in a normative context. To solve the problem of measuring sustainability, Tom Kuhlman et al. \cite{kuh10a} point out an inherent conceptual tension between growth and stability. This tension has been attenuated by a change in the meaning of the word, which has gone from focusing on preservation for an indefinite future to a concept that includes three "pillars", society, economy, and environment, as determinants that need to be protected in the present to promote sustainable development in the future. The authors relate artificial and environmental goods, discriminating the two cases where a loss in the latter can or cannot be compensated by an increase in the former, introducing the terms of {\em weak} and {\em strong} sustainability.
 
-The promotion of human cultural heritage is situated in such a complex scenario. As noted by Jorge Otero in \cite{ote22a}, local communities benefit from the promotion of heritage: conservation activity generates social growth, while tourism provides an extra income that can be reinvested in promotion. However, just as in the case of ski resorts, there is a risk of compromising the resource itself. This interaction raises a question of sustainability also for cultural conservation initiatives, two issues that are usually considered in synergy. As in the document "World Heritage and Sustainable Development" of UNESCO, which calls for actions that "harness the potential of World Heritage properties and heritage in general, to contribute to sustainable development".
+The promotion of cultural heritage is situated in such a complex scenario. As noted by Jorge Otero in \cite{ote22a}, local communities benefit from the promotion of heritage: conservation activity generates social growth, while tourism provides an extra income that can be reinvested in promotion. However, just as in the case of ski resorts, there is a risk of compromising the heritage itself. This interaction raises a question of sustainability also for heritage valorization initiatives, two issues that, instead,  are often considered in a virtual synergy. As stated in the document titled 'World Heritage and Sustainable Development' by UNESCO \cite{lab17a}, calling for actions that "harness the potential of World Heritage properties and heritage in general, to contribute to sustainable development".
 
-This research stems from such a painful contradiction in trying to answer the question: is there a way to unlock the potential of a cultural resource while at the same time limiting the damage to a social, economic, and environmental equilibrium?
+This research stems from such a tough contradiction in trying to answer the question: is there a way to unlock the potential of cultural heritage while at the same time limiting the damage to a social, economic, and environmental equilibrium?
 
-The question arises in the course of a project funded by the Italian Ministry of Research aimed at applying cutting-edge technologies to the investigation of karst caves that may have been inhabited in the past, from prehistory to today. Among the expected results of the project is the definition of a strategy to disseminate the results of the research and allow non-specialists to visit and enjoy the results, thus contributing to the economy of rural areas that are severely exposed to de-population. A sustainable strategy is even more crucial as the geological environment of interest is particularly fragile, as noted by Aleksander Antic\`c et al. in \cite{ant20a}.
+The question arises in the course of the Underlandscape project \citeWeb{underlandscape} funded by the Italian Ministry of Research aimed at applying cutting-edge technologies to the investigation of karst caves that may have been inhabited, from prehistory to today. Among the expected results of the project is the definition of a strategy to disseminate the research outcomes allowing non-specialists to visit and enjoy the results, thus contributing to the economy of inland areas that are severely exposed to de-population. A sustainable strategy is even more crucial as the geological environment of interest is particularly fragile, as noted by Aleksander Antic\`c et al. in \cite{ant20a}.
 
-This document provides a conceptual solution for a specific aspect. The solution is conceptual in that it tries to follow a guideline that takes into account as much detail as possible in a way that can be used in other environments but is very practical in its application. Given the closely interlinked nature of the situation, we observe how a very specific aspect, tourist signage, exhibits effects on society, the economy, and the environment.
+This document provides a conceptual solution for a specific aspect: heritage trail signage. The solution is conceptual in that it tries to follow a guideline that takes into account many aspects and provides a practical way that is adaptable to other environments.
 
 \section{Unlocking site potentials through signage \label{sec:signage}}
 
@@ -250,41 +246,41 @@ The signage used to guide and inform the visitor is of paramount importance and 
 \label{fig:traditional}
 \end{figure}
 
-The functions of signage are twofold
+The functions of signage are two:
 \begin {itemize}
-\item an effective signage must guide the tourist across the resort. A map represents a starting point to this end, but not all visitors feel comfortable reading a map. The ideal signage should include visible reference points and explicit actions, like "turn right after crossing the stream". A good example of such signage is the one used by the Italian Alpine Club (CAI), consisting of colored stripes marked on tree bark (see figure \ref{fig:CAI}). The marks are placed in such a way that standing near one of them, the hiker can spot the successive on the trail
-\item a sign should explain the reasons for interest in a site. This includes featuring the site where the sign is installed, but also other nearby points of interest that invite the visitor to continue the visit (see figure \ref{fig:pole-direction}). In this sense, the CAI signal above is not useful. A simple board with a site name may be sufficient only when the site is sufficiently popular. Otherwise, a more structured message should be used to explain the reasons why the feature is regarded as relevant.
+\item an effective signage must guide the tourist across the resort. A map represents a starting point for this purpose, but not all visitors feel comfortable reading a map. The ideal signage should provide visible reference points and suggest actions, like "turn right after crossing the stream". A good example of such signage is the one used by the Italian Alpine Club (CAI), consisting of colored stripes marked on tree bark (see figure \ref{fig:CAI}). The marks are placed in such a way that standing near one of them, the hiker can spot the successive on the trail;
+\item a sign should explain the reasons for interest in a site. This includes featuring the site where the sign is installed, but also other nearby points of interest that invite the visitor to continue the visit (see figure \ref{fig:pole-direction}). In this sense, the CAI signal above is not sufficient. A simple board with a site name fits only when the site is sufficiently popular. Otherwise, a more structured message should be used to explain its relevance.
 \end{itemize}
 
-In our study, we consider a range of solutions that help towards sustainable support to sustainable tourism, specifically to the dynamic provision of information during a visit along a natural trail, not covered by Internet connectivity (a {\em dead zone} using the term used by Pearce and Gretzel \cite{pea12a}). We consider the presence of two stakeholders for the signage itself \cite{wan22a}: the hosting organization (the {\em host} for short) which implements a signing installation, and the visitor (or {\em user} ) which extracts useful and enjoyable information from signing devices. 
+In our study, we consider a range of solutions that support sustainable tourism, specifically the dynamic provision of information during a visit along a natural trail not covered by Internet connectivity (a {\em dead zone} using the term used by Pearce and Gretzel \cite{pea12a}). We consider the presence of two stakeholders for the signage itself \cite{wan22a}: the hosting organization (the {\em host} for short) which implements a signing installation, and the visitor (or {\em user} ) which extracts useful and enjoyable information from signing devices. 
 
-The purpose of such an installation is guiding the {\em user} on a tour that includes urban streets, buildings, natural trails, and caves (this latter being the topic of the project giving financial support to our research). The task of the {\em host} organization is to provide the {\em user} with all sorts of information that may guide him across the visit, making it as profitable and enjoyable as possible. A traditional approach makes use of physical information boards with graphical or textual content, as in figure \ref{fig:traditional}.
+The purpose of such an installation is guiding the {\em user} on a tour that includes urban streets, buildings, natural trails, and caves (this latter being the topic of the project giving financial support to our research). The task of the {\em host} organization is to provide the {\em user} with all sorts of information that may guide him across the visit, making it as profitable and enjoyable as possible.
 
-Our study starts by pointing out the issues related to such a solution:
+A traditional approach makes use of physical information boards with graphical or textual content, as in figure \ref{fig:traditional}. Our study starts by pointing out the issues related to such a solution:
 
 \begin{itemize}
-	\item dimensions: the board must be sufficiently large to contain the desired content, taking into account its readability from a distance
-	\item installation logistics: depending on the location, the transportation and placement of a plaque may require a basement or other sorts of supports
-	\item environmental impact: to be effective, the plaque has to be prominent, and this may negatively affect the quality of the site 
-	\item accessibility for the visually impaired: the plaque is not useful for visually impaired persons
-	\item accessibility for stranger visitors: to limit the size of the plaque, the number of translations must be limited as well
-	\item update limits: to update the content, the plaque must be replaced
-	\item removal logistics: when the board degrades it must be either removed or replaced, which entails waste disposal together with other issues similar to those found during the installation
+	\item dimensions: the board must be sufficiently large to contain the desired content, taking into account its readability from a distance;
+	\item installation logistics: depending on the location, the transportation and placement of a plaque may require a basement or other sorts of supports;
+	\item environmental impact: to be effective, the plaque has to be prominent, and this may negatively affect the quality of the site; 
+	\item accessibility for the visually impaired: the plaque is not useful for visually impaired persons;
+	\item accessibility for stranger visitors: to limit the size of the plaque, the number of translations must be limited as well;
+	\item update limits: to update the content, the plaque must be replaced;
+	\item removal logistics: when the board degrades it must be either removed or replaced, which entails waste disposal together with other issues similar to those found during the installation.
 \end{itemize}
 
-Such considerations motivate an interest in an alternative way of communication.
+Such points motivate an investigation to find alternative ways.
 
 \subsection{Technology to minimize intrusion \label{sec:minimize}}
 
-We characterize the problem as an instance of {\em weak sustainability}: we do not preclude intervention in the environment, but the impact of such intervention must be better than that related to traditional signs. To this end, we include in our solution tools that are not part of the site but remain with the user.   
+We characterize our approach as an instance of {\em weak sustainability}: we do not preclude intervention in the environment, but the impact of such intervention must be better than that related to traditional signs. To this end, we include in our solution tools that are not part of the site but remain with the user.   
 
-During the last decades, we witnessed the diffusion of smartphone devices, and we have no reason to expect a change in such a trend. Smartphones empower individual communication capabilities, allowing them to receive sound, visual, and tactile interactions. The relevance of such capabilities for the improvement of a tourist experience has been widely investigated, either in urban environments \cite{liu16a} or in a rural milieu \cite{kum20a} to find ways to exploit such tools. Again, we start from the limits of such technology, especially in the case of outdoor activities.
+During the last decades, we witnessed the diffusion of smartphone devices, and we have no reason to expect a change in such a trend. Smartphones enhance the communication capabilities of individuals by allowing them to receive sound, visual, and tactile interactions. The relevance of such capabilities for the improvement of a tourist experience has been widely investigated, either in urban environments \cite{liu16a} or in a rural milieu \cite{kum20a} to find ways to exploit such tools. As we did with physical information boards, we highlight the limitations of this technology, particularly when it comes to outdoor activities.
 
 One is that smartphones although widely available, are not equally familiar to everybody. This is related to {\em usability}, with a term borrowed from P. Wan in \cite{wan22a}. The second is that several functions depend on the provision of enabling services: for instance, their networking capability is useless if the device cannot reach the Internet. So the {\em applicability limits} of a solution need to be defined.
 
 Starting from the two aspects above we envision the guidelines for a successful smartphone-based strategy, keeping in mind its sustainability.
 
-Regarding {\em usability}, the basic recommendation is to keep the operation as simple as possible, within the experience of the majority of users, without requiring the need to familiarize themselves with new applications.
+Regarding \textit{usability}, the basic recommendation is to keep the operation within the experience of the majority of users, without requiring them to familiarize themselves with new applications.
 
 The definition of its {\em applicability limits} is more complex, especially for outdoor activities. In such cases, the provision of a networking infrastructure incurs a severe environmental impact. Consider the installation of antennas to cover a wide area and the power supply for the radios. 
 
@@ -302,7 +298,7 @@ The number of research papers explodes when we extend the range to articles inve
 
 A popular research direction covers the social aspects related to the use of the smartphone. W. Tan \cite{tan17a} covers all aspects of a touristic experience related to the smartphone, from the definition of travel destination to assistance during the visit. Much attention is dedicated to the network of connections that is established thanks to the smartphone, which, again, is considered on the Internet. Such an assumption is in contrast with the title, which indicates a nature-based destination, where notably the Internet is not always reachable.
 
-On the other hand, roaming in places not reached by the Internet, or {\em dead zones} using the words of Pearce and Gretzel in \cite{pea12a}, may evoke contrasting feelings, from rewarding to threatening.
+On the other hand, roaming in places not reached by the Internet, or {\em dead zones} using the term introduced by Pearce and Gretzel in \cite{pea12a}, may evoke contrasting feelings, from rewarding to threatening.
 
 More recently, the smartphone has been considered not strictly related to communication. In 2021 A. Slavec et al. investigated the use of cameras \cite{sla21a} while on travel in locations with a relevant cultural heritage to sustain its preservation and engage the tourists using location-based games, similar to Pokemon Go or geo-caching.
 
@@ -310,23 +306,23 @@ In 2023 V. Rodrigues et al. published a systematic review of papers considering 
 
 In that direction, we meet the phenomenon of {\em overtourism}, covered by significant literature reviewed by Dodds and Butler \cite{dod19a}, which focuses on urban tourism and its social consequences. The impact of {\em overtourism} on resorts that trade on their natural resources is investigated in the case of the Hawaii Islands \cite{lin22a} or Costa Rica \cite{mat10a} stressing the impact on the social fabric.
 
-The present paper wants to fill the gap highlighted by Rodriguez, providing a conceptual yet pragmatic approach to a well-defined aspect of tourism support, taking into account "by design" its sustainability. Once a range of relevant solutions has been identified, we proceed to the empirical part: a {\em proof of concept} implementation that verifies the feasibility of a specific solution.
+The present paper wants to fill the gap highlighted by Rodriguez, providing a conceptual yet pragmatic approach to a well-defined aspect of tourism support, taking into account its sustainability "by design". Once a range of relevant solutions is identified, we proceed to the empirical part: a {\em proof of concept} implementation that verifies the feasibility of a specific solution.
 
-We stress that this article does not aim now at quantifying user satisfaction or the economic revenue associated with the specific solution. Such a target is outside the scope of our research, and indeed the figures that would measure the success of a strategy deserve further investigation. We aim at isolating an issue, proposing a sustainable strategy for its solution, and implementing a proof of concept for it.
+We emphasize that this article is not meant to quantify user satisfaction or the economic revenue associated with the specific solution. Such a target is outside the scope of our research, and indeed the figures that would measure the success of a strategy deserve a thorough investigation. We aim at isolating an issue, proposing a sustainable strategy for its solution, and implementing a proof of concept for it.
 
 \subsection{A simple, low-impact solution}
 
-We aim to design sustainable and effective smartphone-based signage.
+%We aim to design sustainable and effective smartphone-based signage.
 
-A straightforward approach concentrates on the wireless capabilities of such a device. Given the premise that the Internet is not reachable, the {\em host} stakeholder might provide a local network of low-power radios covering the region of interest. Small servers connected to the network would provide specific Web services. The approach requires a modest investment and a marginal environmental impact: for instance, a small device based on the ESP8266 single-chip computer (SCC) has a coverage of tens of meters, and a volume in the order of the $cm^3$. They can provide WiFi Access Points as well as Web content. The ESP8266 has a capacity of 32KB, which is sufficient for explanatory text and a low-resolution image. Other SCCs, like the ESP32, are more powerful but exhibit a higher power consumption. 
+The wireless capabilities of a smartphone are the focus of a straightforward approach. Given the premise that the Internet is assumed to be unreachable, the {\em host} stakeholder might provide a local network of low-power radios covering the region of interest. Small servers connected to the network would host specific Web services. The approach requires a modest investment and a marginal environmental impact: for instance, a small device based on the ESP8266 single-chip computer (SCC) has a coverage of tens of meters, and a volume in the order of the $cm^3$. It can provide a WiFi Access Point as well as Web content. The ESP8266 has a capacity of 32KB, which is sufficient for explanatory text and a low-resolution image. Other SCCs, like the ESP32, are more powerful but exhibit a higher power consumption. 
 
-Power supply dependency is a serious limitation for such kind of solution. A radio transmitter is a rather power-consuming device, in the range of Watts. Even if intermittent, the operation of a battery-operated networking device cannot be guaranteed for long periods and the host organization should consider power harvesting, which negatively contributes to the economic cost and environmental footprint of the device.
+Such a solution is severely limited by the power supply dependency. A radio transmitter is a rather power-consuming device, in the range of Watts. Even if intermittent, the operation of a battery-operated networking device cannot be guaranteed for long periods and the host organization should consider power harvesting, which negatively contributes to the economic cost and environmental footprint of the device.
 
 For this reason, we do not consider a solution based on the deployment of a networking facility as a valid competitor against traditional board-based design. As explained, the reasons are related to poor sustainability.
 
-An alternative consists of the utilization of passive devices, like Near Field Communication (NFC) transmitters. The transmitting device is flat, the size of a coin, and costs less than one dollar per piece. To receive the content the smartphone must be very close to the NFC tag. The power needed to operate the radio is drained from the smartphone so that the transmitter does not depend on batteries. The NFC device capacity is in the range of the KBytes, nearly a page on this journal. Storing content in an NFC tag requires a smartphone with a specific app.
+An alternative consists of the utilization of passive devices, like Near Field Communication (NFC) transmitters. The transmitting device is flat, the size of a coin, and costs less than one dollar per piece. To receive the content the smartphone must be very close to the NFC tag. The power needed to operate the radio is drained from the smartphone so that the transmitter does not depend on batteries. The NFC device capacity is in the range of the KBytes, nearly a page on this journal. Engraving content onto an NFC tag is a straightforward task that requires a smartphone and an ad-hoc app.
 
-The NFC technology is currently very diffused, and reading an NFC tag as text requires the installation of an appropriate application. Once the application is running the operation simply consists in approaching the smartphone to the tag: the tag content is transferred to the {\em user's} device as a chink of text which can be treated as such. The smartphone can read it aloud, to compensate user's inabilities, or translated, to cope with linguistic issues. Such capabilities do not need an Internet connection.
+The NFC technology is currently very diffused, although reading an NFC tag as text requires the installation of an appropriate application. Once the application is running the operation simply consists in approaching the smartphone to the tag: the tag content is transferred to the {\em user's} device as a chink of text. The smartphone can read it aloud to compensate for the user's inability or translate to deal with linguistic issues. Such capabilities do not need an Internet connection.
 
 Another solution in the family of passive devices is the QR tag (QR stands for Quick-Response). Such a technology does not require radio communication but uses the smartphone camera to acquire a graphical code that is translated into text. The capacity of a QR tag depends on the number of dots in the image, which in turn depends on the size of the code and the smartphone camera characteristics. We may consider that the capacity of a QR tag roughly equals that of an NFC tag. A QR tag is larger than an NFC tag of comparable capacity, and manufacturing requires a printer.
 
@@ -342,11 +338,11 @@ A preliminary check verifies compliance with the Universal Design Principles \ci
 \begin{itemize}
 	\item {\em Equitable use} is closely related to the smartphone technology, which is itself considered a vehicle for equitability,
 	\item {\em Flexibility in use} is enabled by the device capabilities, which allow listening instead of reading, translating the information in a different language, or storing it for later use,
-	\item {\em Simple and intuitive use} holds since the operation requires a single application, possibly already installed since useful in many circumstances, and tag reading requires a single finger touch on the smartphone
-	\item{\em Perceptible information} is a critical requirement, which contrasts to keep low environmental intrusion. This point will be further discussed in the section devoted to the implementation
-	\item{\em Tolerance for error}: there are no margins to use the device in a way that compromises user safety. The deliberate or accidental release of the passive device into the environment determines a minor pollution
-	\item{\em Low physical effort} holds, although the user needs to carry the smartphone
-	\item{\em Size and Space for approach and use} need to be carefully considered. In the case of the NFC tag the smartphone needs to be nearly in touch with the passive device, while the QR code must be in the line of sight and frameable without effort
+	\item {\em Simple and intuitive use} holds since the operation requires a single application, possibly already installed since useful in many circumstances, and tag reading requires a single finger touch on the smartphone,
+	\item{\em Perceptible information} is a critical requirement, which contrasts to keep low environmental intrusion. This point will be further discussed in the section devoted to the implementation,
+	\item{\em Tolerance for error}: there are no margins to use the device in a way that compromises user safety. The deliberate or accidental release of the passive device into the environment determines a minor pollution,
+	\item{\em Low physical effort} holds, although the user needs to carry a smartphone,
+	\item{\em Size and Space for approach and use} need to be carefully considered. In the case of the NFC tag the smartphone needs to be nearly in touch with the passive device, while the QR code must be in the line of sight and frameable without effort.
 \end{itemize}
 
 Such minimal solutions (see figure \ref{fig:qrnfccoin}) compare well with other more complex ones that make use of the user's smartphone. There is a trade-off concerning capacity, but in many circumstances, a capacity of 2-300 words is sufficient to convey the description of the site or provide directions for the visit. If capacity limits are not an issue, a solution based on NFC or QR tags exhibits several advantages:
@@ -389,28 +385,28 @@ There are two relevant trade-offs that the host needs to resolve. One is related
 
 \section{Materials and Methods}
 
-As anticipated in the introduction, our study wants to provide a proof of concept for a sustainable solution in a concrete setup. To comply with such a holistic approach, we need to start with the definition of the operation framework.
+Our study aims to demonstrate a sustainable solution in a concrete setting through a proof of concept. In order to follow a holistic approach, we must start with the definition of the operation framework.
 
-This section is devoted to the description of an economic and social context, as well as the historical background representing the heritage resource we want to promote. Next, we will discuss the technical details of the solution.
+This section is dedicated to describing the economic and social context, as well as the historical background that characterizes the heritage resource we want to promote.
 
-The geographical area of interest is the surroundings of \emph{Casoli}, a small village in a mountainous region in the north of Tuscany, in Italy. The area falls within the municipality of \emph{Bagni di Lucca}, in the province of \emph{Lucca}. In 2021, the archaeological team of our project realized an archaeological map assessing the reasons of interest for the heritage and the geomorphological features of the area.
+The geographical area of interest is the surroundings of \emph{Casoli}, a small village in a mountainous region in the north of Tuscany, Italy. The area falls within the municipality of \emph{Bagni di Lucca}, in the province of \emph{Lucca}. In 2021, the archaeological team of our project realized a thematic map assessing the reasons of interest for the heritage and the geomorphological features of the area.
 
 \subsection{The natural and cultural resources of \emph{Casoli} and its vicinity}
 
-\emph{Bagni di Lucca} is located on the north-eastern boundary of the Province of \emph{Lucca}, in \emph{Val di Lima}, and is part of the \textit{Media Valle del Serchio} district. With its mountains it marks the historical border with the Modena and Pistoia area, it is very rich in potential for its naturalistic, archaeological, and historical heritage, both expressed and as yet unexpressed. Thanks to the archaeological map the main sites of interest from prehistoric to contemporary times in this municipality are cataloged, photographed, and georeferenced.
+\emph{Bagni di Lucca} is located on the north-eastern boundary of the Province of \emph{Lucca}, in \emph{Val di Lima}, and is part of the \textit{Media Valle del Serchio} district. With its mountains it marks the historical border with the \textit{Modena} and \textit{Pistoia} area, it is very rich in potential for its naturalistic, archaeological, and historical heritage, both expressed and as yet unexpressed. Thanks to the archaeological map the main sites of interest from prehistoric to contemporary times in this municipality are cataloged, photographed, and georeferenced.
 
-From a historical-geographical point of view, this area is identified with the \emph{Lima} stream and its tributaries, which impress to the area a particular geomorphology, very impervious despite the modest hilly elevations.
+From a historical-geographical point of view, this area is identified with the \emph{Lima} stream and its tributaries, which impress the area with a peculiar geomorphology impervious despite the modest hilly elevations.
 
-The \emph{Lima} stream has characterized the history of \emph{Bagni di Lucca} since ever: some of the oldest evidence of human presence in the valley has been found along its ancient river terraces, such as caves and rock shelters frequented since the Palaeolithic age; the manufacturing industry (paper mill, flour mills and, in recent times, energy production) have exploited since the Middle Age until the 1980s \cite{men76, bed05, ser21}.
+The \emph{Lima} stream has characterized the history of \emph{Bagni di Lucca} since ever: the valley's ancient river terraces contain some of the earliest evidence of human presence, such as caves and rock shelters frequented since the Palaeolithic age; the manufacturing industry (paper mill, flour mills and, in recent times, energy production) have exploited since the Middle Age until the 1980s \cite{men76, bed05, ser21}.
  
-On the naturalistic side, the region of \emph{Bagni di Lucca} encompasses an incredible concentration of biodiversity, counting no less than three sites of the Natura 2000 Network \cite{nat00} European Economic Community (EEC) initiative.
+On the naturalistic side, the region of \emph{Bagni di Lucca} encompasses an incredible concentration of biodiversity, counting no less than three sites of the Natura 2000 Network \citeWeb{nat00} European Economic Community (EEC) initiative.
 
 There are three SCIs-SACs (Sites of Community Interest and Special Areas of Conservation) located in the area north of the \emph{Lima} stream, corresponding to the Apennine portion, covering 23\% of the municipal surface:
 \begin {itemize}
-\item the limestone areas of \emph{Val di Lima} and Balzo Nero; 
-\item Monte Prato Fiorito-Monte Coronato-Valle dello
-Scesta; 
-\item Orrido di Botri.
+\item the limestone areas of \emph{Val di Lima} and \emph{Balzo Nero}; 
+\item \emph{Monte Prato Fiorito}-\emph{Monte Coronato}-\emph{Valle dello
+Scesta}; 
+\item \emph{Orrido di Botri}.
 \end{itemize}
 
 %\begin{figure}
@@ -421,27 +417,24 @@ Scesta;
 \begin{figure}
 \subfloat[Italy and Tuscany, bordered in red]{
 	\includegraphics[width = 0.3\linewidth]{figure/italia.png}
-	\label{fig:population}
 }
 \hfill
 \subfloat[Tuscany and the municipality of \emph{Bagni di Lucca} (in yellow)]{
 	\includegraphics[width = 0.3 \linewidth]{figure/toscana.png}
-	\label{fig:tourismflows}
 }
 \hfill
 \subfloat[Location of the \emph{Casoli}  village in the \emph{Bagni di Lucca} municipality, bordered in yellow. The small town of \emph{Bagni di Lucca} is visible located a few kilometers west of \emph{Casoli} ]{
 	\includegraphics[width = 0.3 \linewidth]{figure/bagni_di_lucca.png}
-	\label{fig:tourismflows}
 }
 \caption[The region of \emph{Casoli}]{The region of \emph{Casoli}}
 \label{fig:toscana-casoli}
 \end{figure}
 
-The latter is also a SPA (Special Protection Area) and the \textit{Orrido di Botri} State Reserve is located within it \cite{nat00}. It is therefore a natural heritage with a fragile balance that needs to be preserved.
+The latter is also a SPA (Special Protection Area) and the \textit{Orrido di Botri} State Reserve is located within it \citeWeb{nat00}. It is therefore a natural heritage with a fragile balance that needs to be preserved.
 
 In recent years, the main tourist attractions have concentrated on the \emph{Lima} stream, with some associations and private entities promoting outdoor experiences, particularly fluvial sports, such as canyoning, rafting, and sup. Other important tourist attractions are trekking and hiking, supported by a network of paths tracked by local CAI (\textit{Club Alpino Italiano}).
 
-In the last few years the community opened two entirely new trails:
+In the last few years, the community opened two entirely new trails:
 \begin{itemize}
 	\item the \textit{Alta Via dei Pastori} (2019), a ring around \textit{Monte Prato Fiorito} that takes up the ancient grazing route, and
 	\item the \textit{Sentiero degli Avi} (2020), a ring that from \textit{Montefegatesi}
@@ -449,44 +442,49 @@ In the last few years the community opened two entirely new trails:
 \end{itemize}
 
 Another recently developed project (2019) is the expansion of the Saint Bartholomew's Path, which runs through the territory of \textit{Pistoia}, with a
-variant that from \textit{Popiglio} continues in five stages in the municipality of \emph{Bagni di Lucca} to \textit{Pieve di Controne}, acting as the '\emph{Lucca} gateway' to the Path \cite{camsb}.
+variant that from \textit{Popiglio} continues in five stages in the municipality of \emph{Bagni di Lucca} to \textit{Pieve di Controne}, acting as the '\emph{Lucca} gateway' to the Path \citeWeb{camsb}.
 
 Such initiatives led to a considerable revival of interest among Italian and international hikers in the area, especially for the Apennine side of the valley.
 
-The way to improve the valorization and enjoyment of this area applies to a slow tourism approach. This approach can involve the community, especially in the southern part of the municipality, which is still less frequented, more hilly, and therefore less traveled by the network of trails. We propose the creation of geo-itineraries characterized by the rediscovery of the historical roads, partly well-preserved, which connected the villages with the valley bottom and between them, including those sites of interest that encapsulate the history of this area, starting with the caves.
+The way to improve the valorization and enjoyment of this area applies to a slow tourism approach. This approach can involve the community, especially in the southern part of the municipality, which is still less frequented, more hilly, and therefore less traveled by the network of trails. We envision the creation of geo-itineraries characterized by the rediscovery of the historical roads, partly well-preserved, which connected the villages with the valley bottom and between them, including those sites of interest that encapsulate the history of this area, starting with the caves.
 
 \subsubsection{An historical perspective of an Italian mountain site}
 
  The village of \emph{Casoli} is located south of the \emph{Lima} stream on a hill named {\em "Tanette"}. In the local small lair, the name reveals the presence of karstic cavities, some inhabited between the Paleolithic and the Iron Age and used also as stations on the trans-Apennine routes \cite{men76, gia96, pal63, zec72a, zec72b}.
 
-Ceramic fragments dated between the 3rd century B.C. and the 1st-2nd century A.D. prove that Ligurian populations occupied the region scattered and in small nuclei. The dedication of the Latin colony of \textit{Lucca} in 180 B.C. marked a decisive turning point in the Romanisation of the area and, shortly after, the definitive subjugation of the Ligurian populations, accompanied by a rapid acculturation \cite{gia96, cia05}.
+Ceramic fragments dated between the 3rd century BC and the 1st-2nd century AD prove that Ligurian populations occupied the region scattered and in small nuclei. The dedication of the Latin colony of \textit{Lucca} in 180 BC marked a decisive turning point in the Romanisation of the area and, shortly after, the definitive subjugation of the Ligurian populations, accompanied by a rapid acculturation \cite{gia96, cia05}.
 
 We have little evidence of Roman settlements in the mountainous hinterland, and the scarce archaeological traces are concentrated in the cave of \textit{Buca La Piella}, investigated in 1975 by the Centre for Archaeological Studies of \emph{Lucca}; it has two entrances joined by a walkable tunnel and rooms of discrete dimensions that overlook the outside. In addition to numerous faunal remains and fragments of locally produced common pottery, twenty bronze coins belonging to the 3rd century AD, bronze and lead objects were found \cite{gia96, men81, cia03}. 
 
-In Longobard and Carolingian times, \emph{Lucca}'s \emph{Val di Lima} was one of the three administrative districts into which the mountains were divided and was called “fines Contronenses” \cite{qui02, cia06, cia11}. The only find from this period is the \textit{Grotta di Arzale}, a rock shelter that opens up northwest of \emph{Casoli} \cite{gia96}.
+In Longobard and Carolingian times, \emph{Lucca}'s \emph{Val di Lima} was one of the three administrative districts into which the mountains were divided and was called \emph{fines Contronenses} \cite{qui02, cia06, cia11}. The only find from this period is the \textit{Grotta di Arzale}, a rock shelter that opens up northwest of \emph{Casoli} \cite{gia96}.
 
-The first attestation of the settlements of \emph{Casoli} and \emph{Lacu} (Lake) dates back to the 10th century \cite{gia96}. Most documents of this period show the fractioning and alienation of ecclesiastical heritage in favor of the city aristocracy, securing an accumulation of funds and power that was to form the basis of the subsequent domains \cite{qui02, gia96, for12, for15}.
+The first attestation of the settlements of \emph{Casoli} and \emph{Lacu} dates back to the 10th century \cite{gia96}. Most documents of this period show the fractioning and alienation of ecclesiastical heritage in favor of the city aristocracy, securing an accumulation of funds and power that was to form the basis of the subsequent domains \cite{qui02, gia96, for12, for15}.
 
-Written sources mention a castle in \emph{Casoli} from 1180, but its foundation must be earlier. Between the 13th and 15th centuries, the fortification was at the center, along with the other castles of the \emph{Val di Lima}, of clashes between \emph{Lucca}, \textit{Pisa} and Florence, with alternating fortunes, as it was a strategic border area for the power of \emph{Lucca}. Today, very little is preserved and the area has been partly inhabited \cite{gia96, for12, rom16}.
+Written sources mention a castle in \emph{Casoli} from 1180, but its foundation must be earlier. Between the 13th and 15th centuries, the fortification was at the center, along with the other castles of the \emph{Val di Lima}, of clashes between \emph{Lucca}, \textit{Pisa} and \emph{Firenze}, with alternating fortunes, as it was a strategic border area for the power of \emph{Lucca}. Today, very little is preserved and the area is partly inhabited \cite{gia96, for12, rom16}.
 
-The same document from 1180 mentions the church of \textit{San Donato}, located in the main square of the village of \emph{Casoli}. The current structure dates back to the 12th-13th centuries, with subsequent renovations. Initially dedicated only to \textit{San Donato}, it acquired a double dedication after the abandonment of the church of \textit{Sant'Andrea de Lacu}. The latter is located on a plateau to the east of Lake \emph{Casoli} and is attested from 1260 \cite{ber18, gia96, cap17}, but already in the 15th century, we learn of its state of abandonment \cite{gia96, con12}. This was probably due to the depopulation of the lake area and the simultaneous strengthening of the town of \emph{Casoli}, which was fortified and better protected during this unstable phase.
+The same document from 1180 mentions the church of \textit{San Donato}, located in the main square of the village of \emph{Casoli}. The current structure dates back to the 12th-13th centuries, with subsequent renovations. Initially dedicated only to \textit{San Donato}, it acquired a double dedication after the abandonment of the church of \textit{Sant'Andrea de Lacu}. The latter is located on a plateau to the east of \emph{Casoli} lake and is attested from 1260 \cite{ber18, gia96, cap17}, but we are aware that it was abandoned in the 15th century. \cite{gia96, con12}. This was probably due to the depopulation of the lake area and the simultaneous strengthening of the town of \emph{Casoli}, which was fortified and better protected during this unstable period.
 
-Today, the Romanesque church of \textit{Sant'Andrea de Lacu} is in a state of decay, with a rectangular plan, ending on the east side with a semi-circular apse. Inside, there is a reused element of the previous building, testifying to an older origin, probably contemporary with the ancient settlement of \textit{Lacu} (Lake) mentioned in sources from the 10th century and no longer visible today.
+Today, the Romanesque church of \textit{Sant'Andrea de Lacu} is in a state of decay, with a rectangular plan, ending on the east side with a semi-circular apse. Inside, there is a reused element of the previous building, testifying to an older origin, probably contemporary with the ancient settlement of \textit{Lacu}, meaning "lake" and mentioned in sources from the 10th century and no longer visible today.
 
-In the early modern age, villages of the area experienced a progressive architectural renewal, which still largely characterizes the settlements today. Within \emph{Casoli}, a series of residential buildings with imposing dated portals are preserved, some with courtyards, and mansions that denote a discrete deployment of resources by wealthy social classes. Also dating from the modern era is the \textit{Madonna di Castello} Oratory, characterized by an entrance enclosure and located along the cobbled road that traces the ancient route between the village and the summit area of the medieval castle \cite{gia96}.
+In the early modern age, villages of the area experienced a progressive architectural renewal, which still largely characterizes the settlements today. Within \emph{Casoli}, a series of residential buildings with imposing dated portals are preserved, some with courtyards, and mansions that denote a discrete deployment of resources by wealthy social classes. Also dating from the modern era is the \textit{Madonna di Castello} oratory, characterized by an entrance enclosure and located along the cobbled road that traces the ancient route between the village and the summit area of the medieval castle \cite{gia96}.
 
-Along the road that led toward \textit{Lucchio} crossing the area of \emph{Casoli} Lake, there is the chapel of \textit{Madonna di Col di Piano} and two “\textit{metati}”, buildings destined for chestnuts drying, referable to the contemporary age. Referred to as the "bread tree," chestnut fruits and the flour derived from them were a staple of the mountain diet until the mid-1900s \cite{buc92, puc10}.
+Along the road that led toward \textit{Lucchio} crossing the area of \emph{Casoli} lake, there is the chapel of \textit{Madonna di Col di Piano} and two “\textit{metati}”, buildings destined for chestnuts drying, referable to the contemporary age. Referred to as the "bread tree," chestnut fruits and the flour derived from them were a staple of the mountain diet until the mid-1900s \cite{buc92, puc10}.
 
 
 \subsection{An integrated view of tourism in the \emph{Casoli} region}
 
 %\subsubsection{Study of the tourist context for governance approaches}
 
-Within the paper's aim framework and from a touristic point of view, the relevance of the touristic context of the territory is crucial in understanding the socio-cultural system of potential tourist destinations. In light of this and for a holistic study approach to social features of tourism, the host and traveler relationship is directly related to local development and local government systems \cite{amo21}.
+The relevance of the touristic context of the territory is crucial in understanding the socio-cultural system of potential tourist destinations. In light of this and for a holistic study approach to social features of tourism, the host and traveler relationship is directly related to local development and local government systems \cite{amo21}. In this study, the perception and community empowerment in local tourism are crucial for future destination planning.
+On the socio-economic hand, it is fundamental to understand touristic data and indexes which are specifically related to \textit{Bagni di Lucca's} tourism dynamics, as the administrative land hosting \textit{Casoli}. 
+In this perspective, the following paragraph concerns {Bagni di Lucca's} demography and touristic data analysis that will be depicted for local sustainable governance measures.
 
-In this study, the holistic perception of local stakeholders and community empowerment (with its increasing potential) in tourism at the local level acquires a particular value. For this specific purpose, this paragraph is well related to the tourism dynamics of the Municipality of \emph{Bagni di Lucca}, the administrative land hosting \emph{Casoli}. 
+ %As a result, we have expanded our horizons to include the Municipality of \textit{Bagni di Lucca}, which is the administrative land that hosts \textit{Casoli}.
 
-\subsubsection{The tourism context of / The tourist dynamics in \emph{Bagni di Lucca}, the \emph{Val di Lima} and \emph{Casoli}}
+% Anche la prima frase andrebbe un pò chiarita, e non soon sicuro che quello che ho scritto rispecchi quello che vuoi dire :-). Qui sotto il tuo testo originale
+%For this specific purpose, this paragraph is well related to the tourism dynamics of the Municipality of \emph{Bagni di Lucca}, the administrative land hosting \emph{Casoli}. --> sono due concetti completamente diversi......
+
+\subsubsection{Tourism dynamics in \emph{Bagni di Lucca}, the \emph{Val di Lima} and\emph{Casoli}}
 
 In Italy, a municipality is the smallest geographical-administrative unit offering accessible data about tourism, which are the fundamentals of our research. The municipality of \emph{Bagni di Lucca} boasts historical popularity for its landscapes told by famous poets (such as Giosuè Carducci, Giovanni Pascoli, Eugenio Montale, George Gordon Byron, Percy Bysshe Shelley) and celebrities like Paolina Bonaparte. The typical Liberty style architecture characterizes the villas like the \textit{Real Casinò} featuring elegant gardens representing the power of the Republic of \emph{Lucca} in the early XIX century and the \emph{Belle Epoque}. Such historical prominence made the town a well-known destination abroad, thanks to the massive emigration and the presence of the Thermal Bath structure \footnote{Terme di Bagni di Lucca: \url{https://www.termebagnidilucca.it/}}, nearby must-see attractions of the time.
 
@@ -494,7 +492,8 @@ In Italy, a municipality is the smallest geographical-administrative unit offeri
 
 The strategic position of \emph{Bagni di Lucca} is one of the strengths of its tourism context, together with the presence of such attractive elements like the \emph{Orrido di Botri} with the \emph{Canyon Park\footnote{\url{ https://www.canyonpark.it/}}}, and other service companies and associations for experiential tourism.
 
-The demographic trend enlightens a relevant aspect of \emph{Bagni di Lucca} society, and the employment statistics of the population mirror the social, cultural, and economic aspects of its touristic ecosystem.
+In reason of a whole insight of the mentioned touristic area, a socio-cultural approach is needed, by considering also tourism flows. In this perspective, it must be considered that there isn’t touristic information at the administrative level of \emph{Casoli}, so the tourism context analysis concerns the Municipality area of \emph{Bagni di Lucca}, as the first territorial context providing tourist data registered by ISTAT (National Statistical Institute).
+ The demographic trend (Figure 4, a) enlightens a relevant aspect of \emph{Bagni di Lucca} society and economic aspects of its touristic ecosystem (Figure 4, b).
 
 \begin{figure}
 \subfloat[Population trend (2001-2022)]{
@@ -526,7 +525,6 @@ During the latest decades, numerous touristic operators have started their touri
 %    \caption{\emph{Bagni di Lucca's} tourism flows, 2017-2022}
 %    \label{fig:tourismflows}
 %\end{figure}
-
 
 The Tourism Density Index \footnote{The Tourism Density Index shows the tourism concentration in the higher touristic season. It is the rate between the number of tourists and the surface area.} is 106.41 tourists per $km^2$ in 2022. The arrivals exhibit a drop from 2019 (from  4339 in 2017 to 2363 in 2021), and touristic presences have suffered a slight decrease during the same period, as shown in figure \ref{fig:tourismflows}, while a further increase has been registered in 2022 (5.876 arrivals).
 
@@ -564,24 +562,26 @@ The touristic area of \emph{Val di Lima} features a tourist area belonging to \e
     \label{tab:tourism}
 \end{table}
 
-Table \ref{tab:tourism} provides statistical data concerning tourist flows and accommodation in \emph{Bagni di Lucca}. Notably, the tourist density of 106.41 tourists per $km^2$ is higher than the population density (33.95 inhabitants per $km^2$).
+Table \ref{tab:tourism} provides statistical data concerning tourist flows and accommodation in \emph{Bagni di Lucca}. Notably, the tourist density of 106.41 tourists per $km^2$ is higher than the population density (33.95 inhabitants per $km^2$). This information should be considered in local planning to enhance the number of residents.
 
-The number of nights per tourist amounts to an average of 2,98 nights per tourist during a year and it is also significant since it shows, on one hand, \emph{Bagni di Lucca} context appeal for tourists choosing to stay a number of nights more than a weekend and less then a week. On the other hands, this data means that people like staying in this touristic comprehensory and they may have founded attractions, services and activities they need. Consequently, a well-organized turistic system attracts potentially touristic presences widespread on the municipality territory.
+As shown in \ref{tab:tourism}, the number of nights per tourist amounts to an average of 2,98 nights per tourist during a year and it is also significant since it shows, on one hand, \emph{Bagni di Lucca} context appeal for tourists choosing to stay a number of nights more than a weekend and less than a week. On the other hand, this data means that people like staying in this tourist comprehensory and they may have found attractions, services and activities they need. Consequently, a well-organized touristic system attracts potentially touristic presences widespread on the municipality territory.
 
 The coexistence index describes the distribution of tourist nationalities: 103.74 foreign tourists per 100 Italians in \emph{Bagni di Lucca} indicates a significant share of foreign tourists.
 
-For a benchmarking point of view, the provincial touristic context of \emph{Lucca} is mentioned in this study with the purpose to highlight the percentage weight of \emph{Bagni di Lucca} tourism flows within the whole tourism dynamics of the Province of \emph{Lucca}. 
-As concerns tourist indexes shown in Chart 3, the touristic density counts 1866, 96 people per square kilometer (1773 kmq), with an average stay of 3,36 nights per tourist, showing a medium-length permanence in the provincial territory; this data is in line with \emph{Bagni di Lucca} average stay (2,98 nights). 
-The provincial area of \emph{Lucca} shows an accommodation density of 19,30 on 10, 14 of \emph{Bagni di Lucca}, while the coexistence index of \emph{Lucca} (with 69,87 foreign tourists on 100 Italian tourists) is lower than \emph{Bagni di Lucca}’s coexistence index (with 103,74 foreign tourists in 100 Italian tourists). 
-Definitely, it can be claimed that \emph{Bagni di Lucca} is well positioned in the whole touristic context of \emph{Lucca} since it represents one of the less populated municipalities in the territory with interesting tourist indexes. In fact, \emph{Bagni di Lucca} boasts its historical thermal tourism tradition together with a well-equipped environment for sport and adventure tourism, on a surface of 164,70 kmq, that is one of the biggest municipality areas in the province of \emph{Lucca}.
+For a benchmarking point of view, the provincial touristic context of \emph{Lucca} is mentioned in this study with the purpose of highlighting the percentage weight of \emph{Bagni di Lucca} tourism flows within the whole tourism dynamics of the Province of \emph{Lucca}. 
+As concerns tourist indexes shown in Chart 3, the touristic density counts 1866.96 people per square kilometer (1773 $km^2$), with an average stay of 3.36 nights per tourist, showing a medium-length permanence in the provincial territory; this data is in line with \emph{Bagni di Lucca} average stay (2.98 nights). 
+The provincial area of \emph{Lucca} shows an accommodation density of 19.30 on 10.14 of \emph{Bagni di Lucca}, while the coexistence index of \emph{Lucca} (with 69.87 foreign tourists on 100 Italian tourists) is lower than \emph{Bagni di Lucca}’s coexistence index (with 103.74 foreign tourists in 100 Italian tourists). 
+Definitely, it can be claimed that \emph{Bagni di Lucca} is well positioned in the whole touristic context of \emph{Lucca} since it represents one of the less populated municipalities in the territory with interesting tourist indexes. In fact, \emph{Bagni di Lucca} boasts its historical thermal tourism tradition together with a well-equipped environment for sport and adventure tourism, on a surface of 164.70 $km^2$, that is one of the biggest municipality areas in the province of \emph{Lucca}.
 
-Summing up, the quantitative data give evidence of a vibrant and attractive tourist reality constantly attracting tourists during the last decade. Thanks to such tourist flows \emph{Bagni di Lucca} is considered one of the main tourist areas of the \emph{Val di Lima} and the Serchio Valley. Several promotional websites advertise \emph{Bagni di Lucca} attractions\footnote{Among local websites, these two destination websites are: \url{www.turismobagnidilucca.com} and \url{www.valdilima.org}}: the sitography closing this paper contains a long but incomplete list that confirms such a statement, and Table \ref{tab:experience} exposes the promotional touristic system offering varied experiences in the \emph{Val di Lima} area. The variety of outdoor touristic services dates back to the ‘90s when some associations began organizing mainly trekking excursions and rafting experiences.
+Summing up, the quantitative data give evidence of a vibrant and attractive tourist reality constantly attracting tourists during the last decade. Thanks to such tourist flows \emph{Bagni di Lucca} is considered one of the main tourist areas of the \emph{Val di Lima} and the Serchio Valley. Several promotional websites advertise \emph{Bagni di Lucca} attractions\footnote{Among local websites, these two destination websites are: \url{www.turismobagnidilucca.com} and \url{www.valdilima.org}}: the sitography closing this paper contains a long yet incomplete list that confirms such a statement, and Table \ref{tab:experience} exposes the promotional touristic system offering varied experiences in the \emph{Val di Lima} area. The variety of outdoor touristic services dates back to the ‘90s when some associations began organizing mainly trekking excursions and rafting experiences.
 
 From the point of view of our research, the context of the \emph{Bagni di Lucca} helps to understand the complexity and variety of mixed tourism clusters (a sort of "touristic ecosystems" with common identitary elements such as: anthropic, socio-cultural, and historical features, as well touristic services).
 
 After a detailed analysis of the touristic and social context of \emph{Bagni di Lucca}, it can be claimed that the area boasts a good tourist appeal towards Italian and foreign tourists searching for various kinds of experiences, such as thermal, environmental, outdoor, sport and cultural activities  \cite{loz09}.
 
-%Indeed, \emph{Val di Lima} can promote a very identifying destination brand straddling the town of Lucca and the Garfagnana mountain area. The strategic position of \emph{Bagni di Lucca} is one of the strengths of its tourism context, together with the presence of such attractive elements like Orrido di Botri, with The Canyon Park \footnote{\url{ https://www.canyonpark.it/}}, and other service companies and associations for experiential tourism.
+Indeed, \emph{Val di Lima} can promote a very identifying destination brand straddling the town of Lucca and the \textit{Garfagnana} mountain area. 
+
+%The strategic position of \emph{Bagni di Lucca} is one of the strengths of its tourism context, together with the presence of such attractive elements like Orrido di Botri, with The Canyon Park \footnote{\url{ https://www.canyonpark.it/}}, and other service companies and associations for experiential tourism.
 
 \begin{table}
     \centering
@@ -612,26 +612,26 @@ After a detailed analysis of the touristic and social context of \emph{Bagni di 
 
 The Municipality of \emph{Bagni di Lucca} and the tourist area of the \emph{Val di Lima} are the context for the small village of \emph{Casoli}, which is one of the 31 villages belonging to the Municipality. It is 7,22 km far from \emph{Bagni di Lucca}, at an altitude of 500 meters of altitude.
 
-\emph{Casoli} is a fascinating village settled on the green and rolling hill landscapes crossed by the river \emph{Lima}, in the \emph{Media Valle del Serchio}. Its territory features multiple kinds of touristic sights: from soft and hard outdoor experiential attractions (specifically the Canyon park activities like canyoning, rafting, and trekking experiences)) to Romanesque churches’ remains and huts.  Qualitative studies oriented to tourist attractions, and widely, to the complexity of the \emph{semi-structured} tourism show that \emph{Casoli} exhibits unique features despite its tourism variety.
+\emph{Casoli} is a fascinating village settled on the green and rolling hill landscapes crossed by the river \emph{Lima}, in the \emph{Media Valle del Serchio}. Its territory features multiple kinds of touristic sights: from soft and hard outdoor experiential attractions (specifically the Canyon park activities like canyoning, rafting, and trekking experiences)) to Romanesque churches’ remains and huts. Definitely, despite its variety of tourist attractions, \emph{Casoli} exhibits unique features in its comprehensive tourism.
 
-There aren’t touristic information at the administrative level of \emph{Casoli} , so that the tourism context analysis concerns the Municipality area of \emph{Bagni di Lucca}, as the first territorial context providing tourist data registered by ISTAT.
+%There aren’t touristic information at the administrative level of \emph{Casoli} , so that the tourism context analysis concerns the Municipality area of \emph{Bagni di Lucca}, as the first territorial context providing tourist data registered by ISTAT.
 
-Given the context and the local vocation, we conclude that \emph{Casoli} is a small destination for tourists practicing heterogeneous touristic circuits in individual and combined ways. According to qualitative and quantitative analysis \cite{loz09} on the touristic and social context of \emph{Bagni di Lucca}, as the municipal area encompassing \emph{Casoli} village, the mentioned area boasts a good touristic appeal towards Italian and foreign tourists searching for various kinds of experiences, such as thermal, environmental, outdoor, sport and cultural activities. Local stakeholders operating in the tourism system offer a variety of services all year round. Whenever possible the offer is enriched with original touristic approaches paying attention to sustainability. As part of the \emph{Bagni di Lucca}’s ecosystem with its touristic vocation, \emph{Casoli} is defined as a well-known destination. Given that \emph{Casoli} is a target of semi-structured tourism, and to preserve its peculiar social fabric, sustainability of development actions is of paramount importance. The latter aspect suggests paying attention to environmental conservation, cultural heritage conservation, intergenerational continuity, and economic equity \cite{kuh10}.
+Given the context and the local vocation, we conclude that \emph{Casoli} is a small destination for tourists practicing heterogeneous touristic circuits in individual and combined ways. According to qualitative and quantitative analysis \cite{loz09} on the touristic and social context of \emph{Bagni di Lucca}, as the municipal area encompassing \emph{Casoli} village, the mentioned area boasts a good touristic appeal towards Italian and foreign tourists searching for various kinds of experiences, such as thermal, environmental, outdoor, sport and cultural activities. Local stakeholders operating in the tourism system offer a variety of services all year round. Whenever possible the offer is enriched with original touristic approaches paying attention to sustainability. As part of the \emph{Bagni di Lucca}’s ecosystem with its touristic vocation, \emph{Casoli} is defined as a well-known destination. Considering that \emph{Casoli} is a destination for slow tourism, ensuring the sustainability of development actions is crucial to maintaining its unique social fabric.. The latter aspect suggests paying attention to environmental conservation, cultural heritage conservation, intergenerational continuity, and economic equity \cite{kuh10}.
 
 \subsubsection{Guidelines for a sustainable development}
 
-In \cite{dre22} Dianne Dredge describes the role of private and public entities in making tourism sustainable, which we summarize in the following actions:
+As described by \cite{dre22} Dianne Dredge and in light of the above analysis, private and public entities can contribute to sustainable tourism  by developing the following actions: 
 
 %In this perspective, policy-makers play a key role in the planning of sustainable measures and in the monitoring of impacts; in particular, in the context of tourism, sustainability is a topic discussed in its many aspects, including resident ecosystem resilience approaches and regeneration actions by policy-makers and/or private tour operators \cite{dre22}.
 
-%In light of the above analysis, the following actions from public and private entities might foster sustainable development:
+
 
 \begin{itemize}
 
 \item Public actions: 
 \begin{itemize}
 \item to foster an inclusive stakeholder approach for the tourism ecosystem 
-\item to promote a community-involved tourism vision 
+\item to promote a \textit{community-involved tourism} vision 
 \item to monitor and analyze tourism flows 
 \item to plan a \emph{slow tourism} development strategy to achieve environmental, cultural, and socioeconomic sustainability objectives 
 \item to develop digitization tools and strategies for culture and tourism fruition
@@ -641,7 +641,7 @@ In \cite{dre22} Dianne Dredge describes the role of private and public entities 
 \begin{itemize}
 \item to renovate experiential tourism with a sustainable approach 
 \item to develop potential touristic areas with unexpressed tourism appeal 
-\item to diversify tourism offer based on tourist provenance and service preferences 
+\item to diversify tourism offers based on tourist provenance and service preferences 
 \item to monitor tourism flows and tourist behaviors 
 \item to foster a public-private collaboration approach to use public funds for tourism and cultural projects toward sustainable objectives 
 \end{itemize}
@@ -650,7 +650,7 @@ In \cite{dre22} Dianne Dredge describes the role of private and public entities 
 
 The above-mentioned tourism and culture measures should be included in a wider and holistic planning vision for \emph{Bagni di Lucca} as a heterogeneous cultural and sustainable destination. The combination of private and public interest as a long-term strategy for a comprehensive tourism approach needs a bottom-up vision involving residents and local operators in tourism and tourism-related sectors \cite{lem20, lem22}.
 
-In this way, community-involved tourism can be a promising solution for sparsely populated areas with significant tourist attractions, such as the village of Casoli. This type of tourism involves active participation and entrepreneurship from the local community to promote self-employment, community management, and stakeholder decision-making processes \cite{nag15}.
+In this way, \textit{community-involved tourism} can be a promising solution for sparsely populated areas with significant tourist attractions, such as the village of \emph{Casoli}. This type of tourism involves active participation and entrepreneurship from the local community to promote self-employment, community management, and stakeholder decision-making processes \cite{nag15}.
 
 In order to create a successful strategic plan, it is crucial to have a thorough understanding of the destination's morphology, environment, history, culture, society, and economy, with sustainability being the key value.
 Policymakers should recognize such needs and act in this way, both politically and socially as described by Beatrix et al. in \cite{bea10}. As concerns the empiric case of \emph{Casoli} village, within the wider context of \emph{Bagni di Lucca}, tourism is a key driver for re-population and re-qualification strategies, mainly where historical and archaeological sight can be promoted with natural attractions.
@@ -659,33 +659,32 @@ In such a context digitalization plays a primary role in innovation actions, all
 
 \subsubsection{Our activity}
 
-We include three stakeholder communities in the evaluation of the response to the initiative. We do not speak about {\em success} since the initiative is deliberately soft, and an outcome is expected in years, and the definition of the evaluation criteria rises new questions. So we are content to see if the stakeholders regarded the initiative as an intrusion, as helpful, or simply neutral.
+We include three stakeholder communities in the evaluation of the response to the initiative. We do not speak about {\em success} since the initiative is deliberately soft, an outcome expected in years, and the definition of the evaluation criteria raises new questions. We are content with determining if the stakeholders viewed the initiative as intrusive, helpful, or simply neutral.
 
 We considered four stakeholder communities:
 
 \begin{itemize}
 	\item {\em the residents} the local community that currently inhabits the site
-	\item {\em entrepreneurs} who currently have a business on the site
-	\item {\em administrators} that are in charge of managing the site resources and that, at due time, will respond to the two stakeholders above, and finally
+	\item {\em the entrepreneurs} who currently have a business on the site
+	\item {\em the administrators} that are in charge of managing the site resources and that, at due time, will respond to the two stakeholders above, and finally
 	\item {\em the users}, those that come to \emph{Casoli} to visit the Cave of La Piella and that we find the QR-codes on their way
 \end{itemize}
 
-The category of the users escapes an evaluation since the QR tag does not record reading operations. We added to the text message in the QR-tag an external link, that we monitor for the number of hits on pages dedicated to the specific tag: however, this feedback largely underestimates the number of times the tag is read. 
-
+The QR tag does not record reading operations, preventing an evaluation of the user category. A URL was added to the text message in the QR tag to monitor the number of hits.: however, this feedback largely underestimates the number of times the tag is read. 
 
 Considering that each stakeholder category has specific concerns that need to be addressed, our focus has been on understanding the unique characteristics of each category, including their needs and expectations for tourism and environment development. 
 
-As concerns residents, we had the opportunity to meet only two people living in \emph{Casoli}  and providing us a few information which was not useful for our study aims; local entrepreneurs we met informed us about the trekking tourism flows passing through \emph{Casoli}  and the Piella Cave path, which usually starts from the Canyon Park experience.
+Regarding residents, we had the chance to meet a few people living in \emph{Casoli}, which did not provide useful information; local entrepreneurs we met informed us about the trekking tourism flows passing through \emph{Casoli}  and the Piella Cave path, which usually starts from the Canyon Park experience.
 
 The administrators of \emph{Bagni di Lucca} Municipality were highly involved in addressing the study's concerns and provided valuable information regarding archaeological and cultural aspects that align with our study goals, namely to enhance \emph{Casoli}  area as a sustainable area for hi-tech oriented tourists. 
 
-In light of the above assumptions, a reflection on community-involved tourism perspective is needed. As shown by this empirical study, a small village like \emph{Casoli}  can require a valorization strategy taking advantage of the wider local tourism context. 
+In light of the above assumptions, a reflection on \textit{community-involved tourism} perspective is needed. As shown by this empirical study, a small village like \emph{Casoli}  can require a valorization strategy taking advantage of the wider local tourism context. 
 
-According to a holistic development vision, when a tourist destination meets its community issues it means that local stakeholders must balance a tourist industry vision with sustanability goals at a comprehensive perspective on environment, socio-cultural and economic long-term benefits, as described by George B. Et Alii, () 
+According to a holistic development vision, when a tourist destination meets its community issues it means that local stakeholders must balance a tourist industry vision with sustainability goals at a comprehensive perspective on the environment, socio-cultural and economic long-term benefits, as described by George B. Et Alii \cite {geo07}. 
 
 Indeed,  a multi-stakeholder approach could represent a valuable tool for “minor tourism” and well-established tourist destinations. 
 
-Literature on this scientific focus, as described by Richards G and Derek H. () gives evidence on local stakeholders' role as ‘designers’ of their living territory. 
+Literature on this scientific focus, as described by Richards G. and Derek H. \cite {ric03} gives evidence of local stakeholders' role as ‘designers’ of their living territory.
 This is particularly important in inland and marginal tourist areas that require a sustainable approach to development, rather than relying on mass tourism. 
 
 A systemic vision is necessary to manage these areas effectively. With these concerns, inner area governance needs a sustainable-led community and policy approach considering socio-cultural local aims for tourism system implementation and environment development. 
@@ -695,52 +694,51 @@ On the pragmatic hand, the scientific aim of our territorial exploration is to p
 In this regard, we have analyzed the potentiality of involving local administrations and professional tourism operators to create new tourist itineraries by valorizing existing hiking trails.
 Firstly, the Municipal Structural Plan should include an archaeological survey; secondly, local tourism stakeholders will benefit from a destination management action to promote environmental and socio-cultural sustainability. 
 
-Definitely, community-involved tourism may represent the balanced intersection between community and development through policymakers' actions and decision makings (Jamal T. and Dredge, 2014). 
-In this view, the socio-political framework of tourism, involving governance measures, has to include environmental requalifying and destination planning (Sharabani et alii, 2020; Richards and Hall, 2003). 
+Definitely, \textit{community-involved tourism} may represent the balanced intersection between community and development through policymakers' actions and decision-making \cite {jam14}.
+In this view, the socio-political framework of tourism, involving governance measures, has to include environmental requalifying and destination planning \cite {ric03}. 
 
 Policy measures for sustainable and resilient tourism should focus on culture-led and community empowerment activities, such as preserving the history and memory of the place, promoting slow tourism and cultural innovation, as well as implementing digitalization activities.
 
 \subsubsection{Sites and trail’s state of art}
 
-As explained in the previous section, the area around \emph{Casoli} is a good candidate for our case study because of its long history, which is witnessed by architectural and geological features. In the following, we define the relevant features and report on their accessibility.
+As explained in the previous section, the area around \textit{Casoli} is a suitable case study location due to its long history, which is reflected in its architectural and geological features. In the following, we define the relevant features and report on their accessibility.
 
 The cave named {\em Buca La Piella} is the foremost site from an archeological point of view. It is located in a fascinating environment outside conventional circuits, which is why it is less frequented and consequently less compromised. It is reachable leaving a marked path to follow the bed of a tributary of the \emph{Lima} stream. The trail is dotted with minor karst caves, and the {\em Buca La Piella} is reachable by climbing up on a steep slope in the wood on the left of the watercourse. 
 
 Not far from the {\em Buca La Piella} on the same side of the river is another karst cave named {\em Antro dell'Ugola}. It is reachable following a faint and intermittent track that departs from a marked path. It is characterized by a suspended geological formation reminding an uvula, hence the name.
 
-Both caves are going to be analyzed in the course of the Underlandscape project \cite{Underlandscape}, and findings can further enhance the interest in both sites.
+Both caves are going to be analyzed in the course of the Underlandscape project \citeWeb{underlandscape, underlandscapeweb}, and findings can further enhance the interest in both sites.
 
-Along the dirt road from the village in the direction of Lake \emph{Casoli} are some of the most interesting sites. The medieval remains of the {\em Church of Sant'Andrea de Lacu}, now in a state of serious disrepair, without its roof and with static problems, but characterized by its Romanesque forms and 10th-century decorations. 
+Along the dirt road from the village in the direction of the lake of \emph{Casoli} are some of the most interesting sites. The medieval remains of the church of {\em Sant'Andrea de Lacu}, now in a state of serious disrepair, without its roof and with static problems, but characterized by its Romanesque forms and 10th-century decorations. 
 
 The \emph{metati} (structures for drying chestnuts), together with the hundred-year-old chestnut trees, testify to the exploitation of forest resources since the Middle Ages. 
 
-A little further along the CAI path is the {\em Oratory of the Madonna di Col di Piano}. Recently renovated, with its canopy it has been a shelter for wayfarers since modern times.
+A little further along the CAI path is the oratory named {\em Madonna di Col di Piano}. Recently renovated, with its canopy it has been a shelter for wayfarers since modern times.
 
-Inside the town of \emph{Casoli}, narrow streets branch off to the main square, where the medieval {\em Church of Saints Donato e Andrea} with its bell tower can be admired. From here, an ancient street climbs to the top of the hill. On the way up there is a small oratory called {\em Madonna di Castello}, still consecrated but in poor conditions. 
+Inside the town of \emph{Casoli}, narrow streets branch off to the main square, where the medieval church dedicated to the Saints \emph{Donato} and \emph{Andrea} with its bell tower can be admired. From here, an ancient street climbs to the top of the hill. On the way up there is a small oratory called {\em Madonna di Castello}, still consecrated but in poor conditions. 
 
-On the summit are the remains of the {\em Medieval Castle} with its walls. In need of consolidation of the walls, it cannot be visited at the moment as it is on private property; it is only possible to observe part of its structures from the path. 
+On the summit are the remains of the medieval castle with its walls. In need of consolidation of the walls, it cannot be visited at the moment as it is on private property; it is only possible to observe part of its structures from the path. 
 
 Two other sites that are particularly curious but cannot be visited because located on private properties are the so-called  {\em Celtic Calendar}, an artificially excavated rock interpreted as a kind of sundial, and an epigraph reused in a house interpreted as Lombard.
 
 \subsection{Implementing a QR-based signage}
 
-The concept behind the implementation was that of guiding the visitor through a self-organized experience using a signage technique that improves the traditional boards, as explained in section \ref{sec:minimize}. To verify on the field the practical aspects and the implementation process we realized several QR tags that were later secured to an existing support. See the list in Table~\ref{tab:qrtags}.
+The concept behind the implementation of the QR-based signage is to guide the visitor through a self-organized experience. To verify on the field the practical aspects and deployment we realized and placed several QR tags. The list is in Table~\ref{tab:qrtags}.
 
-
-The proposed signage cannot replace CAI signage (see figure \ref{fig:CAI}), which is recognized throughout the country and is very effective. However, the new signage can effectively complement it to provide more detailed information at multiple levels, from short text to in-depth information on the project site. In addition, being able to read the written directions along the path can be of great help to inexperienced hikers, particularly on unclear and not-quite-visible trails such as the one we suggested to reach Buca La Piella.
+The proposed signage cannot replace CAI one (see figure \ref{fig:CAI}), which is recognized throughout the country and is very effective. The QR-based signage complements it and provides more detailed information at multiple levels. For one, the availability of written directions along the trail leading to the \textit{Buca La Piella}, which is hard to follow and not covered by CAI signage, is of great help to inexperienced hikers.
 
 Tags are printed on Synaps™, a non-biodegradable polyester synthetic film by Agfa-Gevaert NV. Agfa documents the production process giving guarantees of sustainability \citeWeb{agfa}. According to Agfa, Synaps is more sustainable than laminated paper. From previous experiences, it is also more durable.
 
-The tags are tied to pre-existing structures, like trees or poles, to keep the environmental footprint as lightweight as possible. The tag is tied with a thin biodegradable string.
+To minimize the environmental footprint, the tags are attached to pre-existing structures, like trees or poles. The tag is tied with a thin biodegradable string, as in figure \ref{fig:TagOnTree}.
 
-A QR tag is designed to implement three levels of reading (LoR), with an increasing level of technology involved:
+The QR tag is designed to implement three levels of reading (LoR), with an increasing level of technology involved:
 \begin{itemize}
     \item visual: the information is printed on the tag. The user does not need any technology to read the content;
-    \item QR tag text: this is the text encoded in the tag. The user needs a smartphone-like device and an appropriate app to read, possibly aloud, the content;
+    \item QR tag text: this is the text encoded in the tag. The user needs a smartphone-like device and an appropriate app to read aloud or translate the content;
     \item URL: these are Web URLs encoded in the tag text. The user needs an Internet connection to visit the URL.
 \end{itemize}
 
-We placed QR tags both along the trail and at sites of interest; the former are placed at detours and, at more complex points, at close range so that from one you can see the next, as per the CAI standard \cite{cai10}. They can therefore have the function of a simple signpost to visually indicate the continuity of the trail. The second LoR gives access to the written indications recorded within it, which are more accurate and precise than those printed on the tag. The third LoR provides further capabilities, as detailed below, but is accessible only whenever the location is covered by the Internet. 
+We placed QR tags both along the trail and at sites of interest; the former are at detours or at close range so that from one you can see the next, as per the CAI standard \cite{cai10}. They can therefore have the function of a simple signpost to visually indicate the continuity of the trail. The second LoR gives access to the written indications recorded within it, which are more accurate and precise than those printed on the tag. The third LoR provides further capabilities, as detailed below, but is accessible only whenever the location is covered by the Internet. 
 
 There are many ways to distribute the content among the three LoRs, dictated by tag purpose and location. For our experiment, we used the same organization for all tags, which privileges the second LoR, namely the text encoded in the tag (see figure \ref{fig:qrcodelegend}): 
 
@@ -749,7 +747,7 @@ There are many ways to distribute the content among the three LoRs, dictated by 
     
     \item QR text LoR (see figure \ref{fig:qrcodecontent}): it describes the site or gives directions to reach the destination of the trail. The text includes historical, archaeological, and naturalistic information, together with the URL for the next LoR. In our prototype, the maximum length of the text amounts to 700 characters. A Huawei FIG-LX1 (2017) decodes the tag from a distance of more than 50cm using an Android application available on the Play Store. The same phone can read aloud the content (in Italian) without Internet connectivity;
 
-    \item URL LoR: such information is useful only in a few locations since the area is not uniformly covered by broadband networks: for instance, during a recon to the {\em Piella} cave, none of the smartphones of the participants received sufficient broadband network signal to visit the linked page. However, the application records the URL so that the user might visit it when entering a covered area. Each page contains site-specific information, an interactive map with the location of all the QR tags (see figure \ref{fig:linkmap}), and a form for user feedback (see figure \ref{fig:linkpoll}). The map is hosted by the UMap Web service (\url{https://umap.openstreetmap.fr/it/}) \citeWeb{umap}, and displays the location and content of all QR-tags (as shown in figure \ref{fig:qrcodecontent}). The server hosting the site is configured to collect aggregated statistics about visitors' activity.
+    \item URL LoR: such information is useful only in a few locations since the area is not uniformly covered by broadband networks: for instance, during a recon to the {\em Piella} cave, none of the smartphones of the participants received sufficient broadband network signal to visit the linked page. However, the application records the URL so that the user can visit it when entering a covered area. Each Web page contains site-specific information, an interactive map with the location of all the QR tags (see figure \ref{fig:linkmap}), and a form for user feedback (see figure \ref{fig:linkpoll}). The map is hosted by the UMap Web service (\url{https://umap.openstreetmap.fr/it/}) \citeWeb{umap}, and displays the location and content of all QR-tags (as shown in figure \ref{fig:qrcodecontent}). The server hosting the site is configured to collect aggregated statistics about visitors' activity.
 \end{itemize}
 
 \begin{figure}
@@ -806,9 +804,9 @@ The production process of a series of tags has also been investigated to streaml
 
 The master document is a \emph{GeoJSON} file describing the area and the tagged features: a GPS tracking application can be used to record an initial version of it during a recon.
 
-The finalized master document contains a single \emph{GeoJSON} \emph{FeatureCollection} object containing one \emph{Feature} object for each tag. Each \emph{Feature} contains a \emph{Geometry} object of type \emph{Point}, and a \emph{properties} object with fields containing information needed to create the tag: the \emph{uid}, a random string of six lowercase letters used to produce the associated URL, the \emph{title} printed on the tag, and the text encoded in the QR code (see table \ref{code:geojson}) where part of the {\em description} field is omitted. The \emph{properties} are also shown on the UMap map. 
+The finalized master document contains a single \emph{GeoJSON} \emph{FeatureCollection} object containing one \emph{Feature} object for each tag. Each \emph{Feature} contains a \emph{Geometry} object of type \emph{Point}, and a \emph{properties} object with fields containing information needed to create the tag: its unique identifier \emph{uid}, a random string of six lowercase letters used to produce the associated URL, the \emph{title} printed on the tag, and the text to be encoded in the QR code (see figure \ref{fig:geojson-sample}). The \emph{properties} are also shown on the UMap map. 
 
-Editing the basic map to fill-in the QR-code content and the other fields does not require technical skills since the tools integrated into the UMap user interface already fit the purpose (see figure \ref{fig:umap-editing}). The resulting geojson object for a tagged feature is shown in figure \ref{fig:geojson-sample}.
+Editing the map downloaded from the GPS app to fill in the {\em properties} does not require technical skills, since the tools integrated into the UMap user interface already fit the purpose (see figure \ref{fig:umap-editing}). The resulting \emph{GeoJSON} object describing a tagged feature is shown in figure \ref{fig:geojson-sample}.
 
 The master document is rendered by UMap on the page linked to the tags (as in figure \ref{fig:linkmap}).
 
@@ -818,27 +816,29 @@ The master document is rendered by UMap on the page linked to the tags (as in fi
 	\label{fig:umap-editing}
 }
 \hfill
-\subfloat[GeoJSON \emph{Object} representing the same the feature]{
+\subfloat[\emph{GeoJSON} \emph{Object} representing the same the feature]{
 	\includegraphics[width = 0.60 \linewidth]{figure/geojson-sample.png}
 	\label{fig:geojson-sample}
 }
-\caption{Editing the GeoJSON with uMap editor. The resulting file is automatically converted into printable QR-tags}
+\caption{Editing the \emph{GeoJSON} with uMap editor. The resulting file is automatically converted into printable QR-tags}
 \label{fig:editing}
 \end{figure}
 
-A \emph{Bash} script running on a Linux system makes straightforward the conversion of the GeoJSON file into a printable array of QR tags. The code, a total of 90 source lines written in Bash and Python taking advantage of the ogr2ogr and qrencode commands, is on GitHub \citeWeb{github-qr}.
+A \emph{Bash} script running on a Linux system makes straightforward the conversion of the \emph{GeoJSON} file into a printable array of QR tags. The code, a total of 90 source lines written in Bash and Python makes use of the \texttt{ogr2ogr} and \texttt{qrencode} commands, and is on GitHub \citeWeb{github-qr}.
 
 \section{Results and discussion \label{sec:results}}
 
-Our point is to illustrate a methodology to improve the touristic offer of a site that is not specific to a use case, but applicable to a broad range of frameworks. The methodology must be sustainable in the broader sense: social, environmental, and financial.
+We aim to define a design approach that will enhance the tourist experience of an inland area. The approach is conceptual and therefore applicable to a wide range of use cases. First, the requirements for sustainability in design are defined, taking into account the three pillars of sustainability: social, environmental, and economic.
 
-We applied the methodology to a small-scale example: a signage system addressing the guidance of visitors in a rural area with a cultural heritage to be protected and valorized at the same time.
+To put our approach into practice we used a small-scale use case: a signage system addressing the guidance of visitors in an inland area. The area has a cultural and environmental heritage to be protected and valorized at the same time.
 
-Firstly we evaluated the aspects of interest of the site, and we found natural formations and human artifacts tracing back to the Paleolithic Era. Other relevant aspects are that the site is not included in mass tourism circuits but is not far from them. The area is exposed to depopulation due to the shortage of productive activities.
+Our design started by defining a profile for the area according to the \emph{three pillars}. The environmental aspect is characterized by natural formations and human artifacts tracing back to the Paleolithic Era. As for tourism-related economics, currently the dominant component in the area, we noticed that the location selected for our use case exhibits unexpressed potentialities although the area surrounding the location has a recognized touristic vocation. From the social point of view, we observed that the area is exposed to depopulation due to the shortage of productive activities.
 
-To preserve the native social and financial framework we do not aim at mass tourism. Instead, we target a motivated, non-casual visitor, and devise potential reasons for its visit. We found many of them: a not easily accessible cave inhabited since pre-history, a village with historical buildings, and nearby architecture dating back to the Middle Ages.
+One conclusion after the above analysis is that, in order to preserve the native social and economic framework, mass tourism is not a candidate target, while a motivated, non-casual visitor is preferable. Regarding the potential reasons for a visit, we found a not easily accessible cave inhabited since pre-history, a village with historical buildings, and nearby architecture dating back to the Middle Ages.
 
-We investigated the task of guiding the visitor and telling the history of the place with inexpensive and non-intrusive techniques. The proposed solution consists of a dozen QR tags placed at key locations. The total cost of the tags amounts to a few Euros for the printing service, although finding a shop with an appropriate printing device may be difficult. The impact on the environment is extremely limited, as shown in figure \ref{fig:TagPlacement}.
+We investigated a technique for guiding the visitor and telling the history of the place. The fragile economy limits financial investment, while the natural heritage requires non-intrusive techniques.
+
+The proposed solution consists of a dozen QR tags placed at key locations. The total cost of the tags amounts to a few Euros for the printing service, although finding a shop with an appropriate printing device may be difficult. The impact on the environment is extremely limited, as shown in figure \ref{fig:TagPlacement}.
 
 \begin{figure}
 \subfloat[A tag secured to a tree near a shelter]{
@@ -846,7 +846,7 @@ We investigated the task of guiding the visitor and telling the history of the p
 	\label{fig:TagOnTree}
 }
 \hfill
-\subfloat[Google Earth view of the surroundings of the tag. The map is north-oriented, and shows  the village of \emph{Casoli}  in the left-high corner]{
+\subfloat[Google Earth view of the surroundings of the tag. The map is north-oriented, and shows the village of \emph{Casoli} in the left-high corner]{
 	\includegraphics[width = 0.62 \linewidth]{figure/GoogleEarth.png}
 	\label{fig:GoogleEarth}
 }
@@ -854,38 +854,42 @@ We investigated the task of guiding the visitor and telling the history of the p
 \label{fig:TagPlacement}
 \end{figure}
 
-The preparation of the signage requires a solid knowledge of the site. This demanded consulting historical documents, assessing the touristic vocation of the area, and two on-site surveys.
+The preparation of the signage required a solid knowledge of the area that was gained by carrying out archaeological surveys and consulting historical documents and cartography. The evaluation of touristic vocation was based on the available statistical data and person-to-person informal interviews. Two on-site surveys provided further practical indications and the opportunity to place the QR tags.
 
-On the technical side, the proposed signage provides a benchmark difficult to improve in terms of environmental impact and cost, but its {\em performance} is difficult to evaluate.
+On the technical side, the proposed signage is a benchmark difficult to improve in terms of environmental impact and cost.
 
-One performance index might be the number of times a given tag is scanned. Indeed, we recorded several hits to the URLs in the QR tags, but their number and the way they are collected are not appropriate to form a statistic of their utilization. One reason is the fact that the use of the tag is not always associated with a hit, and vice-versa.
+%It fits cultural heritage assets that are not currently accessible, either because located on private property or showing unsafe structural conditions. The preservation of cultural heritage and its readiness for safe fruition may become difficult to attain in areas, like the hilly and mountainous terrain we studied, featuring a vast heritage scattered over a hardly accessible area. In these cases the QR tags improve the visitors experience by providing, beside textual data, also Web URLs for videos, aerial shots, or photos. Such multimedia resources immerse the visitor even more in the history of the area, and drive an experiential understanding. This copes with the duty of protection and conservation of abandoned sites, since positive enjoyment and widespread knowledge of the site develop, for an inland area undergoing depopulation, a virtuous loop between tourism and economy engine triggering investments in the cultural heritage policies.
 
-The reactions we collected by interviewing local stakeholders are positive, which gives us the impression that the initiative is respectful and consistent with the social and economic framework. The measurement of the efficacy in financial terms is beyond the scope of this paper, but it has to be said that the aim of this work is to provide assistance and improve the experience of actual visitors, not to multiply their number.
+In areas like our use case, where the cultural heritage extends across scarcely accessible land, preserving and accessing sites located on private property or in hazardous areas can be challenging. In these cases, QR tags could improve the visitors' experience by providing, besides textual data, the Web URLs for videos, aerial shots, and photos. Multimedia resources allow visitors to immerse themselves in the area's history and gain an experiential understanding, even if they don't have access to a specific spot. The resulting widespread knowledge can be a beneficial tourist-economic engine that encourages investments in cultural heritage policies, thus achieving the goal of protecting and conserving abandoned sites.
+
+Its {\em performance} is currently difficult to evaluate. The recording of the number of times a given tag is scanned, in theory, a significant performance index, is unreliable for technical reasons. In fact, the QR tag does not have the capability to record or transmit read events, and, on the side of the smartphone, the user may be unable to visit the URL in the tag or deny such operation for security reasons. In addition, the URL can be visited by means different from the QR reading. For this reason, we do not discuss such an index.
+
+The reactions we collected by interviewing local stakeholders are positive, which gives us the impression that the initiative is respectful and consistent with the social and economic framework. The measurement of the efficacy in financial terms is currently beyond the scope of this paper and will be assessable only in the long term depending on the collaboration of the involved stakeholders.
 
 Although we are satisfied that the solution complies with the sustainability principles that inspired this work, we identified two issues that indicate directions for future research:
 
 \begin{itemize}
     \item The balance between visual impact and effectiveness is critical. The current dimension of the tag is such that the visual impact is limited, but this negatively affects its efficacy: it is easy to miss a tag containing possibly relevant information;
-    \item Monitoring visitor's activity, like the frequency of visits of a given tag, or the sequencing of visited tags, which may be of interest for managing the site, depends on user motivation.
+    \item Monitoring visitor's activity, like the frequency of visits of a given tag, or the sequencing of visited tags, which may be of interest for managing the site, is currently ineffective.
 \end{itemize}
 
-Trading off cost and simplicity for effectiveness and measurability there are solutions, based, for instance, on Bluetooth communication or dedicated applications, that may improve such aspects.
+Trading off cost and simplicity for effectiveness and measurability there are solutions, based, for instance, on Bluetooth communication or dedicated applications, that might solve such issues. 
 
 \section{Conclusions}
 
-Like any other productive activity, tourism is exposed to being unsustainable, damaging the very resources that allow it. To avoid heavy drawbacks the design of the activity has to consider the complex framework where it will operate, and the word used to indicate this is \emph{holistic}, and it is extremely difficult to put into practice. A methodology made of examples and guidelines simplifies the task.
+Tourism, like other productive activities, is at risk of being unsustainable and damaging the very resources that support it. To avoid heavy drawbacks the design of a tourism initiative has to consider the complex framework where it will operate according to an \emph{holistic} approach. A methodology made of examples and guidelines helps cope with such a challenging task.
 
-This paper is a step in this direction. We address a common problem, that of providing the visitor with directions in an area not reached by mass tourism, with the aim of acquiring the financial resources for its survival while preserving its distinguishing traits.
+This paper is a step in this direction. We address an ordinary problem, that of providing the visitor with directions, with the aim of promoting slow tourism and preserving distinguishing traits of an inland area.
 
-We show how a balanced use of technology may help in the task, with a process that is necessarily multidisciplinary, joining skills coming from the diverse domains: sociology, economics, humanities and technical. The paper demonstrates how their interplay brings ad-hoc results targeting sustainability and efficacy.
+We show how a balanced use of technology may help in the task, with a process that is necessarily multidisciplinary, joining skills coming from the diverse domains: sociology, economics, humanities, and engineering. The paper demonstrates how their interplay returns ad-hoc tools targeting sustainability and efficacy.
 
 The resulting implementation is original in the literature, and minimalistic in its deployment. The detailed description enables its reuse as a starting point in future initiatives.
 
-The discussion regarding the deployed experiment indicates directions for future investigation on the technical side. For instance, the availability of non-intrusive long-range devices that send a message whenever sensing a presence might improve signals discoverability. The Bluetooth Low Evergy technology goes in that direction, but hidden tags with BLE and energy harvesting would have broken the economy constraints.
+On the technical side, the discussion regarding the deployed experiment indicates directions for future investigation. The definition of a potential application will foster research aiming at passive or very low-energy devices that are able to effectively advertise their presence and collect statistics.
 
 From a different point of view, the lack of discoverability suggests a recreational scenario inspired by Geocaching® and Pokemon-GO®.
 
-In conclusion, more sustainable solutions to old problems exist and are reachable melting technology and humanities. Policy-makers are crucial in the development and monitoring of sustainable measures. This is especially important in the tourism industry where sustainability is a multifaceted topic that includes resident ecosystem resilience and regeneration efforts by both policy-makers and private tour operators.
+In conclusion, more sustainable solutions to old problems exist and are reachable melting technology and humanities. Policy-makers are crucial in the development and monitoring of sustainable measures. This is especially important in the tourism industry where sustainability is a multifactor topic that includes resident ecosystem resilience and regeneration efforts by both policy-makers and private tour operators.
 
 %This section may be divided by subheadings. It should provide a concise and precise description of the experimental results, their interpretation as well as the experimental conclusions that can be drawn.
 %\subsection{Subsection}
@@ -1060,25 +1064,28 @@ In conclusion, more sustainable solutions to old problems exist and are reachabl
 % \supplementary{The following supporting information can be downloaded at: \linksupplementary{s1}, Figure S1: title; Table S1: title; Video S1: title. A supporting video article is available at doi: link.}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\authorcontributions{For research articles with several authors, a short paragraph specifying their individual contributions must be provided. The following statements should be used ``Conceptualization, X.X. and Y.Y.; methodology, X.X.; software, X.X.; validation, X.X., Y.Y. and Z.Z.; formal analysis, X.X.; investigation, X.X.; resources, X.X.; data curation, X.X.; writing---original draft preparation, X.X.; writing---review and editing, X.X.; visualization, X.X.; supervision, X.X.; project administration, X.X.; funding acquisition, Y.Y. All authors have read and agreed to the published version of the manuscript.'', please turn to the  \href{http://img.mdpi.org/data/contributor-role-instruction.pdf}{CRediT taxonomy} for the term explanation. Authorship must be limited to those who have contributed substantially to the work~reported.}
+\authorcontributions 
+{Conceptualization, C.A., D.M.G. and C.L.; methodology, C.A., D.M.G. and C.L.; software, C.A.; validation, C.A., D.M.G. and C.L.; investigation, C.A., D.M.G. and C.L.; data curation, C.A. and D.M.G.; writing---original draft preparation, C.A.; writing---review and editing, C.A., D.M.G. and C.L.; supervision, C.A.; historical-archaeological framework, C.L.; touristic data analysis, community-involved tourism and guidelines for sustainable tourism, D.M.G. All authors have read and agreed to the published version of the manuscript.}
 
-\funding{Please add: ``This research received no external funding'' or ``This research was funded by NAME OF FUNDER grant number XXX.'' and  and ``The APC was funded by XXX''. Check carefully that the details given are accurate and use the standard spelling of funding agency names at \url{https://search.crossref.org/funding}, any errors may affect your future funding.}
+%Please turn to the  \href{http://img.mdpi.org/data/contributor-role-instruction.pdf}{CRediT taxonomy} for the term explanation. Authorship must be limited to those who have contributed substantially to the work~reported.}
 
-\institutionalreview{In this section, you should add the Institutional Review Board Statement and approval number, if relevant to your study. You might choose to exclude this statement if the study did not require ethical approval. Please note that the Editorial Office might ask you for further information. Please add “The study was conducted in accordance with the Declaration of Helsinki, and approved by the Institutional Review Board (or Ethics Committee) of NAME OF INSTITUTE (protocol code XXX and date of approval).” for studies involving humans. OR “The animal study protocol was approved by the Institutional Review Board (or Ethics Committee) of NAME OF INSTITUTE (protocol code XXX and date of approval).” for studies involving animals. OR “Ethical review and approval were waived for this study due to REASON (please provide a detailed justification).” OR “Not applicable” for studies not involving humans or animals.}
+\funding{This research was funded by the Italian "Ministero dell’Istruzione, dell’Università e della Ricerca" under project PRIN 2020 "Underlandscape" (2020428LS8)}
 
-\informedconsent{Any research article describing a study involving humans should contain this statement. Please add ``Informed consent was obtained from all subjects involved in the study.'' OR ``Patient consent was waived due to REASON (please provide a detailed justification).'' OR ``Not applicable'' for studies not involving humans. You might also choose to exclude this statement if the study did not involve humans.
+%\institutionalreview{In this section, you should add the Institutional Review Board Statement and approval number, if relevant to your study. You might choose to exclude this statement if the study did not require ethical approval. Please note that the Editorial Office might ask you for further information. Please add “The study was conducted in accordance with the Declaration of Helsinki, and approved by the Institutional Review Board (or Ethics Committee) of NAME OF INSTITUTE (protocol code XXX and date of approval).” for studies involving humans. OR “The animal study protocol was approved by the Institutional Review Board (or Ethics Committee) of NAME OF INSTITUTE (protocol code XXX and date of approval).” for studies involving animals. OR “Ethical review and approval were waived for this study due to REASON (please provide a detailed justification).” OR “Not applicable” for studies not involving humans or animals.}
 
-Written informed consent for publication must be obtained from participating patients who can be identified (including by the patients themselves). Please state ``Written informed consent has been obtained from the patient(s) to publish this paper'' if applicable.}
+%\informedconsent{Any research article describing a study involving humans should contain this statement. Please add ``Informed consent was obtained from all subjects involved in the study.'' OR ``Patient consent was waived due to REASON (please provide a detailed justification).'' OR ``Not applicable'' for studies not involving humans. You might also choose to exclude this statement if the study did not involve humans.
 
-\dataavailability{We encourage all authors of articles published in MDPI journals to share their research data. In this section, please provide details regarding where data supporting reported results can be found, including links to publicly archived datasets analyzed or generated during the study. Where no new data were created, or where data is unavailable due to privacy or ethical re-strictions, a statement is still required. Suggested Data Availability Statements are available in section “MDPI Research Data Policies” at \url{https://www.mdpi.com/ethics}.} 
+%Written informed consent for publication must be obtained from participating patients who can be identified (including by the patients themselves). Please state ``Written informed consent has been obtained from the patient(s) to publish this paper'' if applicable.}
 
-\acknowledgments{In this section you can acknowledge any support given which is not covered by the author contribution or funding sections. This may include administrative and technical support, or donations in kind (e.g., materials used for experiments).}
+\dataavailability{Statistics referenced in the paper are publicly available through the referenced web portals. The software mentioned in the paper is available on GitHub \citeWeb{github-qr}} 
 
-\conflictsofinterest{Declare conflicts of interest or state ``The authors declare no conflict of interest.'' Authors must identify and declare any personal circumstances or interest that may be perceived as inappropriately influencing the representation or interpretation of reported research results. Any role of the funders in the design of the study; in the collection, analyses or interpretation of data; in the writing of the manuscript; or in the decision to publish the results must be declared in this section. If there is no role, please state ``The funders had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript; or in the decision to publish the~results''.} 
+\acknowledgments{The valuable experience Monica Baldassarri has been fundamental in the unfolding of our research. Enrica Salvatori helped in getting in touch with local administrators.}
+
+\conflictsofinterest{The authors declare no conflict of interest.} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Optional
-\sampleavailability{Samples of the compounds ... are available from the authors.}
+%\sampleavailability{Samples of the compounds ... are available from the authors.}
 
 %% Only for journal Encyclopedia
 %\entrylink{The Link to this entry published on the encyclopedia platform.}
@@ -1088,10 +1095,18 @@ The following abbreviations are used in this manuscript:\\
 
 \noindent 
 \begin{tabular}{@{}ll}
-MDPI & Multidisciplinary Digital Publishing Institute\\
-DOAJ & Directory of open access journals\\
-TLA & Three letter acronym\\
-LD & Linear dichroism
+URL & Uniform Resource Locator\\
+QR & Quick Response\\
+GeoJSON & Geographical JavaScript Object Notation\\
+CAI & Club Alpino Italiano\\
+UNESCO & United Nations Educational, Scientific and Cultural Organization\\
+SCC & Single Chip Computer\\
+NFC & Near Field Communication\\
+EEC & European Economic Community\\
+SCI & Sites of Community Interest\\
+SAC & Special Areas of Conservation\\
+SPA & Special Protection Area\\
+ISTAT & Istituto Nazionale di Statistica
 \end{tabular}
 }
 
