@@ -38,13 +38,6 @@ Anti{\'c}, A.; Peppoloni, S.; Di~Capua, G.
   development.
 \newblock {\em Geoheritage} {\bf 2020}, {\em 12},~1--9.
 
-\bibitem[Pearce and Gretzel(2012)]{pea12a}
-Pearce, P.L.; Gretzel, U.
-\newblock Tourism in technology dead zones: Documenting experiential
-  dimensions.
-\newblock {\em International Journal of Tourism Sciences} {\bf 2012}, {\em
-  12},~1--20.
-
 \bibitem[Wan(2022)]{wan22a}
 Wan, Y.K.P.
 \newblock Accessibility of tourist signage at heritage sites: an application of
@@ -75,6 +68,13 @@ Tan, W.K.
 \newblock The relationship between smartphone usage, tourist experience and
   trip satisfaction in the context of a nature-based destination.
 \newblock {\em Telematics and Informatics} {\bf 2017}, {\em 34},~614--627.
+
+\bibitem[Pearce and Gretzel(2012)]{pea12a}
+Pearce, P.L.; Gretzel, U.
+\newblock Tourism in technology dead zones: Documenting experiential
+  dimensions.
+\newblock {\em International Journal of Tourism Sciences} {\bf 2012}, {\em
+  12},~1--20.
 
 \bibitem[Slavec \em{et~al.}(2021)Slavec, Sajinčič, and Starman]{sla21a}
 Slavec, A.; Sajinčič, N.; Starman, V.
@@ -107,6 +107,52 @@ Matarrita-Cascante, D.; Brennan, M.A.; Luloff, A.
 \newblock Community agency and sustainable tourism development: The case of La
   Fortuna, Costa Rica.
 \newblock {\em Journal of sustainable tourism} {\bf 2010}, {\em 18},~735--756.
+
+\bibitem[iso(2015)]{isoqr}
+Automatic identification and data capture techniques - {QR} {C}ode bar code
+  symbology specification.
+\newblock ISO/IEC 18004:2015,  2015.
+
+\bibitem[Martínez-Graña \em{et~al.}(2013)Martínez-Graña, Goy, and
+  Cimarra]{mar13a}
+Martínez-Graña, A.; Goy, J.; Cimarra, C.
+\newblock A virtual tour of geological heritage: Valourising geodiversity using
+  Google Earth and QR code.
+\newblock {\em Computers \& Geosciences} {\bf 2013}, {\em 61},~83--93.
+\newblock {\url{https://doi.org/https://doi.org/10.1016/j.cageo.2013.07.020}}.
+
+\bibitem[Fino \em{et~al.}(2013)Fino, Mart{\'\i}n-Guti{\'e}rrez, Fern{\'a}ndez,
+  and Davara]{fin13a}
+Fino, E.R.; Mart{\'\i}n-Guti{\'e}rrez, J.; Fern{\'a}ndez, M.D.M.; Davara, E.A.
+\newblock Interactive tourist guide: Connecting web 2.0, augmented reality and
+  QR codes.
+\newblock {\em Procedia Computer Science} {\bf 2013}, {\em 25},~338--344.
+
+\bibitem[Tati{\'c} \em{et~al.}(2015)Tati{\'c}, Gaji{\'c}, and
+  Stankovi{\'c}]{tat15a}
+Tati{\'c}, D.; Gaji{\'c}, D.B.; Stankovi{\'c}, R.S.
+\newblock QR Codes Telling the Story about the History of Ni{\v{s}}.
+\newblock {\em Digital Presentation and Preservation of Cultural and Scientific
+  Heritage} {\bf 2015}, {\em 5},~133--139.
+
+\bibitem[Solima and Izzo(2018)]{sol18a}
+Solima, L.; Izzo, F.
+\newblock QR codes in cultural heritage tourism: New communications
+  technologies and future prospects in Naples and Warsaw.
+\newblock {\em Journal of Heritage Tourism} {\bf 2018}, {\em 13},~115--127.
+
+\bibitem[Pange \em{et~al.}(2023)Pange, Degteva, and Manglara]{pan23a}
+Pange, J.; Degteva, A.; Manglara, V.
+\newblock When Technology Meets Heritage.
+\newblock In Proceedings of the International Conference on Transdisciplinary
+  Multispectral Modeling and Cooperation for the Preservation of Cultural
+  Heritage. Springer,  2023, pp. 231--240.
+
+\bibitem[Baik(2012)]{bai12a}
+Baik, S.
+\newblock Rethinking QR code: analog portal to digital world.
+\newblock {\em Multimedia tools and applications} {\bf 2012}, {\em
+  58},~427--434.
 
 \bibitem[Mencacci and Zecchini(1976)]{men76}
 Mencacci, P.; Zecchini, M.

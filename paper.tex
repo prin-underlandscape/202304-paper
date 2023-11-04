@@ -67,10 +67,9 @@
 \colorlet{punct}{red!60!black}
 \definecolor{background}{HTML}{EEEEEE}
 \definecolor{delim}{RGB}{20,105,176}
-\colorlet{numb}{magenta!60!black}
 
 \lstdefinelanguage{json}{
-    basicstyle=\normalfont\ttfamily,
+    basicstyle=\normalfont\ttfamily\footnotesize,
     numbers=left,
     numberstyle=\scriptsize,
     stepnumber=1,
@@ -78,24 +77,7 @@
     showstringspaces=false,
     breaklines=true,
     frame=lines,
-    backgroundcolor=\color{background},
-    literate=
-     *{0}{{{\color{numb}0}}}{1}
-      {1}{{{\color{numb}1}}}{1}
-      {2}{{{\color{numb}2}}}{1}
-      {3}{{{\color{numb}3}}}{1}
-      {4}{{{\color{numb}4}}}{1}
-      {5}{{{\color{numb}5}}}{1}
-      {6}{{{\color{numb}6}}}{1}
-      {7}{{{\color{numb}7}}}{1}
-      {8}{{{\color{numb}8}}}{1}
-      {9}{{{\color{numb}9}}}{1}
-      {:}{{{\color{punct}{:}}}}{1}
-      {,}{{{\color{punct}{,}}}}{1}
-      {\{}{{{\color{delim}{\{}}}}{1}
-      {\}}{{{\color{delim}{\}}}}}{1}
-      {[}{{{\color{delim}{[}}}}{1}
-      {]}{{{\color{delim}{]}}}}{1},
+    backgroundcolor=\color{background}
 }
 
 
@@ -114,7 +96,7 @@
 \newcommand{\orcidauthorC}{0000-0002-5542-7891} % Add \orcidB{} behind the author's name
 
 % Authors, for the paper (add full first names)
-\Author{ Maria Grazia Deri $^{2,}$*\orcidC{}, Letizia Chiti $^{3}$\orcidA{}, Augusto Ciuffoletti $^{1}$\orcidB{} } 
+\Author{ Maria Grazia Deri $^{2,}$\orcidC{}, Letizia Chiti $^{3}$\orcidA{}, Augusto Ciuffoletti $^{1}$*\orcidB{} } 
 
 %\longauthorlist{yes}
 
@@ -216,7 +198,7 @@ Although an official decision is still pending, there is a widely agreed proposa
 
 The problem with the above fact is that we humans are not able to understand the long-term consequences of deploying such a potential, nor even to keep it under control. Even worse, such capacities are often used with the aim of short-term local effects, ignoring long-term global ones, with the risk of long-term global deterioration. This attitude pervades all activities, starting with the most basic ones such as the supply of food and homes, and is often influenced by economic profit.
 
-Leisure activities play an important role in bringing profit to niche businesses. This creates a reinforcing effect that follows the negative dynamics seen above: a leisure activity that is neutral in itself (e.g., skying) can have a significant impact due to induced effects (lifts) that strengthen the success of the activity (easier to practice) bringing more investment and impact. Unlike the beneficial effects, which are usually well localized, the negative impact has a very broad spectrum that includes environmental, social, and economic sectors, as discussed by Patthey in \cite{pat08a}.
+Leisure activities play an important role in bringing profit to niche businesses. This creates a reinforcing effect that follows the negative dynamics seen above: a leisure activity that is neutral in itself (e.g., skying) can have a significant impact due to induced effects (lifts) that strengthen the success of the activity (easier to practice) bringing more investment and impact. Unlike the beneficial effects, which are usually well localized, the negative impact has a very broad spectrum that includes environmental, social, and economic sectors, as discussed by Patthey in \cite{pat08a} relating to outdoor winter sports.
 
 To manage this situation, international agencies promote the keyword "sustainability" as a guideline for the conservation of our habitat. Jeffry Ramsey et al. \cite{ram15a} consider the concept behind this word as "vague and disputed but not meaningless" and that cannot be used without a concrete framework, especially in a normative context. To solve the problem of measuring sustainability, Tom Kuhlman et al. \cite{kuh10a} point out an inherent conceptual tension between growth and stability. This tension has been attenuated by a change in the meaning of the word, which has gone from focusing on preservation for an indefinite future to a concept that includes three "pillars", society, economy, and environment, as determinants that need to be protected in the present to promote sustainable development in the future. The authors relate artificial and environmental goods, discriminating the two cases where a loss in the latter can or cannot be compensated by an increase in the former, introducing the terms of {\em weak} and {\em strong} sustainability.
 
@@ -228,9 +210,17 @@ The question arises in the course of the Underlandscape project \citeWeb{underla
 
 This document provides a conceptual solution for a specific aspect: heritage trail signage. The solution is conceptual in that it tries to follow a guideline that takes into account many aspects and provides a practical way that is adaptable to other environments.
 
+{\huge Anticipare qui uso dei QR code}
+
 \section{Unlocking site potentials through signage \label{sec:signage}}
 
 The signage used to guide and inform the visitor is of paramount importance and must be carefully designed to accomplish its functions while following the guidelines of a sustainable approach.
+
+The functions of signage are two:
+\begin {itemize}
+\item an effective signage must guide the tourist across the resort. A map represents a starting point for this purpose, but not all visitors feel comfortable reading a map. The ideal signage should provide visible reference points and suggest actions, like "turn right after crossing the stream". A good example of such signage is the one used by the Italian Alpine Club (CAI), consisting of colored stripes marked on tree bark (see figure \ref{fig:CAI}). The marks are placed in such a way that standing near one of them, the hiker can spot the successive on the trail;
+\item a sign should explain the reasons for interest in a site. This includes featuring the site where the sign is installed, but also other nearby points of interest that invite the visitor to continue the visit (see figure \ref{fig:pole-direction}). In this sense, the CAI signal above is not sufficient. A simple board with a site name fits only when the site is sufficiently popular. Otherwise, a more structured message should be used to explain its relevance.
+\end{itemize}
 
 \begin{figure}
 \subfloat[CAI mark on a tree]{
@@ -246,13 +236,7 @@ The signage used to guide and inform the visitor is of paramount importance and 
 \label{fig:traditional}
 \end{figure}
 
-The functions of signage are two:
-\begin {itemize}
-\item an effective signage must guide the tourist across the resort. A map represents a starting point for this purpose, but not all visitors feel comfortable reading a map. The ideal signage should provide visible reference points and suggest actions, like "turn right after crossing the stream". A good example of such signage is the one used by the Italian Alpine Club (CAI), consisting of colored stripes marked on tree bark (see figure \ref{fig:CAI}). The marks are placed in such a way that standing near one of them, the hiker can spot the successive on the trail;
-\item a sign should explain the reasons for interest in a site. This includes featuring the site where the sign is installed, but also other nearby points of interest that invite the visitor to continue the visit (see figure \ref{fig:pole-direction}). In this sense, the CAI signal above is not sufficient. A simple board with a site name fits only when the site is sufficiently popular. Otherwise, a more structured message should be used to explain its relevance.
-\end{itemize}
-
-In our study, we consider a range of solutions that support sustainable tourism, specifically the dynamic provision of information during a visit along a natural trail not covered by Internet connectivity (a {\em dead zone} using the term used by Pearce and Gretzel \cite{pea12a}). We consider the presence of two stakeholders for the signage itself \cite{wan22a}: the hosting organization (the {\em host} for short) which implements a signing installation, and the visitor (or {\em user} ) which extracts useful and enjoyable information from signing devices. 
+In our study, we consider a range of solutions that support sustainable tourism, specifically the dynamic provision of information during a visit along a natural trail not covered by Internet connectivity. We consider the presence of two stakeholders for the signage itself \cite{wan22a}: the hosting organization (the {\em host} for short) which implements a signing installation, and the visitor (or {\em user} ) which extracts useful and enjoyable information from signing devices. 
 
 The purpose of such an installation is guiding the {\em user} on a tour that includes urban streets, buildings, natural trails, and caves (this latter being the topic of the project giving financial support to our research). The task of the {\em host} organization is to provide the {\em user} with all sorts of information that may guide him across the visit, making it as profitable and enjoyable as possible.
 
@@ -263,7 +247,7 @@ A traditional approach makes use of physical information boards with graphical o
 	\item installation logistics: depending on the location, the transportation and placement of a plaque may require a basement or other sorts of supports;
 	\item environmental impact: to be effective, the plaque has to be prominent, and this may negatively affect the quality of the site; 
 	\item accessibility for the visually impaired: the plaque is not useful for visually impaired persons;
-	\item accessibility for stranger visitors: to limit the size of the plaque, the number of translations must be limited as well;
+	\item accessibility for foreign visitors: to limit the size of the plaque, the number of translations must be limited as well;
 	\item update limits: to update the content, the plaque must be replaced;
 	\item removal logistics: when the board degrades it must be either removed or replaced, which entails waste disposal together with other issues similar to those found during the installation.
 \end{itemize}
@@ -294,9 +278,10 @@ An exhaustive solution is described by P. Liu in \cite{liu16a}, which details an
 
 Wan \cite{wan22a} evaluates the quality of signage, without referring to a specific technology, but with many examples showing physical boards, using as a formal reference the Universal Design Principles \cite{udi97a}.
 
+
 The number of research papers explodes when we extend the range to articles investigating smartphones' impact on tourism. The {\em smart tourism} topic is very popular, and covered by several review papers that provide a framework to the vast literature.
 
-A popular research direction covers the social aspects related to the use of the smartphone. W. Tan \cite{tan17a} covers all aspects of a touristic experience related to the smartphone, from the definition of travel destination to assistance during the visit. Much attention is dedicated to the network of connections that is established thanks to the smartphone, which, again, is considered on the Internet. Such an assumption is in contrast with the title, which indicates a nature-based destination, where notably the Internet is not always reachable.
+A popular research direction covers the social aspects related to the use of the smartphones. W. Tan \cite{tan17a} covers all aspects of a touristic experience related to the smartphone, from the definition of travel destination to assistance during the visit. Much attention is dedicated to the network of connections that is established thanks to the smartphone, which, again, is considered on the Internet. Such an assumption is in contrast with the title, which indicates a nature-based destination, where notably the Internet is not always reachable.
 
 On the other hand, roaming in places not reached by the Internet, or {\em dead zones} using the term introduced by Pearce and Gretzel in \cite{pea12a}, may evoke contrasting feelings, from rewarding to threatening.
 
@@ -307,6 +292,18 @@ In 2023 V. Rodrigues et al. published a systematic review of papers considering 
 In that direction, we meet the phenomenon of {\em overtourism}, covered by significant literature reviewed by Dodds and Butler \cite{dod19a}, which focuses on urban tourism and its social consequences. The impact of {\em overtourism} on resorts that trade on their natural resources is investigated in the case of the Hawaii Islands \cite{lin22a} or Costa Rica \cite{mat10a} stressing the impact on the social fabric.
 
 The present paper wants to fill the gap highlighted by Rodriguez, providing a conceptual yet pragmatic approach to a well-defined aspect of tourism support, taking into account its sustainability "by design". Once a range of relevant solutions is identified, we proceed to the empirical part: a {\em proof of concept} implementation that verifies the feasibility of a specific solution.
+
+Regarding the specific technology we refer to, QR codes have been invented in 1994 for industrial applications. The current version, described in \cite{isoqr}, is dated February 2015. In 2013 an early paper by Martinez et al. \cite{mar13a} suggests its utilization to implement a virtual tour in the {\em Las Quilamas Natural Park} in Spain. At that time the availability of QR-code readers was not as diffused as today, and therefore the work may be considered among the seminal ones. The authors proposed to use the QR code as a link to a panel in PDF format viewed on the user's portable device. A similar work in a urban environment is presented in \cite{fin13a} and \cite{tat15a}, the latter illustrating the QR system serving the monuments in the Serbian town of Niš.
+
+Since then the use of the QR code technology for heritage promotion has been suggested in other papers. In \cite{sol18a} the authors describe its application in a museum: after defining the points of interest, tags have been placed and linked to related documents. The authors conducted a poll about user perception on two segments of users: Italians and Polish. The QR tags were not unanimously considered useful: in particular half of the Italian users considered them as not useful. It is interesting to note that the motivation of the other segment of users, less skeptical about usefulness, shared a solid educational motivation to access QR-linked content (70\% in the Polish group against 50\% in the Italian one). This fact sheds light on the necessity to provide content the user needs: curiosity is not a sufficient motivation.
+
+Recent publications about the use of QR codes for heritage valorization do not show significant novelties. In 2023, the authors of \cite{pan23a} introduce the installation of six QR codes in a museum and analyze the reactions of 42 visitors. The tags are created using the Taplink \url{https://taplink.at/} web service and are linked to content on the Web.
+
+There are examples of urban outdoor applications of QR tags, like 
+
+All the found publications share a common attitude, which can be summarized in the motto "analog portal to digital world", as in the title of \cite{bai12a}. None of them evaluates the possibility of storing text in the tag itself, thus eliminating the requirement of an Internet connection.
+
+The present paper promotes the use of QR codes with sustainability and as the primary or only way of providing information to the visitor. In the literature, QR codes are considered ancillary to other forms of communication, like physical installations or the Web. Therefore, in our case the informational content of the tag, which is commonly ignored, becomes relevant. It is a new and original way of using QR codes for the delivery of information.
 
 We emphasize that this article is not meant to quantify user satisfaction or the economic revenue associated with the specific solution. Such a target is outside the scope of our research, and indeed the figures that would measure the success of a strategy deserve a thorough investigation. We aim at isolating an issue, proposing a sustainable strategy for its solution, and implementing a proof of concept for it.
 
@@ -340,7 +337,7 @@ A preliminary check verifies compliance with the Universal Design Principles \ci
 	\item {\em Flexibility in use} is enabled by the device capabilities, which allow listening instead of reading, translating the information in a different language, or storing it for later use,
 	\item {\em Simple and intuitive use} holds since the operation requires a single application, possibly already installed since useful in many circumstances, and tag reading requires a single finger touch on the smartphone,
 	\item{\em Perceptible information} is a critical requirement, which contrasts to keep low environmental intrusion. This point will be further discussed in the section devoted to the implementation,
-	\item{\em Tolerance for error}: there are no margins to use the device in a way that compromises user safety. The deliberate or accidental release of the passive device into the environment determines a minor pollution,
+	\item{\em Tolerance for error}: there is no chance of accidentally causing a hazardous situation using the QR tag. The unintended release of the passive device into the environment determines a minor pollution,
 	\item{\em Low physical effort} holds, although the user needs to carry a smartphone,
 	\item{\em Size and Space for approach and use} need to be carefully considered. In the case of the NFC tag the smartphone needs to be nearly in touch with the passive device, while the QR code must be in the line of sight and frameable without effort.
 \end{itemize}
@@ -381,7 +378,7 @@ In conclusion, we have reasons to select a QR-tag-based solution as a good candi
 	\item disposal: the card releases a limited quantity of pollutants related to ink support (paper or plastic)
 \end{itemize}
 		
-There are two relevant trade-offs that the host needs to resolve. One is related to the visibility of the tag. The trade-off is between visual impact and visibility. The other is related to monitoring tag utilization. This may be useful for all sorts of planning activities and is discussed in section \ref{sec:results}.
+The host needs to resolve two issues. One problem is the balance between visual impact and visibility. Monitoring tag utilization, which is useful for all types of planning activities, is the other topic. They are discussed in section \ref{sec:results}.
 
 \section{Materials and Methods}
 
@@ -432,7 +429,7 @@ Scesta};
 
 The latter is also a SPA (Special Protection Area) and the \textit{Orrido di Botri} State Reserve is located within it \citeWeb{nat00}. It is therefore a natural heritage with a fragile balance that needs to be preserved.
 
-In recent years, the main tourist attractions have concentrated on the \emph{Lima} stream, with some associations and private entities promoting outdoor experiences, particularly fluvial sports, such as canyoning, rafting, and sup. Other important tourist attractions are trekking and hiking, supported by a network of paths tracked by local CAI (\textit{Club Alpino Italiano}).
+In recent years, the main tourist attractions have concentrated on the \emph{Lima} stream, with some associations and private entities promoting outdoor experiences, particularly fluvial sports, such as canyoning, rafting, and paddleboarding. Other important tourist attractions are trekking and hiking, supported by a network of paths tracked by local CAI (\textit{Club Alpino Italiano}).
 
 In the last few years, the community opened two entirely new trails:
 \begin{itemize}
@@ -484,7 +481,7 @@ In this perspective, the following paragraph concerns {Bagni di Lucca's} demogra
 % Anche la prima frase andrebbe un pò chiarita, e non soon sicuro che quello che ho scritto rispecchi quello che vuoi dire :-). Qui sotto il tuo testo originale
 %For this specific purpose, this paragraph is well related to the tourism dynamics of the Municipality of \emph{Bagni di Lucca}, the administrative land hosting \emph{Casoli}. --> sono due concetti completamente diversi......
 
-\subsubsection{Tourism dynamics in \emph{Bagni di Lucca}, the \emph{Val di Lima} and\emph{Casoli}}
+\subsubsection{Tourism dynamics in \emph{Bagni di Lucca}, the \emph{Val di Lima} and \emph{Casoli}}
 
 In Italy, a municipality is the smallest geographical-administrative unit offering accessible data about tourism, which are the fundamentals of our research. The municipality of \emph{Bagni di Lucca} boasts historical popularity for its landscapes told by famous poets (such as Giosuè Carducci, Giovanni Pascoli, Eugenio Montale, George Gordon Byron, Percy Bysshe Shelley) and celebrities like Paolina Bonaparte. The typical Liberty style architecture characterizes the villas like the \textit{Real Casinò} featuring elegant gardens representing the power of the Republic of \emph{Lucca} in the early XIX century and the \emph{Belle Epoque}. Such historical prominence made the town a well-known destination abroad, thanks to the massive emigration and the presence of the Thermal Bath structure \footnote{Terme di Bagni di Lucca: \url{https://www.termebagnidilucca.it/}}, nearby must-see attractions of the time.
 
@@ -616,7 +613,7 @@ The Municipality of \emph{Bagni di Lucca} and the tourist area of the \emph{Val 
 
 %There aren’t touristic information at the administrative level of \emph{Casoli} , so that the tourism context analysis concerns the Municipality area of \emph{Bagni di Lucca}, as the first territorial context providing tourist data registered by ISTAT.
 
-Given the context and the local vocation, we conclude that \emph{Casoli} is a small destination for tourists practicing heterogeneous touristic circuits in individual and combined ways. According to qualitative and quantitative analysis \cite{loz09} on the touristic and social context of \emph{Bagni di Lucca}, as the municipal area encompassing \emph{Casoli} village, the mentioned area boasts a good touristic appeal towards Italian and foreign tourists searching for various kinds of experiences, such as thermal, environmental, outdoor, sport and cultural activities. Local stakeholders operating in the tourism system offer a variety of services all year round. Whenever possible the offer is enriched with original touristic approaches paying attention to sustainability. As part of the \emph{Bagni di Lucca}’s ecosystem with its touristic vocation, \emph{Casoli} is defined as a well-known destination. Considering that \emph{Casoli} is a destination for slow tourism, ensuring the sustainability of development actions is crucial to maintaining its unique social fabric.. The latter aspect suggests paying attention to environmental conservation, cultural heritage conservation, intergenerational continuity, and economic equity \cite{kuh10}.
+Given the context and the local vocation, we conclude that \emph{Casoli} is a small destination for tourists practicing heterogeneous touristic circuits in individual and combined ways. According to qualitative and quantitative analysis \cite{loz09} on the touristic and social context of \emph{Bagni di Lucca}, as the municipal area encompassing \emph{Casoli} village, the mentioned area boasts a good touristic appeal towards Italian and foreign tourists searching for various kinds of experiences, such as thermal, environmental, outdoor, sport and cultural activities. Local stakeholders operating in the tourism system offer a variety of services all year round. Whenever possible the offer is enriched with original touristic approaches paying attention to sustainability. As part of the \emph{Bagni di Lucca}’s ecosystem with its touristic vocation, \emph{Casoli} is defined as a well-known destination. Considering that \emph{Casoli} is a destination for slow tourism, ensuring the sustainability of development actions is crucial to maintaining its unique social fabric. The latter aspect suggests paying attention to environmental conservation, cultural heritage conservation, intergenerational continuity, and economic equity \cite{kuh10}.
 
 \subsubsection{Guidelines for a sustainable development}
 
@@ -752,34 +749,43 @@ There are many ways to distribute the content among the three LoRs, dictated by 
 
 \begin{figure}
 \subfloat[QR-tag parts]{
-	\includegraphics[width = 0.55 \linewidth]{figure/QR-code-legend.png}
+	\includegraphics[width = 0.60 \linewidth]{figure/QR-code-legend.jpeg}
 	\label{fig:qrcodelegend}
 }
 \hfill
 \subfloat[QR-tag content on a 5.5' screen]{
-	\includegraphics[width = 0.35 \linewidth]{figure/qr-code-content}
+	\includegraphics[width = 0.30 \linewidth]{figure/qr-code-content.jpg}
 	\label{fig:qrcodecontent}
 }
 \caption{QR tag parts and content}
 \end{figure}
 
+%\begin{figure}
+%\subfloat[Linked page: the map]{
+%	\includegraphics[width = 0.60 \linewidth]{figure/webpage-map}
+%	\label{fig:linkmap}
+%}
+%\subfloat[Editing a feature associated with a QR-tag in UMap]{
+%	\includegraphics[width = 0.35 \linewidth]{figure/umap-editing.png}
+%	\label{fig:umap-editing}
+%}
+%\subfloat[Linked page: survey form]{
+%	\includegraphics[width = 0.30 \linewidth]{figure/webpage-poll.png}
+%	\label{fig:linkpoll}
+%}
+%\caption{Content of the Web page linked to the URL in a QR tag}
+%\label{fig:webpage}
+%\end{figure}
+
 \begin{figure}
-\subfloat[Linked page: the map]{
-	\includegraphics[width = 0.60 \linewidth]{figure/webpage-map}
-	\label{fig:linkmap}
-}
-\subfloat[Linked page: survey form]{
-	\includegraphics[width = 0.30 \linewidth]{figure/webpage-poll.png}
-	\label{fig:linkpoll}
-}
-\caption{Content of the Web page linked to the URL in a QR tag}
-\label{fig:webpage}
+\includegraphics[width =\linewidth]{figure/combo_gen.jpeg}
+\caption{Generation of the QR tag and UMap visualization from UMap content. The uMap editor (bottom left) provides a simplified access to the GeoJSON description. The same interface allows to specify the template controlling the Web visualization of the map (right side). An ad-hoc application referenced in the paper allows to transform the uMap file downloaded from the server into a batch of printable QR tags (top left). The tag is highlighted in red in the picture on the Web display}
 \end{figure}
 
 \begin{table}
     \begin{tabular} {|>{\raggedright\arraybackslash}p{3cm}|l|l|l|l|}
         \hline 
-        \textbf{Name} & \textbf{Long} & \textbf{Lat} & \textbf{URL Key} & \textbf{Length} \\ \hline
+        \textbf{Name} & \textbf{Long} & \textbf{Lat} & \textbf{FID} & \textbf{Length} \\ \hline
         Buca La Piella & 10.68361 & 44.03667 & t5ysrm & 476 \\ \hline
         Calendario celtico & 10.66985 & 44.03986 & my0kp8 & 484 \\ \hline
         Castello & 10.67062 & 44.04004 & 4l4r6y & 597 \\ \hline
@@ -797,32 +803,54 @@ There are many ways to distribute the content among the three LoRs, dictated by 
         Ingresso Buca La Piella & 10.68358 & 44.03592 & 5ahvp8 & 190 \\ \hline
         Riparo sottoroccia lungo percorso Piella & 10.68401 & 44.03573 & kwr1wx & 286 \\    \hline
     \end{tabular}
-\caption{The QR-tags placed around \emph{Casoli} . The URL key is a random code that appears on the web page linked to the QR code. The Length refers to the description in the QR tag and is in characters. \label{tab:qrtags}}
+\caption{The QR-tags placed around \emph{Casoli} . The FID (Feature IDentifier) is a random code that appears on the web page linked to the QR code. The Length refers to the description in the QR tag and is in characters. \label{tab:qrtags}}
 \end{table}
 
 The production process of a series of tags has also been investigated to streamline the task and use only basic Information Technology skills.
 
 The master document is a \emph{GeoJSON} file describing the area and the tagged features: a GPS tracking application can be used to record an initial version of it during a recon.
 
-The finalized master document contains a single \emph{GeoJSON} \emph{FeatureCollection} object containing one \emph{Feature} object for each tag. Each \emph{Feature} contains a \emph{Geometry} object of type \emph{Point}, and a \emph{properties} object with fields containing information needed to create the tag: its unique identifier \emph{uid}, a random string of six lowercase letters used to produce the associated URL, the \emph{title} printed on the tag, and the text to be encoded in the QR code (see figure \ref{fig:geojson-sample}). The \emph{properties} are also shown on the UMap map. 
+The finalized master document contains a single \emph{GeoJSON} \emph{FeatureCollection} object containing one \emph{Feature} object for each tag. Each \emph{Feature} contains a \emph{Geometry} object of type \emph{Point}, and a \emph{properties} object with fields containing information needed to create the tag: its unique identifier \emph{uid}, a random string of six lowercase letters used to produce the associated URL, the \emph{title} printed on the tag, and the text to be encoded in the QR code (see figure \ref{fig:geojson-sample})
+
+\begin{table}
+\begin{lstlisting}[language=json]
+{
+  "type": "Feature",
+  "geometry": { 
+    "type": "Point", 
+    "coordinates": [10.67592,44.035298]
+  },
+  "properties": {
+    "fid": "fxq83v",
+    "name": "Sant'Andrea de Lacu",
+    "description": "Secondo le ... ad uso abitativo.",
+    "imageTag": "1m0Vad1Om2ihSVezPUkMKfuCUlg3ptC6z",
+    "urlPrefix": "https://sites.google.com/ ..."
+  }
+}
+\end{lstlisting}
+\caption{\emph{GeoJSON} \emph{Object} of a feature associated with a QR-code. Ellipsis (...) are used to shorten long strings  \label{fig:geojson-sample}}
+\end{table}
+
+The \emph{properties} are also shown on the UMap map.
 
 Editing the map downloaded from the GPS app to fill in the {\em properties} does not require technical skills, since the tools integrated into the UMap user interface already fit the purpose (see figure \ref{fig:umap-editing}). The resulting \emph{GeoJSON} object describing a tagged feature is shown in figure \ref{fig:geojson-sample}.
 
 The master document is rendered by UMap on the page linked to the tags (as in figure \ref{fig:linkmap}).
 
-\begin{figure}
-\subfloat[Editing a feature associated with a QR-tag in UMap]{
-	\includegraphics[width = 0.35 \linewidth]{figure/umap-editing.png}
-	\label{fig:umap-editing}
-}
-\hfill
-\subfloat[\emph{GeoJSON} \emph{Object} representing the same the feature]{
-	\includegraphics[width = 0.60 \linewidth]{figure/geojson-sample.png}
-	\label{fig:geojson-sample}
-}
-\caption{Editing the \emph{GeoJSON} with uMap editor. The resulting file is automatically converted into printable QR-tags}
-\label{fig:editing}
-\end{figure}
+%\begin{figure}
+%\subfloat[Editing a feature associated with a QR-tag in UMap]{
+%	\includegraphics[width = 0.35 \linewidth]{figure/umap-editing.png}
+%	\label{fig:umap-editing}
+%}
+%\hfill
+%\subfloat[\emph{GeoJSON} \emph{Object} representing the %same the feature]{
+%	\includegraphics[width = 0.60 \linewidth]{figure/geojson-sample.png}
+%	\label{fig:geojson-sample}
+%}
+%\caption{Editing the \emph{GeoJSON} with uMap editor. The resulting file is automatically converted into printable QR-tags}
+%\label{fig:editing}
+%\end{figure}
 
 A \emph{Bash} script running on a Linux system makes straightforward the conversion of the \emph{GeoJSON} file into a printable array of QR tags. The code, a total of 90 source lines written in Bash and Python makes use of the \texttt{ogr2ogr} and \texttt{qrencode} commands, and is on GitHub \citeWeb{github-qr}.
 
@@ -838,7 +866,7 @@ One conclusion after the above analysis is that, in order to preserve the native
 
 We investigated a technique for guiding the visitor and telling the history of the place. The fragile economy limits financial investment, while the natural heritage requires non-intrusive techniques.
 
-The proposed solution consists of a dozen QR tags placed at key locations. The total cost of the tags amounts to a few Euros for the printing service, although finding a shop with an appropriate printing device may be difficult. The impact on the environment is extremely limited, as shown in figure \ref{fig:TagPlacement}.
+The proposed solution consists of placing at selected locations the QR tags listed in table \ref{tab:qrtags}. The total cost of the tags amounts to a few Euros for the printing service, although finding a shop with an appropriate device may be difficult. The impact on the environment is extremely limited, as shown in figure \ref{fig:TagPlacement}.
 
 \begin{figure}
 \subfloat[A tag secured to a tree near a shelter]{
@@ -873,7 +901,13 @@ Although we are satisfied that the solution complies with the sustainability pri
     \item Monitoring visitor's activity, like the frequency of visits of a given tag, or the sequencing of visited tags, which may be of interest for managing the site, is currently ineffective.
 \end{itemize}
 
-Trading off cost and simplicity for effectiveness and measurability there are solutions, based, for instance, on Bluetooth communication or dedicated applications, that might solve such issues. 
+Trading off cost and simplicity for effectiveness and measurability there are alternative solutions.
+
+One technology that fits the requirements of our task is Bluetooth Low Energy (BLE): the autonomy of a battery-operated BLE device is compatible with the periodic maintenance of other forms of signage. A Bluetooth device can send to the visitor's smartphone a beacon to indicate the presence of a passive sign, like a not-so-visible QR tag, or directly deliver information. However this requires the installation of the app on the visitor, and the design of the IT product including the device and the application, which may cost far more than the physical devices. 
+
+A different application-based solution privileging passive devices is based on a writable NFC tag close to the one delivering the content. To update the number of visitors that have read the informational NFC, the user application reads and increments the count recorded on the writable NFC. Here too the primary drawback compared with our QR-tag based solution is the need for an ad-hoc application. In addition the event of data pollution is not excluded.
+
+The demonstration of the existence of such needs biases the technological evolution: for instance, if counting NFC reads were a frequent requirement, tags with such a feature would be produced at low costs, and the increment operation might become a default in NFC reading apps. The research on low-energy and low-cost devices is also that of demonstrating that the market for such devices is expanding.
 
 \section{Conclusions}
 
@@ -883,7 +917,7 @@ This paper is a step in this direction. We address an ordinary problem, that of 
 
 We show how a balanced use of technology may help in the task, with a process that is necessarily multidisciplinary, joining skills coming from the diverse domains: sociology, economics, humanities, and engineering. The paper demonstrates how their interplay returns ad-hoc tools targeting sustainability and efficacy.
 
-The resulting implementation is original in the literature, and minimalistic in its deployment. The detailed description enables its reuse as a starting point in future initiatives.
+The resulting implementation is minimalistic in its deployment. The detailed description enables its reuse as a starting point in future initiatives.
 
 On the technical side, the discussion regarding the deployed experiment indicates directions for future investigation. The definition of a potential application will foster research aiming at passive or very low-energy devices that are able to effectively advertise their presence and collect statistics.
 
