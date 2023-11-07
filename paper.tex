@@ -57,7 +57,7 @@
 % cleveref: load \crefname definitions after \begin{document}
 \usepackage{float}
 \usepackage[caption = false]{subfig}
-\usepackage{tablefootnote}
+%\usepackage{tablefootnote}
 \usepackage{multibib}
 \usepackage{listings}
 \usepackage{xcolor}
@@ -198,7 +198,7 @@ Although an official decision is still pending, there is a widely agreed proposa
 
 The problem with the above fact is that we humans are not able to understand the long-term consequences of deploying such a potential, nor even to keep it under control. Even worse, such capacities are often used with the aim of short-term local effects, ignoring long-term global ones, with the risk of long-term global deterioration. This attitude pervades all activities, starting with the most basic ones as the supply of food and homes, and is often influenced by economic profit.
 
-Leisure activities play are relevant in bringing profit to niche businesses. This creates a reinforcing effect that follows the negative dynamics seen above: a leisure activity that is neutral in itself (e.g., skying) can have a significant impact due to induced effects (lifts) that strengthen the success of the activity (easier to practice) bringing more investment and impact. Unlike the beneficial effects, which are usually well localized, the negative impact has a very broad spectrum that includes environmental, social, and economic sectors, as discussed by Patthey in \cite{pat08a} relating to outdoor winter sports.
+Leisure and cultural activities, like tourism, bring profit to niche businesses. This creates a reinforcing effect that follows the negative dynamics seen above: a activity that is neutral in itself (e.g., skying) can have a significant impact due to induced effects (lifts) that strengthen the success of the activity (easier to practice) bringing more investment and impact. Unlike the beneficial effects, which are usually well localized, the negative impact has a very broad spectrum that includes environmental, social, and economic sectors, as discussed by Patthey in \cite{pat08a} relating to outdoor winter sports.
 
 To manage this situation, international agencies promote the keyword "sustainability" as a guideline for the conservation of our habitat. Jeffry Ramsey et al. \cite{ram15a} consider the concept behind this word as "vague and disputed but not meaningless" and that cannot be used without a concrete framework, especially in a normative context. To solve the problem of measuring sustainability, Tom Kuhlman et al. \cite{kuh10a} point out an inherent conceptual tension between growth and stability. This tension has been attenuated by a change in the meaning of the word, which has gone from focusing on preservation for an indefinite future to a concept that includes three "pillars", society, economy, and environment, as determinants that need to be protected in the present to promote sustainable development in the future. The authors relate artificial and environmental goods, discriminating the two cases where a loss in the latter can or cannot be compensated by an increase in the former, introducing the terms of {\em weak} and {\em strong} sustainability.
 
@@ -208,7 +208,19 @@ This research stems from such a tough contradiction in trying to answer the ques
 
 The question arises in the course of the Underlandscape project \citeWeb{underlandscape} funded by the Italian Ministry of Research aimed at applying cutting-edge technologies to the investigation of karst caves that may have been inhabited, from prehistory to today. Among the expected results of the project is the definition of a strategy to disseminate the research outcomes allowing non-specialists to visit and enjoy the results, thus contributing to the economy of inland areas that are severely exposed to de-population. A sustainable strategy is even more crucial as the geological environment of interest is particularly fragile, as noted by Aleksander Antic\`c et al. in \cite{ant20a}.
 
-This document addresses the specific aspect of heritage trail signage, and describes a solution based on QR code tags. The design gathers suggestions from several disciplines to take into account the many aspects that contribute to sustainability. The result is a practical signage technology that is adaptable to other environments sharing defined traits.
+This paper illustrates a concrete exercise in designing for sustainability. We introduce an instance of cultural sustainability, an inland region with a legacy to defend, and design a concrete tool to address the issue. To reach fully sustainable result, we need to practice from the early design stages an holistic approach to the environmental, social and financial facets of the problem.
+
+The concrete aspect we address is a signage system, and the solution we propose is based on QR code tags. The result is applicable or adaptable to other environments sharing defined traits.
+
+The next section illustrates signage as a topic of interest. The discussion targets low cost, low impact technologies that are appropriate for outdoor signage of natural or cultural heritage, and finally indicates QR code tags as a consistent technology. The section features a survey of relevant literature.
+
+Section \ref{sec:methods} provides the multidisciplinary framework. Section \ref{sec:legacy} illustrates the legacy emphasizing historical facts and locations. Section \ref{sec:tourism} describes the social and touristic context of the target location and provides the guidelines for integrating the initiative in the socio-political fabric. Such guidelines are used to define an agenda, in section \ref{sec:agenda}, and the section is concluded by a reasoned description of the area, highlighting the points of interest and their reachability \ref{sec:soa}.
+
+Section \ref{sec:implementation} describes the concrete implementation that follows the defined requirements. The description of the process to produce the printed tags starting from editable content on a geographic database allows to reproduce and reuse the solution in other contexts.
+
+Section \ref{sec:results} merges the various aspects explored in the previous sections to provide a methodological view of the process, focusing on the interplay between the fourth pillars of sustainability.
+
+The conclusive section summarizes the results, the missing parts, and the potential of the solution. 
 
 \section{Unlocking site potentials through signage \label{sec:signage}}
 
@@ -311,15 +323,15 @@ We emphasize that this article is not meant to quantify user satisfaction or the
 
 The wireless capabilities of a smartphone are the focus of a straightforward approach. Given the premise that the Internet is assumed to be unreachable, the {\em host} stakeholder might provide a local network of low-power radios covering the region of interest. Small servers connected to the network would host specific Web services. The approach requires a modest investment and a marginal environmental impact: for instance, a small device based on the ESP8266 single-chip computer (SCC) has a coverage of tens of meters, and a volume in the order of the $cm^3$. It can provide a WiFi Access Point as well as Web content. The ESP8266 has a capacity of 32KB, which is sufficient for explanatory text and a low-resolution image. Other SCCs, like the ESP32, are more powerful but exhibit a higher power consumption. 
 
-Such a solution is severely limited by the power supply dependency. A radio transmitter is a rather power-consuming device, in the range of Watts. Even if intermittent, the operation of a battery-operated networking device cannot be guaranteed for long periods and the host organization should consider power harvesting, which negatively contributes to the economic cost and environmental footprint of the device.
+Such a solution is severely limited by the dependency from a power supply. A radio transmitter is a rather power-consuming device, in the range of Watts. Even if intermittent, the operation of a battery-operated networking device cannot be guaranteed for long periods and the host organization should consider power harvesting, which negatively contributes to the economic cost and environmental footprint of the device.
 
 For this reason, we do not consider a solution based on the deployment of a networking facility as a valid competitor against traditional board-based design. As explained, the reasons are related to poor sustainability.
 
 An alternative consists of the utilization of passive devices, like Near Field Communication (NFC) transmitters. The transmitting device is flat, the size of a coin, and costs less than one dollar per piece. To receive the content the smartphone must be very close to the NFC tag. The power needed to operate the radio is drained from the smartphone so that the transmitter does not depend on batteries. The NFC device capacity is in the range of the KBytes, nearly a page on this journal. Engraving content onto an NFC tag is a straightforward task that requires a smartphone and an ad-hoc app.
 
-The NFC technology is currently very diffused, although reading an NFC tag as text requires the installation of an appropriate application. Once the application is running the operation simply consists in approaching the smartphone to the tag: the tag content is transferred to the {\em user's} device as a chink of text. The smartphone can read it aloud to compensate for the user's inability or translate to deal with linguistic issues. Such capabilities do not need an Internet connection.
+The NFC technology is available without installing ad-hoc applications. Its operation consists in approaching the smartphone to the tag, and the user is advertised that a content is available. The smartphone can read it aloud to compensate for the user's inability or translate to deal with linguistic issues. Such capabilities do not need an Internet connection but currently depend on ad-hoc applications.
 
-Another solution in the family of passive devices is the QR tag (QR stands for Quick-Response). Such a technology does not require radio communication but uses the smartphone camera to acquire a graphical code that is translated into text. The capacity of a QR tag depends on the number of dots in the image, which in turn depends on the size of the code and the smartphone camera characteristics. We may consider that the capacity of a QR tag roughly equals that of an NFC tag. A QR tag is larger than an NFC tag of comparable capacity, and manufacturing requires a printer.
+Another solution in the family of passive devices is the QR tag (QR stands for Quick-Response). Such a technology does not require radio communication but uses the smartphone camera to acquire text encoded in a graphical code. The capacity of a QR tag depends on the number of dots in the image, which in turn depends on the size of the code and the smartphone camera characteristics. We may consider that the capacity of a QR tag roughly equals that of an NFC tag. A QR tag is larger than an NFC tag of comparable capacity, and manufacturing requires a printer.
 
 \begin{figure}
 	\centering
@@ -328,7 +340,7 @@ Another solution in the family of passive devices is the QR tag (QR stands for Q
 	\label{fig:qrnfccoin}
 \end{figure}
 
-A preliminary check verifies compliance with the Universal Design Principles \cite{udi97a}:
+A preliminary check verifies compliance of the passive technologies described above with the Universal Design Principles \cite{udi97a}:
 
 \begin{itemize}
 	\item {\em Equitable use} is closely related to the smartphone technology, which is itself considered a vehicle for equitability,
@@ -340,16 +352,18 @@ A preliminary check verifies compliance with the Universal Design Principles \ci
 	\item{\em Size and Space for approach and use} need to be carefully considered. In the case of the NFC tag the smartphone needs to be nearly in touch with the passive device, while the QR code must be in the line of sight and frameable without effort.
 \end{itemize}
 
-Such minimal solutions (see figure \ref{fig:qrnfccoin}) compare well with other more complex ones that make use of the user's smartphone. There is a trade-off concerning capacity, but in many circumstances, a capacity of 2-300 words is sufficient to convey the description of the site or provide directions for the visit. If capacity limits are not an issue, a solution based on NFC or QR tags exhibits several advantages:
+Compared with other smartphone-based technologies, there is a trade-off concerning capacity. However, a signage applications a capacity of 2-300 words is sufficient to provide directions for the visit and convey text-based educational contents. If capacity limits are not an issue, a solution based on NFC or QR tags exhibits several advantages:
 
 \begin{itemize} 
-\item does not require any power supply,
+\item does not require power supply,
 \item has a limited impact on the landscape,
 \item does not entice theft,
 \item has a negligible cost,
 \item is durable,
 \item produces a limited quantity of waste when disposed of,
-\item content can be stored for later usage; for instance, to visit a URL once the user reaches a zone covered by the Internet.
+\item content can be stored for later usage; for instance, to visit a URL once the user reaches a zone covered by the Internet,
+\item is inclusive regarding user inabilities and nationality,
+\item requires basic technical skills from the user.
 \end{itemize}
 
 The two passive technologies of choice exhibit the following features, that may make one of them preferable for a specific application:
@@ -362,9 +376,11 @@ The two passive technologies of choice exhibit the following features, that may 
 
 %It significantly outperforms any active device, except for the capacity, and the NFC compares favorably only when capacity and size are prominent.
 
-For a signage application, a QR tag is preferable because a noticeable size is needed. In addition, keeping the tag out of reach prevents vandalism and misuse.  
+For a signage application, a QR tag is preferable because a noticeable size is needed. In addition, keeping the tag out of reach prevents vandalism and misuse.  Therefore we have reasons to select a QR-tag-based solution for smartphone-based signage.
 
-In conclusion, we have reasons to select a QR-tag-based solution as a good candidate for smartphone-based signage. We now consider how it copes with the limits of a traditional board-based approach (as listed in table \ref{sec:signage}):
+Its use is especially appropriate when the cultural heritage extends across a scarcely accessible land, preserving and accessing sites located on private property or in hazardous areas can be challenging. In these cases, QR tags could improve the visitors' experience by providing, besides textual data, the Web URLs for videos, aerial shots, and photos. Multimedia resources allow visitors to immerse themselves in the area's history and gain an experiential understanding, even if they don't have access to a specific spot. The resulting widespread knowledge can be a beneficial tourist-economic engine that encourages investments in cultural heritage policies, thus achieving the goal of protecting and conserving abandoned sites.
+
+We now examine how such technology copes with the limits of a traditional board-based approach (as listed in table \ref{sec:signage}):
 
 \begin{itemize}
 	\item dimensions: a 2-300 characters QR-code has a dimension in the order of 100 $cm^2$
@@ -378,7 +394,7 @@ In conclusion, we have reasons to select a QR-tag-based solution as a good candi
 		
 The host needs to resolve two issues. One problem is the balance between visual impact and visibility. Monitoring tag utilization, which is useful for all types of planning activities, is the other topic. They are discussed in section \ref{sec:results}.
 
-\section{Materials and Methods}
+\section{Materials and Methods \label{sec:methods}}
 
 Our study aims to demonstrate a sustainable solution in a concrete setting through a proof of concept. In order to follow a holistic approach, we must start with the definition of the operation framework.
 
@@ -386,7 +402,7 @@ This section is dedicated to describing the economic and social context, as well
 
 The geographical area of interest is the surroundings of \emph{Casoli}, a small village in a mountainous region in the north of Tuscany, Italy. The area falls within the municipality of \emph{Bagni di Lucca}, in the province of \emph{Lucca}. In 2021, the archaeological team of our project realized a thematic map assessing the reasons of interest for the heritage and the geomorphological features of the area.
 
-\subsection{The natural and cultural resources of \emph{Casoli} and its vicinity}
+\subsection{The natural and cultural assets of \emph{Casoli} and its vicinity \label{sec:legacy}}
 
 \emph{Bagni di Lucca} is located on the north-eastern boundary of the Province of \emph{Lucca}, in \emph{Val di Lima}, and is part of the \textit{Media Valle del Serchio} district. With its mountains it marks the historical border with the \textit{Modena} and \textit{Pistoia} area, it is very rich in potential for its naturalistic, archaeological, and historical heritage, both expressed and as yet unexpressed. Thanks to the archaeological map the main sites of interest from prehistoric to contemporary times in this municipality are cataloged, photographed, and georeferenced.
 
@@ -468,7 +484,7 @@ In the early modern age, villages of the area experienced a progressive architec
 Along the road that led toward \textit{Lucchio} crossing the area of \emph{Casoli} lake, there is the chapel of \textit{Madonna di Col di Piano} and two “\textit{metati}”, buildings destined for chestnuts drying, referable to the contemporary age. Referred to as the "bread tree," chestnut fruits and the flour derived from them were a staple of the mountain diet until the mid-1900s \cite{buc92, puc10}.
 
 
-\subsection{An integrated view of tourism in the \emph{Casoli} region}
+\subsection{An integrated view of tourism in the \emph{Casoli} region \label{sec:tourism}}
 
 %\subsubsection{Study of the tourist context for governance approaches}
 
@@ -489,9 +505,9 @@ In Italy, a municipality is the smallest geographical-administrative unit offeri
 
 \emph{Bagni di Lucca} owes part of its charm to the river \emph{Lima}, which runs along the city before flowing into the \textit{Serchio} River. The \emph{Lima} Valley (\emph {Val di Lima} in the local idiom) is a touristic basin set in the \textit{Serchio} Valley, dotted with medieval and Roman villages with historical remains such as underground caves. The \emph{Val di Lima} area is well-known for its environmental beauties including rupestrian and lake ecosystems, and offers a wide range of tourist attractions related to sports, from water sports, such as canyoning and rafting, to trekking in water and land, climbing, mountain biking, and horseback riding. Overall, the \emph{Val di Lima} has the capabilities to promote a very identifying destination brand straddling the town of Lucca and the mountain area of the \textit{Garfagnana}.
 
-The strategic position of \emph{Bagni di Lucca} is one of the strengths of its tourism context, together with the presence of such attractive elements like the \emph{Orrido di Botri} with the \emph{Canyon Park\footnote{\url{ https://www.canyonpark.it/}}}, and other service companies and associations for experiential tourism.
+The strategic position of \emph{Bagni di Lucca} is one of the strengths of its tourism context, together with the presence of such attractive elements like the \emph{Orrido di Botri} \citeWeb{botri} with the \emph{Canyon Park} \citeWeb{canyonpark}, and other service companies and associations for experiential tourism.
 
-In reason of a whole insight of the mentioned touristic area, a socio-cultural approach is needed, by considering also tourism flows. In this perspective, it must be considered that there isn’t touristic information at the administrative level of \emph{Casoli}, so the tourism context analysis concerns the Municipality area of \emph{Bagni di Lucca}, as the first territorial context providing tourist data registered by ISTAT (National Statistical Institute).
+In reason of a whole insight of the mentioned touristic area, a socio-cultural approach is needed, by considering also tourism flows. In this perspective, it must be considered that there isn’t touristic information at the administrative level of \emph{Casoli}, so the tourism context analysis concerns the Municipality area of \emph{Bagni di Lucca}, as the first territorial context providing tourist data registered by ISTAT (National Statistical Institute) \citeWeb{istat}.
  The demographic trend (Figure 4, a) enlightens a relevant aspect of \emph{Bagni di Lucca} society and economic aspects of its touristic ecosystem (Figure 4, b).
 
 \begin{figure}
@@ -514,7 +530,7 @@ In reason of a whole insight of the mentioned touristic area, a socio-cultural a
 %    \label{fig:population}
 %\end{figure}
 
-\emph{Bagni di Lucca} stretches on 164.70 $km^2$ area with a population density \footnote{Index referring to the number of people living in a territory per square kilometer. It is the rate between the annual number of residents and the surface area. In our case and for 2022, the density is 5593 people over 164.70 $km^2$.} of 3395 inhabitants per square kilometer and a job occupancy rate of 33.53\%. Regarding human growth at the territorial level, it is relevant to consider the \emph{Bagni di Lucca} population trend during the 2001-2022 period. The curve shown by figure \ref{fig:population} registers a constant and slight decrease of one thousand people in a twenty-year time frame (2001: 6556 people; 2022: 5593 people). 
+\emph{Bagni di Lucca} stretches on 164.70 $km^2$ area with a population density of 33.95 inhabitants per square kilometer and a job occupancy rate of 33.53\%. Regarding human growth at the territorial level, it is relevant to consider the \emph{Bagni di Lucca} population trend during the 2001-2022 period. The curve shown by figure \ref{fig:population} registers a constant and slight decrease of one thousand people in a twenty-year time frame (2001: 6556 people; 2022: 5593 people). 
 
 During the latest decades, numerous touristic operators have started their touristic activities by taking advantage of the climatic and morphological characteristics of the territory. From a quantitative perspective, it is relevant to understand the tourist flows during a 5-year time frame; the chart in figure \ref{fig:tourismflows} highlights a decreasing trend from 2017 to 2021 by considering the pandemic breakdown impacts on tourism.
 
@@ -525,7 +541,7 @@ During the latest decades, numerous touristic operators have started their touri
 %    \label{fig:tourismflows}
 %\end{figure}
 
-The Tourism Density Index \footnote{The Tourism Density Index shows the tourism concentration in the higher touristic season. It is the rate between the number of tourists and the surface area.} is 106.41 tourists per $km^2$ in 2022. The arrivals exhibit a drop from 2019 (from  4339 in 2017 to 2363 in 2021), and touristic presences have suffered a slight decrease during the same period, as shown in figure \ref{fig:tourismflows}, while a further increase has been registered in 2022 (5.876 arrivals).
+The Tourism Density Index is the rate between the number of tourists and the surface area in the higher touristic season. It is 106.41 tourists per $km^2$ in 2022. The arrivals exhibit a drop from 2019 (from  4339 in 2017 to 2363 in 2021), and touristic presences have suffered a slight decrease during the same period, as shown in figure \ref{fig:tourismflows}, while a further increase has been registered in 2022 (5.876 arrivals).
 
 The touristic area of \emph{Val di Lima} features a tourist area belonging to \emph{Bagni di Lucca} Municipality, the second touristic area after \textit{Barga}, in the \textit{Media Valle del Serchio Area}.
 
@@ -554,10 +570,12 @@ The touristic area of \emph{Val di Lima} features a tourist area belonging to \e
         Touristic density (visitors/{$km^2$}) & 106.41 & 1866.96 \\
         Average stay  (days) &  2.98 &  3.36 \\
         Accommodation density (accommodations/{$km^2$}) & 10.14 & 19.30 \\
-        Coexistence Index (100 $\times$ Foreign/Italian) & 103.74\% &  69.87\% \\ 
+        Coexistence (100 $\times$ Foreign/Italian) & 103.74\% &  69.87\% \\ 
          \hline
     \end{tabular}
-    \caption{Tourist indexes in \emph{Bagni di Lucca} in 2022\tablefootnote{Each index gives a different type of touristic information about \emph{Bagni di Lucca} Municipality: the touristic density represents the number of tourists per $km^2$; the Average stay index is the average number of nights spent in town by tourists; the Accommodation Density Index is related to the number of touristic presences on the number of beds occupied by tourists all over the year; the coexistence index shows the relevance of foreign tourists per 100 Italian tourists.}}
+    \caption{Tourist indexes in \emph{Bagni di Lucca}
+%. The {\em touristic density} is the number of tourists in a year per $km^2$. The {\em average stay} is the average number of nights spent in town by tourists. The {\em accommodation density} is the rate between the number of touristic presences and the number of beds occupied by tourists in a year. The {\em Coexistence} is the percent rate between foreign and Italian tourists.
+}
     \label{tab:tourism}
 \end{table}
 
@@ -664,7 +682,7 @@ Policymakers should recognize such needs and act in this way, both politically a
 
 In such a context digitalization plays a primary role in innovation actions, allowing effective monitoring of tourism dynamics, improving the touristic experience with geo-localization tools, and providing the tools to design and operate tourism initiatives \cite{lem22}.
 
-\subsubsection{Our activity}
+\subsubsection{Our activity \label{sec:agenda}}
 
 We include three stakeholder communities in the evaluation of the response to the initiative. We do not speak about {\em success} since the initiative is deliberately soft, an outcome expected in years, and the definition of the evaluation criteria raises new questions. We are content with determining if the stakeholders viewed the initiative as intrusive, helpful, or simply neutral.
 
@@ -706,7 +724,7 @@ In this view, the socio-political framework of tourism, involving governance mea
 
 Policy measures for sustainable and resilient tourism should focus on culture-led and community empowerment activities, such as preserving the history and memory of the place, promoting slow tourism and cultural innovation, as well as implementing digitalization activities.
 
-\subsubsection{Sites and trail’s state of art}
+\subsubsection{Sites and trail’s state of art \ref{sec:soa}}
 
 This section defines the points of interest selected to position the QR tags, and reports on their accessibility and state of conservation. This may be relevant in a perspective to spot the segment of users that may take advantage of the tag. 
 
@@ -729,7 +747,7 @@ On the summit are the remains of the medieval castle with its walls. In need of 
 
 Two other sites that are particularly curious but cannot be visited because located on private properties are the so-called  {\em Celtic Calendar}, an artificially excavated rock interpreted as a kind of sundial, and an epigraph reused in a house interpreted as Lombard.
 
-\subsection{Implementing a QR-based signage}
+\subsection{Implementing a QR-based signage \label{sec:implementation}}
 
 The concept behind the implementation of the QR-based signage is to guide the visitor through a self-organized experience. To verify on the field the practical aspects and deployment we realized and placed several QR tags. The list is in Table~\ref{tab:qrtags}.
 
@@ -867,15 +885,17 @@ A \emph{Bash} script running on a Linux system makes straightforward the convers
 
 \section{Results and discussion \label{sec:results}}
 
-We aim to define a design approach that will enhance the tourist experience of an inland area. The approach is conceptual and therefore applicable to a wide range of use cases. First, the requirements for sustainability in design are defined, taking into account the three pillars of sustainability: social, environmental, and economic.
+We aim to enhance the tourist experience in an inland area located around the village of Casoli. Our goal is tightly related with the fourth pillar of sustainability: there are natural and cultural assets that need to be nurtured or at least preserved. We concentrate on a signage system, the realization of which is finalized to reaching such cultural result.
 
-To put our approach into practice we used a small-scale use case: a signage system addressing the guidance of visitors in an inland area. The area has a cultural and environmental heritage to be protected and valorized at the same time.
+To avoid the over-tourism pitfall, we need to take into account the other three pillars: social, environmental, and economic. To this end we analyze the social fabric that will host our initiative, the environment where signage will be deployed, and the economic framework that will support its implementation. From this study we derive the requirements for our signage system: low environmental impact, open to participation of the residents, easy to use from the visitors, and economically sustainable with a minimal touristic flow. 
 
-Our design started by defining a profile for the area according to the \emph{three pillars}. The environmental aspect is characterized by natural formations and human artifacts tracing back to the Paleolithic Era. As for tourism-related economics, currently the dominant component in the area, we noticed that the location selected for our use case exhibits unexpressed potentialities although the area surrounding the location has a recognized touristic vocation. From the social point of view, we observed that the area is exposed to depopulation due to the shortage of productive activities.
+The approach we applied to reach such conclusions is summarized below: it is conceptual and therefore applicable to a wide range of use cases, and merely consists in designing the system with sustainability in mind from the early stages.
 
-One conclusion after the above analysis is that, in order to preserve the native social and economic framework, mass tourism is not a candidate target, while a motivated, non-casual visitor is preferable. Regarding the potential reasons for a visit, we found a not easily accessible cave inhabited since pre-history, a village with historical buildings, and nearby architecture dating back to the Middle Ages.
+Our design started by defining a profile for the area according to the \emph{three pillars}. The environmental aspect is characterized by natural formations and human artifacts tracing back to the Paleolithic Era. As for tourism-related economics, a qualitative and quantitative analysis \cite{loz09} reveals unique features that need to be capitalized on to enhance the tourism potential. Given the touristic trends and the local vocation, we conclude that Casoli is a small destination for visitors practicing heterogeneous touristic circuits in individual and combined ways. Cultural sustainability mandates the involvement of local stakeholders in planning new heritage itineraries and supporting initiatives, including signage.
 
-We investigated a technique for guiding the visitor and telling the history of the place. The fragile economy limits financial investment, while the natural heritage requires non-intrusive techniques.
+An outcome of the analysis of the social fabric is that, in order to preserve the native social and economic framework, mass tourism is not a candidate target, while a motivated, non-casual visitor is preferable. Regarding the potential reasons for a visit, we found a cave inhabited since pre-history but reachable with some effort, a village with historical buildings, and nearby architecture dating back to the Middle Ages. Such targets offer a variety of access ways, from those requiring performance to the relaxing ones. For this reason we opted for not suggesting a geo-itineray, allowing the user to follow personal inclinations. In this way we expect, justified by the results of \cite{sol18a}, that the educational impact of the signage is maximized.
+
+We investigated a technique for guiding the visitor and telling the history of the place. The small number of expected visitors limits financial investment, while the natural heritage requires non-intrusive techniques.
 
 The proposed solution consists of placing at selected locations the QR tags listed in table \ref{tab:qrtags}. The total cost of the tags amounts to a few Euros for the printing service, although finding a shop with an appropriate device may be difficult. The impact on the environment is extremely limited, as shown in figure \ref{fig:TagPlacement}.
 
@@ -893,28 +913,34 @@ The proposed solution consists of placing at selected locations the QR tags list
 \label{fig:TagPlacement}
 \end{figure}
 
-The preparation of the signage required a solid knowledge of the area that was gained by carrying out archaeological surveys and consulting historical documents and cartography. The evaluation of touristic vocation was based on the available statistical data and person-to-person informal interviews. Two on-site surveys provided further practical indications and the opportunity to place the QR tags.
+Previous investigations, including archaeological surveys and access to historical documents and cartography, allowed to design the contents to be delivered through signage. Two on-site surveys provided further practical indications and the opportunity to place the QR tags.
 
-On the technical side, the proposed signage is a benchmark difficult to improve in terms of environmental impact and cost.
+The main result from our activity is the real scale deployment of the signage, a non trivial exercise in holistic sustainable design.
+
+As a side result we have a signage technology based on QR code tags, a benchmark difficult to improve in terms of environmental impact and cost.
+
+%Its use is especially appropriate when the cultural heritage extends across a scarcely accessible land, preserving and accessing sites located on private property or in hazardous areas can be challenging. In these cases, QR tags could improve the visitors' experience by providing, besides textual data, the Web URLs for videos, aerial shots, and photos. Multimedia resources allow visitors to immerse themselves in the area's history and gain an experiential understanding, even if they don't have access to a specific spot. The resulting widespread knowledge can be a beneficial tourist-economic engine that encourages investments in cultural heritage policies, thus achieving the goal of protecting and conserving abandoned sites.
 
 %It fits cultural heritage assets that are not currently accessible, either because located on private property or showing unsafe structural conditions. The preservation of cultural heritage and its readiness for safe fruition may become difficult to attain in areas, like the hilly and mountainous terrain we studied, featuring a vast heritage scattered over a hardly accessible area. In these cases the QR tags improve the visitors experience by providing, beside textual data, also Web URLs for videos, aerial shots, or photos. Such multimedia resources immerse the visitor even more in the history of the area, and drive an experiential understanding. This copes with the duty of protection and conservation of abandoned sites, since positive enjoyment and widespread knowledge of the site develop, for an inland area undergoing depopulation, a virtuous loop between tourism and economy engine triggering investments in the cultural heritage policies.
 
-In areas like our use case, where the cultural heritage extends across scarcely accessible land, preserving and accessing sites located on private property or in hazardous areas can be challenging. In these cases, QR tags could improve the visitors' experience by providing, besides textual data, the Web URLs for videos, aerial shots, and photos. Multimedia resources allow visitors to immerse themselves in the area's history and gain an experiential understanding, even if they don't have access to a specific spot. The resulting widespread knowledge can be a beneficial tourist-economic engine that encourages investments in cultural heritage policies, thus achieving the goal of protecting and conserving abandoned sites.
 
-Collecting statistics about user perception is not a primary interest for us at this stage. However, we provided two ways to collect such data. One is a 5-questions poll on the web pages linked to each tag. The user is asked to agreement a level of agreement with the following sentences:
-\begin {itemize}
+Collecting statistics about user perception is not a primary interest for us at this stage: the initiative started as an exercise and was not adequately advertised to the potential users. However, we provided two ways to collect data as part of the exercise.
+
+One is a poll in five points on the web pages linked to each tag. The user is asked to quantify an agreement (0-do not agree, 5-strongly agree) with four sentences, and finally provide an answer:
+\begin{itemize}
 \item the QR tag was useful
 \item a plaque would be preferable
-\item I scanned other QR codes in the vicinity
 \item I will come back to visit the sites I did not visit today
 \item I am satisfied about my visit
+\item I scanned other QR codes in the vicinity
 \end{itemize}
-In addition, the hits on the pages linked to the QR-codes were counted. Both ways proved to be ineffective. In the case of the form, we collected one positive feedback that has no statistical significance. The hit count was polluted by spurious access to the page (for instance for maintenance, or reaching the page from the map) and by the fact that scanning the tag was not necessarily linked to a hit.
+
+The other is an hits count on the pages linked to the QR-codes.
+
+Both of them proved to be ineffective. We collected only one form with a positive feedback but with no statistical significance. The hit count was polluted by spurious accesses to the page (for instance for maintenance, or reaching the page from the map) and by the fact that scanning the tag was not necessarily linked to a hit.
 %Its {\em performance} is currently difficult to evaluate. The recording of the number of times a given tag is scanned, in theory, a significant performance index, is unreliable for technical reasons, one being that the QR tag cannot record or transmit read events. Another is that the user may be unable or unwilling to visit the URL in the tag. Finally, the URL can be visited by means different from the QR reading. For such reasons, despite we acknowledging its importance for the stakeholders, we do not discuss such an index.
 
 The reactions we collected by interviewing local stakeholders are positive, which gives us the impression that the initiative is respectful and consistent with the social and economic framework. The measurement of the efficacy in financial terms is currently beyond the scope of this paper and will be assessable only in the long term depending on the collaboration of the involved stakeholders.
-
-Geo-itinerary
 
 Although we are satisfied that the solution complies with the sustainability principles that inspired this work, we identified two issues that indicate directions for future research:
 
@@ -933,7 +959,7 @@ The demonstration of the existence of such needs biases the technological evolut
 
 \section{Conclusions}
 
-Based on qualitative and quantitative analysis \cite{loz09} carried out in the social and touristic context of Bagni di Lucca, including the Casoli village, it can be argued that the area under investigation has unique features that need to be capitalized on to enhance its tourism potential. Given the touristic trends and the local vocation, we conclude that Casoli is a small destination for potential tourists practicing heterogeneous touristic circuits in individual and combined ways. Our study aims to involve stakeholders in sustainable planning for new heritage itineraries, despite accessibility limitations on site.
+
 
 Tourism, like other productive activities, is at risk of being unsustainable and damaging the very resources that support it. To avoid heavy drawbacks the design of a tourism initiative has to consider the complex framework where it will operate according to an \emph{holistic} approach. A methodology made of examples and guidelines helps cope with such a challenging task.
 
