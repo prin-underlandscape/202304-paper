@@ -111,7 +111,7 @@
 \address{%
 $^{1}$ \quad University of Pisa (retired); augusto.ciuffoletti@unipi.it\\
 $^{2}$ \quad University of Pisa; mariagrazia.deri@sp.unipi.it\\
-$^{3}$ \quad University of Pisa; l.chiti2@studenti.unipi.it}
+$^{3}$ \quad University of Pisa; letizia.chiti@}
 
 % Contact information of the corresponding author
 \corres{Correspondence: augusto.ciuffoletti@unipi.it}
@@ -214,7 +214,7 @@ The concrete aspect we address is a signage system, and the solution we propose 
 
 The next section illustrates signage as a topic of interest. The discussion targets low cost, low impact technologies that are appropriate for outdoor signage of natural or cultural heritage, and finally indicates QR code tags as a consistent technology. The section features a survey of relevant literature.
 
-Section \ref{sec:methods} provides the multidisciplinary framework. Section \ref{sec:legacy} illustrates the legacy emphasizing historical facts and locations. Section \ref{sec:tourism} describes the social and touristic context of the target location and provides the guidelines for integrating the initiative in the socio-political fabric. Such guidelines are used to define an agenda, in section \ref{sec:agenda}, and the section is concluded by a reasoned description of the area, highlighting the points of interest and their reachability \ref{sec:soa}.
+Section \ref{sec:methods} provides the multidisciplinary framework. Section \ref{sec:legacy} illustrates the legacy emphasizing historical facts and locations. Section \ref{sec:tourism} describes the social and touristic context of the target location and provides the guidelines for integrating the initiative in the socio-political fabric. Such guidelines are used to motivate and define an agenda, in section \ref{sec:agenda}, and the section is concluded by a reasoned description of the area, highlighting the points of interest and their reachability \ref{sec:soa}.
 
 Section \ref{sec:implementation} describes the concrete implementation that follows the defined requirements. The description of the process to produce the printed tags starting from editable content on a geographic database allows to reproduce and reuse the solution in other contexts.
 
@@ -457,7 +457,7 @@ variant that from \textit{Popiglio} continues in five stages in the municipality
 
 Such initiatives led to a considerable revival of interest among Italian and international hikers in the area, especially for the Apennine side of the valley.
 
-The way to improve the valorization and enjoyment of this area applies to a slow tourism approach. This approach can involve the community, especially in the southern part of the municipality, which is still less frequented, more hilly, and therefore less traveled by the network of trails. We envision the creation of geo-itineraries characterized by the rediscovery of the historical roads, partly well-preserved, which connected the villages with the valley bottom and between them, including those sites of interest that encapsulate the history of this area, starting with the caves.
+The way to improve the valorization and enjoyment of this area applies to a slow tourism approach. This approach can involve the community, especially in the southern part of the municipality, which is still less frequented, more hilly, and therefore less traveled by the network of trails. We envision the creation of heritage trails characterized by the rediscovery of the historical roads, partly well-preserved, which connected the villages with the valley bottom and between them, including those sites of interest that encapsulate the history of this area, starting with the caves.
 
 \subsubsection{An historical perspective of an Italian mountain site}
 
@@ -573,7 +573,7 @@ The touristic area of \emph{Val di Lima} features a tourist area belonging to \e
         Coexistence (100 $\times$ Foreign/Italian) & 103.74\% &  69.87\% \\ 
          \hline
     \end{tabular}
-    \caption{Tourist indexes in \emph{Bagni di Lucca}
+    \caption{Tourist indexes in \emph{Bagni di Lucca} in 2022
 %. The {\em touristic density} is the number of tourists in a year per $km^2$. The {\em average stay} is the average number of nights spent in town by tourists. The {\em accommodation density} is the rate between the number of touristic presences and the number of beds occupied by tourists in a year. The {\em Coexistence} is the percent rate between foreign and Italian tourists.
 }
     \label{tab:tourism}
@@ -682,7 +682,7 @@ Policymakers should recognize such needs and act in this way, both politically a
 
 In such a context digitalization plays a primary role in innovation actions, allowing effective monitoring of tourism dynamics, improving the touristic experience with geo-localization tools, and providing the tools to design and operate tourism initiatives \cite{lem22}.
 
-\subsubsection{Our activity \label{sec:agenda}}
+\subsubsection{How top implement the guidelines? \label{sec:agenda}}
 
 We include three stakeholder communities in the evaluation of the response to the initiative. We do not speak about {\em success} since the initiative is deliberately soft, an outcome expected in years, and the definition of the evaluation criteria raises new questions. We are content with determining if the stakeholders viewed the initiative as intrusive, helpful, or simply neutral.
 
@@ -724,7 +724,7 @@ In this view, the socio-political framework of tourism, involving governance mea
 
 Policy measures for sustainable and resilient tourism should focus on culture-led and community empowerment activities, such as preserving the history and memory of the place, promoting slow tourism and cultural innovation, as well as implementing digitalization activities.
 
-\subsubsection{Sites and trail’s state of art \ref{sec:soa}}
+\subsubsection{Sites and trail’s state of the art \ref{sec:soa}}
 
 This section defines the points of interest selected to position the QR tags, and reports on their accessibility and state of conservation. This may be relevant in a perspective to spot the segment of users that may take advantage of the tag. 
 
@@ -953,13 +953,9 @@ Trading off cost and simplicity for effectiveness and measurability there are al
 
 One technology that fits the requirements of our task is Bluetooth Low Energy (BLE): the autonomy of a battery-operated BLE device is compatible with the periodic maintenance of other forms of signage. A Bluetooth device can send to the visitor's smartphone a beacon to indicate the presence of a passive sign, like a not-so-visible QR tag, or directly deliver information. However this requires the installation of the app on the visitor, and the design of the IT product including the device and the application, which may cost far more than the physical devices. 
 
-A different application-based solution privileging passive devices is based on a writable NFC tag close to the one delivering the content. To update the number of visitors that have read the informational NFC, the user application reads and increments the count recorded on the writable NFC. Here too the primary drawback compared with our QR-tag based solution is the need for an ad-hoc application. In addition, the event of data pollution is not excluded.
-
 The demonstration of the existence of such needs biases the technological evolution: for instance, if counting NFC reads were a frequent requirement, tags with such a feature would be produced at low costs, and the increment operation might become a default in NFC reading apps. The research on low-energy and low-cost devices is also that of demonstrating that the market for such devices is expanding.
 
 \section{Conclusions}
-
-
 
 Tourism, like other productive activities, is at risk of being unsustainable and damaging the very resources that support it. To avoid heavy drawbacks the design of a tourism initiative has to consider the complex framework where it will operate according to an \emph{holistic} approach. A methodology made of examples and guidelines helps cope with such a challenging task.
 
