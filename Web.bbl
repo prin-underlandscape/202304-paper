@@ -1,37 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{tbdl}
-Bagni di {L}ucca tourism portal.
-\newblock \url{https://www.turismobagnidilucca.com/}.
-\newblock (accessed on 9 November 2023).
-
-\bibitem{istat}
-{ISTAT} official website for socio-economical data analysis on {I}talian
-  territory.
-\newblock \url{https://www.istat.it/}.
-\newblock (accessed on 9 November 2023).
-
-\bibitem{nat00}
-{R}ete {N}atura 2000.
-\newblock \url{https://www.mase.gov.it/pagina/rete-natura-2000}.
-\newblock (accessed on 9 November 2023).
-
-\bibitem{agfa}
-About {SYNAPS} - 100\% respect for preserving natural resources.
-\newblock
-  \url{https://www.agfa.com/specialty-products/solutions/synaps-synthetic-paper/environment/}.
-\newblock (accessed on 9 November 2023).
-
-\bibitem{github-qr}
-Q{R} tag generator.
-\newblock \url{https://github.com/prin-underlandscape/QR-tags-generation.git}.
-\newblock (accessed on 9 November 2023).
-
-\bibitem{underlandscapeweb}
-Underlandscape website.
-\newblock \url{https://sites.google.com/view/prin-underlandscape}.
-\newblock (accessed on 9 November 2023).
-
 \bibitem{underlandscape}
 {PRIN} 2020 {U}nderlandscape: a multi-analytic approach to the study,
   conservation and valorization of the underground historical environment and
@@ -40,14 +8,35 @@ Underlandscape website.
   \url{https://prin.mur.gov.it/Ricerca?Filtro.Argomento=Underlandscape}.
 \newblock (accessed on 9 November 2023).
 
-\bibitem{botri}
-Orrido di {B}otri {N}atural {R}eserve.
-\newblock \url{https://www.orridodibotri.toscana.it/}.
+\bibitem{nat00}
+{R}ete {N}atura 2000.
+\newblock \url{https://www.mase.gov.it/pagina/rete-natura-2000}.
 \newblock (accessed on 9 November 2023).
 
 \bibitem{camsb}
 {S}aint {B}artholomew’s {P}ath.
 \newblock \url{https://camminodisanbartolomeo.com/}.
+\newblock (accessed on 9 November 2023).
+
+\bibitem{botri}
+Orrido di {B}otri {N}atural {R}eserve.
+\newblock \url{https://www.orridodibotri.toscana.it/}.
+\newblock (accessed on 9 November 2023).
+
+\bibitem{istat}
+{ISTAT} official website for socio-economical data analysis on {I}talian
+  territory.
+\newblock \url{https://www.istat.it/}.
+\newblock (accessed on 9 November 2023).
+
+\bibitem{tbdl}
+Bagni di {L}ucca tourism portal.
+\newblock \url{https://www.turismobagnidilucca.com/}.
+\newblock (accessed on 9 November 2023).
+
+\bibitem{valdilima}
+Val di {L}ima tourism portal.
+\newblock \url{https://www.valdilima.org/}.
 \newblock (accessed on 9 November 2023).
 
 \bibitem{bdl}
@@ -67,7 +56,7 @@ Canyon park portal.
 \newblock (accessed on 9 November 2023).
 
 \bibitem{ebikea}
-Esplora la val di lima con le bici elettriche.
+{E}splora la {V}al di {L}ima con le bici elettriche.
 \newblock \url{http://www.ebikeadventuretour.it/}.
 \newblock (accessed on 9 November 2023).
 
@@ -101,9 +90,20 @@ Val di {L}ima tourism experience organizer.
 \newblock \url{https://www.valdilimaoffroad.com}.
 \newblock (accessed on 9 November 2023).
 
-\bibitem{valdilima}
-Val di {L}ima tourism portal.
-\newblock \url{https://www.valdilima.org/}.
+\bibitem{underlandscapeweb}
+Underlandscape website.
+\newblock \url{https://sites.google.com/view/prin-underlandscape}.
+\newblock (accessed on 9 November 2023).
+
+\bibitem{agfa}
+About {SYNAPS} - 100\% respect for preserving natural resources.
+\newblock
+  \url{https://www.agfa.com/specialty-products/solutions/synaps-synthetic-paper/environment/}.
+\newblock (accessed on 9 November 2023).
+
+\bibitem{github-qr}
+Q{R} tag generator.
+\newblock \url{https://github.com/prin-underlandscape/QR-tags-generation.git}.
 \newblock (accessed on 9 November 2023).
 
 \end{thebibliography}
