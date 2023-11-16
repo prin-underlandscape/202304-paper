@@ -220,7 +220,7 @@ Section \ref{sec:methods} provides the multidisciplinary framework. Section \ref
 
 Section \ref{sec:results} merges the various aspects explored in the previous sections to provide a methodological view of the process, focusing on the interplay between the four pillars of sustainability.
 
-The conclusive section summarizes the results, the missing parts, and the potential of the solution. 
+The conclusive section summarizes the results, the pending tasks, and the potential of the solution. 
 
 \section{Unlocking site potentials through signage \label{sec:signage}}
 
@@ -303,16 +303,6 @@ In that direction, we meet the phenomenon of {\em overtourism}, covered by signi
 
 The present paper wants to fill the gap highlighted by Rodriguez, providing a conceptual yet pragmatic approach to a well-defined aspect of tourism support, taking into account its sustainability "by design". Once a range of relevant solutions is identified, we proceed to the empirical part: a {\em proof of concept} implementation that verifies the feasibility of a specific solution.
 
-Regarding the QR code, the specific technology are going to use, it have been invented in 1994 for industrial applications. The current version, described in \cite{isoqr}, is dated February 2015. In 2013 an early paper by Martinez et al. \cite{mar13a} suggests its utilization to implement a virtual tour in the {\em Las Quilamas Natural Park} in Spain. At that time the availability of QR-code readers was not as diffused as today, and therefore the work may be considered among the seminal ones. The authors proposed to use the QR code as a link to a panel in PDF format viewed on the user's portable device. A similar work in an urban environment is presented in \cite{fin13a} and \cite{tat15a}, the latter illustrating the QR system serving the monuments in the Serbian town of Niš.
-
-Since then, the use of the QR code technology for heritage promotion has been suggested in other papers. In \cite{sol18a} the authors describe its application in a museum: after defining the points of interest, tags have been placed and linked to related documents. The authors conducted a poll about user perception on two segments of users: Italians and Polish. The QR tags were not unanimously considered useful: in particular half of the Italian users considered them as not useful. It is interesting to note that the motivation of the other segment of users, less skeptical about usefulness, shared a solid educational motivation to access QR-linked content (70\% in the Polish group against 50\% in the Italian one). This fact sheds light on the necessity to provide content the user needs: curiosity is not a sufficient motivation.
-
-Recent publications about the use of QR codes for heritage valorization do not show significant novelties. In 2023, the authors of \cite{pan23a} introduce the installation of six QR codes in a museum and analyze the reactions of 42 visitors. The tags are created using the Taplink \url{https://taplink.at/} web service and are linked to content on the Web.
-
-All the referenced publications share a common attitude, which can be summarized in the motto "analog portal to the digital world", as in the title of \cite{bai12a}. None of them evaluates the possibility of storing text in the tag itself, thus eliminating the requirement of an Internet connection.
-
-The present paper promotes the use of QR codes as the primary or only way of providing information to the visitor. Unlike in the literature, where QR tags are considered ancillary to other forms of communication, like physical installations or linked Web contents. Therefore, in our case the informational content of the tag, which is commonly ignored, becomes relevant. It is a new and original way of using a QR code for the delivery of information.
-
 %We emphasize that this article is not meant to quantify user satisfaction or the economic revenue associated with the specific solution. Such a target is outside the scope of our research, and indeed the figures that would measure the success of a strategy deserve a thorough investigation. We aim at isolating an issue, proposing a sustainable strategy for its solution, and implementing a proof of concept for it.
 
 \subsection{A simple, low-impact solution}
@@ -376,7 +366,9 @@ The two passive technologies of choice exhibit the following features, that may 
 
 For a signage application, a QR tag is preferable because a noticeable size is needed. In addition, keeping the tag out of reach prevents vandalism and misuse.  Therefore we have reasons to select a QR-tag-based solution for smartphone-based signage.
 
-Its use is especially appropriate when the cultural heritage extends across scarcely accessible land, considering that preserving and accessing sites located on private property or in hazardous areas can be challenging. In such cases, QR tags could improve the visitors’ experience by providing, when Internet coverage is available, the Web URLs for videos, aerial shots, and photos, even if the specific spot is not accessible. Such resources allow visitors to immerse themselves in the area's history and gain an experiential understanding.
+The QR code have been invented in 1994 for industrial applications. The current version, described in \cite{isoqr}, is dated February 2015.
+
+In our use case it is especially appropriate when the cultural heritage extends across scarcely accessible land, considering that preserving and accessing sites located on private property or in hazardous areas can be challenging. In such cases, QR tags could improve the visitors’ experience by providing, when Internet coverage is available, the Web URLs for videos, aerial shots, and photos, even if the specific spot is not accessible. Such resources allow visitors to immerse themselves in the area's history and gain an experiential understanding.
 
 We now examine how such technology copes with the limits of a traditional board-based approach (as listed in table \ref{sec:signage}):
 
@@ -852,13 +844,25 @@ As for tourism-related economics, a qualitative and quantitative analysis \cite{
 
 In this perspective, our research is oriented to stimulate local policymakers and tourism professionals towards a better environmental and cultural sustainability approach by taking advantage of our study results to realize new potential heritage trails in Casoli and its vicinity.
 
-%As for tourism-related economics, a qualitative and quantitative analysis reveals unique features that need to be capitalized on to enhance the tourism potential.
+An outcome of the analysis of the social fabric is that, to preserve the native social and economic framework, mass tourism is not a candidate target, while a motivated, non-casual visitor is preferable.
 
-An outcome of the analysis of the social fabric is that, to preserve the native social and economic framework, mass tourism is not a candidate target, while a motivated, non-casual visitor is preferable. Regarding the potential reasons for a visit, we found a cave, reachable with some effort, inhabited since pre-history, a village with historical buildings, and nearby architecture dating back to the Middle Ages. Such targets offer a variety of access ways, from those requiring performance to relaxing ones. For this reason, we opted not to suggest a geo-itinerary, allowing the user to cherry-pick locations based on personal interests. In this way we expect, legitimated by the results of \cite{sol18a}, that the educational impact of the signage is maximized. Furthermore, our choice aims at concise and effective communication with the tourist by inserting within the QR code a text of an average of 460 characters that facilitates readability and immediately provides the information without further steps to web pages, which may slow down the visit or discourage the less motivated visitor.
+A rationale for the above attitude may be found in an article by Solima et al. \cite{sol18a}. The authors conducted a poll about user perception on two segments of users: Italians and Polish. The feelings about a QR based signage were not unanimous, and half of the Italian users considered it as not useful. Another result from the poll reveals that Polish users showed a stronger motivation to use tags for educational purposes (70\% versus 50\%), while Italians were mainly driven by curiosity. We conclude that, to provide a useful service, the signage must address a motivated user.
+
+So we identified the potential reasons for a visit. We found a cave reachable with some effort inhabited since pre-history, a village with historical buildings, and nearby architecture dating back to the Middle Ages. Such targets offer a variety of access ways, from those requiring performance to relaxing ones. For this reason, we opted not to suggest a geo-itinerary, allowing the user to cherry-pick locations based on personal interests.
 
 We investigated a technique for guiding the visitor and telling the history of the place. The small number of expected visitors limits financial investment, while the natural heritage requires non-intrusive techniques.
 
 The proposed solution consists of placing at selected locations the QR tags listed in table \ref{tab:qrtags}. The total cost of the tags amounts to a few Euros for the printing service, although finding a shop with an appropriate device may be difficult. The impact on the environment is extremely limited, as shown in figure \ref{fig:TagPlacement}.
+
+To allow readability in {\em dead zones} and quickly provide the information without further steps to web pages, we encode the content within the QR code itself. The content consists of a text of an average of 460 characters aiming at a concise and effective communication with the tourist.
+
+Therefore, in our design, the information encoded in the QR tag is the primary or only way of communication with the visitor. It is a new and original way of using such technology, since QR tags are instead considered ancillary to other forms of communication, like physical installations or linked Web contents, according with the motto "analog portal to the digital world", as in the title of \cite{bai12a}. 
+
+Such an attitude has not much changed since the first reported utilization of QR tags for heritage promotion. In 2013 an early paper by Martinez et al. \cite{mar13a} suggests its utilization to implement a virtual tour in the {\em Las Quilamas Natural Park} in Spain. At that time the availability of QR-code readers was not as diffused as today, and therefore the work may be considered among the seminal ones. The authors proposed to use the QR code as a link to a panel in PDF format viewed on the user's portable device. Similar works in an urban environment are presented in \cite{fin13a} and \cite{tat15a}, the latter illustrating the QR system serving the monuments in the Serbian town of Niš. Among indoor applications we already referenced \cite{sol18a}, which describe the use of QR tags linked to Web resources in two museums in different countries.
+
+The role of QR tags did not change from those early days: in 2023, the authors of \cite{pan23a} introduce the installation of six QR codes in a museum and analyze the reactions of 42 visitors. The tags are created using the Taplink \url{https://taplink.at/} web service and are linked to content on the Web. 
+
+We conclude that storing informational content in the tag itself is not considered as an option, which justifies the novelty of our approach.
 
 \begin{figure}
 \subfloat[A tag secured to a tree near a shelter]{
@@ -874,7 +878,7 @@ The proposed solution consists of placing at selected locations the QR tags list
 \label{fig:TagPlacement}
 \end{figure}
 
-Previous investigations, including archaeological surveys and access to historical documents and cartography, allowed to design of the contents to be delivered through signage. Two on-site surveys provided further practical indications and the opportunity to place the QR tags.
+The results of previous multi-disciplinary investigations, including archaeological surveys and access to historical documents and cartography, were used to define such informational content. Two on-site surveys provided further practical indications and the opportunity to place the QR tags.
 
 The main result of our activity is the real-scale deployment of the signage, a non-trivial exercise in holistic sustainable design.
 
@@ -1191,7 +1195,7 @@ ISTAT & Istituto Nazionale di Statistica
 \bibliography{biblio/paper.bib}
 
 %\nociteWeb{*}
-\bibliographystyleWeb{unsrt}
+\bibliographystyleWeb{abbrv}
 \bibliographyWeb{biblio/sitography.bib}
 
 % If authors have biography, please use the format below
