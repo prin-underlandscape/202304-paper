@@ -216,7 +216,7 @@ The concrete aspect we address is a signage system, and the solution we propose 
 
 The next section illustrates signage as a topic of interest. The discussion targets low-cost, low-impact technologies that are appropriate for outdoor signage of natural or cultural heritage, and finally indicates QR code tags as a consistent technology. The section features a survey of relevant literature.
 
-Section \ref{sec:methods} provides the multidisciplinary framework. Section \ref{sec:legacy} illustrates the legacy emphasizing historical facts and locations. Section \ref{sec:tourism} describes the social and touristic context of the target location and provides the guidelines for integrating the initiative into the socio-political fabric. Such guidelines are used to motivate and define an agenda, in section \ref{sec:agenda}, and the section is concluded by a reasoned description of the area, highlighting the points of interest and their reachability \ref{sec:soa}. Section \ref{sec:implementation} describes the concrete implementation that follows the defined requirements. The description of the process to produce the printed tags starting from editable content on a geographic database allows reproduction and reuse of the solution in other contexts.
+Section \ref{sec:methods} provides the multidisciplinary framework. Section \ref{sec:legacy} illustrates the legacy emphasizing historical facts and locations. Section \ref{sec:tourism} describes the social and touristic context of the target location and provides the guidelines for integrating the initiative into the socio-political fabric. Such guidelines are used to motivate and define an agenda, in section \ref{sec:agenda}, and the section is concluded by a reasoned description of the area, highlighting the points of interest and their reachability \ref{sec:soa}. Section \ref{sec:implementation} describes the concrete implementation that follows the defined requirements. The description of the process to produce the printed tags starting from editable content on a geographic database allows the reproduction and reuse of the solution in other contexts.
 
 Section \ref{sec:results} merges the various aspects explored in the previous sections to provide a methodological view of the process, focusing on the interplay between the four pillars of sustainability.
 
@@ -291,13 +291,13 @@ Wan \cite{wan22a} evaluates the quality of signage, without referring to a speci
 
 The number of research papers explodes when we extend the range to articles investigating smartphones' impact on tourism. The {\em smart tourism} topic is very popular, and covered by several review papers that provide a framework to the vast literature.
 
-A popular research direction covers the social aspects related to the use of smartphones. W. Tan \cite{tan17a} covers all aspects of a touristic experience related to the smartphone, from the definition of travel destination to assistance during the visit. Much attention is dedicated to the network of connections that is established thanks to the smartphone, which, again, is on the Internet. Such an assumption is in contrast with the title, which indicates a outdoor-based destination, where notably the Internet is not always reachable.
+A popular research direction covers the social aspects related to the use of smartphones. W. Tan \cite{tan17a} covers all aspects of a touristic experience related to the smartphone, from the definition of travel destination to assistance during the visit. Much attention is dedicated to the network of connections that is established thanks to the smartphone, which, again, is on the Internet. Such an assumption is in contrast with the title, which indicates an outdoor-based destination, where notably the Internet is not always reachable.
 
 On the other hand, roaming in places not reached by the Internet, or {\em dead zones} using the term introduced by Pearce and Gretzel in \cite{pea12a}, may evoke contrasting feelings, from rewarding to threatening.
 
 More recently, the smartphone has been considered not strictly related to communication. In 2021 A. Slavec et al. investigated the use of cameras \cite{sla21a} while on travel in locations with a relevant cultural heritage to sustain preservation and engage the tourists using location-based games, similar to Pokemon Go or geo-caching.
 
-In 2023 V. Rodrigues et al. published a systematic review of papers considering the interrelationships between tourism and portable digital devices \cite{rod23a}. Although the title evokes a one-way contribution, therefore assuming digitalization improves quality and sustainability of touristic offers, in the conclusions the authors reveal the awareness for the need to address {\em "the preservation of tourism attractions/sites"} and call for a {\em "a holistic approach ... to support a concept that still lacks conceptual and empirical clarification"}.
+In 2023 V. Rodrigues et al. published a systematic review of papers considering the interrelationships between tourism and portable digital devices \cite{rod23a}. Although the title evokes a one-way contribution, therefore assuming digitalization improves the quality and sustainability of touristic offers, in the conclusions the authors reveal the awareness for the need to address {\em "the preservation of tourism attractions/sites"} and call for a {\em "a holistic approach ... to support a concept that still lacks conceptual and empirical clarification"}.
 
 In that direction, we meet the phenomenon of {\em overtourism}, covered by significant literature reviewed by Dodds and Butler \cite{dod19a}, which focuses on urban tourism and its social consequences. The impact of {\em overtourism} on resorts that trade on their natural resources is investigated in the case of the Hawaii Islands \cite{lin22a} or Costa Rica \cite{mat10a} stressing the impact on the social fabric.
 
@@ -317,7 +317,7 @@ For this reason, we do not consider a solution based on the deployment of a netw
 
 An alternative consists of the utilization of passive devices, like Near Field Communication (NFC) transmitters. The transmitting device is flat, the size of a coin, and costs less than one dollar per piece. To receive the content the smartphone must be very close to the NFC tag. The power needed to operate the radio is drained from the smartphone so that the transmitter does not depend on batteries. The NFC device capacity is in the range of the KBytes, nearly a page on this journal. Engraving content onto an NFC tag is a straightforward task that requires a smartphone and an ad-hoc app.
 
-Reading a tag does not require an ad-hoc application, and is performed approaching the smartphone to the tag: the user is advertised that content is available. The smartphone can read it aloud to compensate for the user's inability or translate to deal with linguistic issues. Such capabilities do not need an Internet connection but currently depend on ad-hoc applications.
+Reading a tag does not require an ad-hoc application, and is performed by approaching the smartphone to the tag: the user is advertised that content is available. The smartphone can read it aloud to compensate for the user's inability or translate to deal with linguistic issues. Such capabilities do not need an Internet connection but currently depend on ad-hoc applications.
 
 Another solution in the family of passive devices is the QR code (QR stands for Quick-Response). Such a technology does not require radio communication but uses the smartphone camera to acquire text encoded in a graphical code. The capacity of a QR tag depends on the number of dots in the image, which in turn depends on the size of the code and the smartphone camera characteristics. We may consider that the capacity of a QR tag roughly equals that of an NFC tag. A QR tag is larger than an NFC tag of comparable capacity, and manufacturing requires a printer.
 
@@ -366,9 +366,9 @@ The two passive technologies of choice exhibit the following features, that may 
 
 For a signage application, a QR tag is preferable because a noticeable size is needed. In addition, keeping the tag out of reach prevents vandalism and misuse.  Therefore we have reasons to select a QR-tag-based solution for smartphone-based signage.
 
-The QR code have been invented in 1994 for industrial applications. The current version, described in \cite{isoqr}, is dated February 2015.
+The QR code was invented in 1994 for industrial applications. The current version, described in \cite{isoqr}, is dated February 2015.
 
-In our use case it is especially appropriate when the cultural heritage extends across scarcely accessible land, considering that preserving and accessing sites located on private property or in hazardous areas can be challenging. In such cases, QR tags could improve the visitors’ experience by providing, when Internet coverage is available, the Web URLs for videos, aerial shots, and photos, even if the specific spot is not accessible. Such resources allow visitors to immerse themselves in the area's history and gain an experiential understanding.
+In our use case, it is especially appropriate when the cultural heritage extends across scarcely accessible land, considering that preserving and accessing sites located on private property or in hazardous areas can be challenging. In such cases, QR tags could improve the visitors’ experience by providing, when Internet coverage is available, the Web URLs for videos, aerial shots, and photos, even if the specific spot is not accessible. Such resources allow visitors to immerse themselves in the area's history and gain an experiential understanding.
 
 We now examine how such technology copes with the limits of a traditional board-based approach (as listed in table \ref{sec:signage}):
 
@@ -396,7 +396,7 @@ The geographical area of interest is the surroundings of \emph{Casoli}, a small 
 
 \emph{Bagni di Lucca} is located on the north-eastern boundary of the Province of \emph{Lucca}, in \emph{Val di Lima}, and is part of the \textit{Media Valle del Serchio} district. With its mountains it marks the historical border with the \textit{Modena} and \textit{Pistoia} area, it is very rich in potential for its naturalistic, archaeological, and historical heritage, both expressed and as yet unexpressed. Thanks to the archaeological map the main sites of interest from prehistoric to contemporary times in this municipality are cataloged, photographed, and georeferenced.
 
-From a historical-geographical point of view, this area is identified with the \emph{Lima} stream and its tributaries, which impress the area with a peculiar geomorphology impervious despite the modest hilly elevations.
+From a historical-geographical point of view, this area is identified with the \emph{Lima} stream and its tributaries, which impress the area with peculiar geomorphology, impervious despite the modest hilly elevations.
 
 The \emph{Lima} stream has characterized the history of \emph{Bagni di Lucca} since ever: the valley's ancient river terraces contain some of the earliest evidence of human presence, such as caves and rock shelters frequented since the Palaeolithic age; the manufacturing industry (paper mill, flour mills and, in recent times, energy production) have exploited since the Middle Age until the 1980s \cite{men76, bed05, ser21}.
  
@@ -453,11 +453,11 @@ The way to improve the valorization and enjoyment of this area applies to a slow
 
 This section outlines the historical framework that explains the selection of QR tag locations and their associated content. It is based on previous archaeological and historical investigations. The sites mentioned in the narration can be found among the QR codes listed in table \ref{tab:qrtags}.
 
-The village of \emph{Casoli} is located south of the \emph{Lima} stream on a hill named {\em "Tanette"}. In the local small lair, the name reveals the presence of karstic cavities, some inhabited between the Paleolithic and the Iron Age and used also as stations on the trans-Apennine routes \cite{men76, gia96, pal63, zec72a, zec72b}.
+The village of \emph{Casoli} is located south of the \emph{Lima} stream on a hill named {\em "Tanette"}. In the local small lair, the name reveals the presence of karstic cavities, some inhabited between the Paleolithic and the Iron Age and also used as stations on the trans-Apennine routes \cite{men76, gia96, pal63, zec72a, zec72b}.
 
 Ceramic fragments dated between the 3rd century BC and the 1st-2nd century AD prove that Ligurian populations occupied the region scattered and in small nuclei. The dedication of the Latin colony of \textit{Lucca} in 180 BC marked a decisive turning point in the Romanisation of the area and, shortly after, the definitive subjugation of the Ligurian populations, accompanied by rapid acculturation \cite{gia96, cia05}.
 
-We have little evidence of Roman settlements in the mountainous hinterland, and the scarce archaeological traces are concentrated in the cave of \textit{Buca La Piella}, investigated in 1975 by the Centre for Archaeological Studies of \emph{Lucca}; it has two entrances joined by a walkable tunnel and rooms of discrete dimensions that overlook the outside. In addition to numerous faunal remains and fragments of locally produced common pottery, twenty bronze coins belonging to the 3rd century AD, bronze and lead objects were found \cite{gia96, men81, cia03}. 
+We have little evidence of Roman settlements in the mountainous hinterland, and the scarce archaeological traces are concentrated in the cave of \textit{Buca La Piella}, investigated in 1975 by the Centre for Archaeological Studies of \emph{Lucca}; it has two entrances joined by a walkable tunnel and rooms of discrete dimensions that overlook the outside. In addition to numerous faunal remains and fragments of locally produced common pottery, twenty bronze coins from the 3rd century AD, bronze and lead objects were found \cite{gia96, men81, cia03}. 
 
 In Longobard and Carolingian times, \emph{Lucca}'s \emph{Val di Lima} was one of the three administrative districts into which the mountains were divided and was called \emph{fines Contronenses} \cite{qui02, cia06, cia11}. The only find from this period is the \textit{Grotta di Arzale}, a rock shelter that opens up northwest of \emph{Casoli} \cite{gia96}.
 
@@ -571,7 +571,7 @@ The touristic area of \emph{Val di Lima} features a tourist area belonging to \e
 
 Table \ref{tab:tourism} provides statistical data concerning tourist flows and accommodation in \emph{Bagni di Lucca}. Notably, the tourist density of 106.41 tourists per $km^2$ is higher than the population density (33.95 inhabitants per $km^2$). This information should be considered in local planning to enhance the number of residents.
 
-As shown in \ref{tab:tourism}, the number of nights per tourist amounts to an average of 2,98 nights per tourist during a year and it is also significant since it shows, on one hand, \emph{Bagni di Lucca} context appeal for tourists choosing to stay more than a weekend and less than a week. On the other hand, this data means how long people likes staying in this tourist region and that they may have found attractions, services, and activities they need. Consequently, a well-organized touristic system attracts potentially touristic presences widespread on the municipality territory.
+As shown in \ref{tab:tourism}, the number of nights per tourist amounts to an average of 2,98 nights per tourist during a year and it is also significant since it shows, on one hand, \emph{Bagni di Lucca} context appeal for tourists choosing to stay more than a weekend and less than a week. On the other hand, this data means how long people like staying in this tourist region and that they may have found attractions, services, and activities they need. Consequently, a well-organized touristic system attracts potentially touristic presences widespread on the municipality territory.
 
 The coexistence index describes the distribution of tourist nationalities: 103.74 foreign tourists per 100 Italians in \emph{Bagni di Lucca} indicates a significant share of foreign tourists.
 
@@ -582,7 +582,7 @@ It can be claimed that \emph{Bagni di Lucca} is well positioned in the whole tou
 
 Several promotional websites, like \citeWeb{tbdl} and \citeWeb{valdilima} advertise \emph{Bagni di Lucca} attractions. The sitography closing this paper contains a longer yet incomplete list of touristic initiatives  \citeWeb{valdilima,agu,r2o,ronda,garfraft,canyonpark,experience,ebikea,ebikel,bdlt2,bdl}.
 
-From the point of view of our research, the context of \emph{Bagni di Lucca} helps to understand the complexity and variety of mixed tourism clusters (a sort of "touristic ecosystems" with common identitary elements such as: anthropic, socio-cultural, and historical features, as well as touristic services). Indeed, \emph{Val di Lima} can promote a very identifying destination brand straddling the town of \emph{Lucca} and the \emph{Garfagnana} mountain area. The Municipality of \emph{Bagni di Lucca} and the tourist area of the \emph{Val di Lima} are the context for the small and fascinating village of \emph{Casoli}, which is one of the 31 villages belonging to the Municipality. It is 7.22 km far from \emph{Bagni di Lucca}, at an altitude of 500 meters.
+From the point of view of our research, the context of \emph{Bagni di Lucca} helps to understand the complexity and variety of mixed tourism clusters (a sort of "touristic ecosystems" with common identitary elements such as anthropic, socio-cultural, and historical features, as well as touristic services). Indeed, \emph{Val di Lima} can promote a very identifying destination brand straddling the town of \emph{Lucca} and the \emph{Garfagnana} mountain area. The Municipality of \emph{Bagni di Lucca} and the tourist area of the \emph{Val di Lima} are the context for the small and fascinating village of \emph{Casoli}, which is one of the 31 villages belonging to the Municipality. It is 7.22 km far from \emph{Bagni di Lucca}, at an altitude of 500 meters.
 
 \emph{Casoli} village boasts a heterogeneous range of tourist attractions, including both soft and hard outdoor experiential activities, such as canyoning, rafting, and trekking experiences in the Canyon Park. Additionally, it features Romanesque churches and huts attracting visitors looking for various experiences such as thermal, environmental, outdoor, sports, and cultural activities. Throughout the year, local stakeholders offer a variety of services, often incorporating sustainable tourism practices. After a detailed analysis of the tourist and social context of \emph{Bagni di Lucca}, it can be claimed that the area boasts a good tourist appeal towards Italian and foreign tourists searching for various kinds of touristic experiences \cite{loz09} dating back to the '90s when some associations began organizing mainly trekking excursions and rafting experience.
 
@@ -627,7 +627,7 @@ In such a context digitalization plays a primary role in innovation actions, all
 
 \subsubsection{How to implement the guidelines? \label{sec:agenda}}
 
-According with the above guidelines for tourism valorization, we explain how the research has been conducted dealing with local stakeholders. Although information is still incomplete, we were able to collect sufficient opinions to confirm that \emph{Casoli} has the potential to be promoted through a community-involved tourism approach.
+According to the above guidelines for tourism valorization, we explain how the research has been conducted dealing with local stakeholders. Although information is still incomplete, we were able to collect sufficient opinions to confirm that \emph{Casoli} has the potential to be promoted through a community-involved tourism approach.
 
 We include four stakeholder communities in the evaluation of the response to the initiative. We do not speak about {\em success} since the initiative is deliberately soft, an outcome expected in years, and the definition of the evaluation criteria raises new questions. We are content with determining if the stakeholders viewed the initiative as intrusive, helpful, or simply neutral.
 
@@ -648,7 +648,7 @@ The administrators of \emph{Bagni di Lucca} Municipality were highly involved in
 
 The QR tag does not record reading operations, preventing an evaluation of the user category. A URL was added to the text message in the QR tag to monitor the number of hits: however, this is not an effective usage estimator, as explained in section \ref{sec:results}. 
 
-In light of the above, a reflection on \textit{community-involved tourism} perspective is needed. As shown by this empirical study, a small village like \emph{Casoli} requires a valorization strategy which takes advantage of the wider local tourism context. 
+In light of the above, a reflection on \textit{community-involved tourism} perspective is needed. As shown by this empirical study, a small village like \emph{Casoli} requires a valorization strategy that takes advantage of the wider local tourism context. 
 
 According to a holistic development vision, when a tourist destination meets its community issues it means that local stakeholders must balance a tourist industry vision with sustainability goals at a comprehensive perspective on the environment, socio-cultural and economic long-term benefits, as described by George B. Et Alii \cite {geo07}. 
 
@@ -751,7 +751,7 @@ There are many ways to distribute the content among the three LoRs, dictated by 
 
 \begin{figure}
 \includegraphics[width =\linewidth]{figure/combo_gen.jpeg}
-\caption{Generation of the QR tag and UMap visualization from UMap content. The uMap editor (bottom left) provides simplified access to the GeoJSON description. The same interface allows to specify the template controlling the Web visualization of the map (right side). An ad-hoc application referenced in the paper translates the uMap file downloaded from the server into a batch of printable QR tags (top left). The tag is highlighted in red in the picture on the Web display \label{fig:editing}}
+\caption{Generation of the QR tag and uMap visualization from uMap content. The uMap editor (bottom left) provides simplified access to the GeoJSON description. The same interface allows to specify the template controlling the Web visualization of the map (right side). An ad-hoc application referenced in the paper translates the uMap file downloaded from the server into a batch of printable QR tags (top left). The tag is highlighted in red in the picture on the Web display \label{fig:editing}}
 \end{figure}
 
 \begin{table}
@@ -806,11 +806,11 @@ The finalized master document contains a single \emph{GeoJSON} \emph{FeatureColl
 
 %The \emph{properties} are also shown on the UMap map.
 
-Editing the map downloaded from the GPS app to fill in the {\em properties} does not require technical skills, since the tools integrated into the UMap user interface already fit the purpose (see the bottom left box in figure \ref{fig:editing}).
+Editing the map downloaded from the GPS app to fill in the {\em properties} does not require technical skills, since the tools integrated into the uMap user interface already fit the purpose (see the bottom left box in figure \ref{fig:editing}).
 
 %The resulting \emph{GeoJSON} object describing a tagged feature is shown in figure \ref{fig:geojson-sample}.
 
-The master document is rendered by UMap on the page linked to the tags as shown in figure \ref{fig:editing}.
+The master document is rendered by uMap on the page linked to the tags as shown in figure \ref{fig:editing}.
 
 %\begin{figure}
 %\subfloat[Editing a feature associated with a QR-tag in UMap]{
@@ -846,7 +846,7 @@ In this perspective, our research is oriented to stimulate local policymakers an
 
 An outcome of the analysis of the social fabric is that, to preserve the native social and economic framework, mass tourism is not a candidate target, while a motivated, non-casual visitor is preferable.
 
-A rationale for the above attitude may be found in an article by Solima et al. \cite{sol18a}. The authors conducted a poll about user perception on two segments of users: Italians and Polish. The feelings about a QR based signage were not unanimous, and half of the Italian users considered it as not useful. Another result from the poll reveals that Polish users showed a stronger motivation to use tags for educational purposes (70\% versus 50\%), while Italians were mainly driven by curiosity. We conclude that, to provide a useful service, the signage must address a motivated user.
+A rationale for the above attitude may be found in an article by Solima et al. \cite{sol18a}. The authors conducted a poll about user perception on two segments of users: Italians and Polish. The feelings about a QR-based signage were not unanimous, and half of the Italian users considered it as not useful. Another result from the poll reveals that Polish users showed a stronger motivation to use tags for educational purposes (70\% versus 50\%), while Italians were mainly driven by curiosity. We conclude that, to provide a useful service, the signage must address a motivated user.
 
 So we identified the potential reasons for a visit. We found a cave reachable with some effort inhabited since pre-history, a village with historical buildings, and nearby architecture dating back to the Middle Ages. Such targets offer a variety of access ways, from those requiring performance to relaxing ones. For this reason, we opted not to suggest a geo-itinerary, allowing the user to cherry-pick locations based on personal interests.
 
@@ -854,9 +854,9 @@ We investigated a technique for guiding the visitor and telling the history of t
 
 The proposed solution consists of placing at selected locations the QR tags listed in table \ref{tab:qrtags}. The total cost of the tags amounts to a few Euros for the printing service, although finding a shop with an appropriate device may be difficult. The impact on the environment is extremely limited, as shown in figure \ref{fig:TagPlacement}.
 
-To allow readability in {\em dead zones} and quickly provide the information without further steps to web pages, we encode the content within the QR code itself. The content consists of a text of an average of 460 characters aiming at a concise and effective communication with the tourist.
+To allow readability in {\em dead zones} and quickly provide the information without further steps to web pages, we encode the content within the QR code itself. The content consists of a text of an average of 460 characters aiming at concise and effective communication with the tourist.
 
-Therefore, in our design, the information encoded in the QR tag is the primary or only way of communication with the visitor. It is a new and original way of using such technology, since QR tags are instead considered ancillary to other forms of communication, like physical installations or linked Web contents, according with the motto "analog portal to the digital world", as in the title of \cite{bai12a}. 
+Therefore, in our design, the information encoded in the QR tag is the primary or only way of communication with the visitor. It is a new and original way of using such technology since QR tags are instead considered ancillary to other forms of communication, like physical installations or linked Web contents, according with to motto "analog portal to the digital world", as in the title of \cite{bai12a}. 
 
 Such an attitude has not much changed since the first reported utilization of QR tags for heritage promotion. In 2013 an early paper by Martinez et al. \cite{mar13a} suggests its utilization to implement a virtual tour in the {\em Las Quilamas Natural Park} in Spain. At that time the availability of QR-code readers was not as diffused as today, and therefore the work may be considered among the seminal ones. The authors proposed to use the QR code as a link to a panel in PDF format viewed on the user's portable device. Similar works in an urban environment are presented in \cite{fin13a} and \cite{tat15a}, the latter illustrating the QR system serving the monuments in the Serbian town of Niš. Among indoor applications we already referenced \cite{sol18a}, which describe the use of QR tags linked to Web resources in two museums in different countries.
 
@@ -916,13 +916,13 @@ Although we are satisfied that the solution complies with the sustainability pri
 
 Trading off cost and simplicity for effectiveness and measurability there are alternative solutions.
 
-One technology that fits the requirements of our task is Bluetooth Low Energy (BLE): the autonomy of a battery-operated BLE device is comparable with the periodic maintenance of signage based on passive devices. A Bluetooth device can send to the visitor's smartphone a beacon to indicate the presence of a passive sign, like a not-so-visible QR tag, or directly deliver information. However this requires the installation of an ad-hoc on the visitor's device, and the design of the IT product including the BLE device and the application, which may cost far more than the physical devices. 
+One technology that fits the requirements of our task is Bluetooth Low Energy (BLE): the autonomy of a battery-operated BLE device is comparable with the periodic maintenance of signage based on passive devices. A Bluetooth device can send to the visitor's smartphone a beacon to indicate the presence of a passive sign, like a not-so-visible QR tag, or directly deliver information. However, this requires the installation of an ad-hoc on the visitor's device, and the design of the IT product including the BLE device and the application, which may cost far more than the physical devices. 
 
-The demonstration of the existence of such needs biases the technological evolution: for instance, if counting NFC reads were a frequent requirement, tags with such a feature would be produced at low costs, and the increment operation might become a default in NFC reading apps. The many research results on low-energy and low-cost devices also indicates an expanding market.
+The demonstration of the existence of such needs biases the technological evolution: for instance, if counting NFC reads were a frequent requirement, tags with such a feature would be produced at low costs, and the increment operation might become a default in NFC reading apps. The many research results on low-energy and low-cost devices also indicate an expanding market.
 
 \section{Conclusions}
 
-Tourism, like other productive activities, is at risk of being unsustainable, damaging the very resources that support it. To avoid heavy drawbacks the design of a tourism initiative has to consider the complex framework where it will operate according to an holistic approach. A methodology made of examples and guidelines helps to cope with such a challenging task.
+Tourism, like other productive activities, is at risk of being unsustainable, damaging the very resources that support it. To avoid heavy drawbacks the design of a tourism initiative has to consider the complex framework where it will operate according to a holistic approach. A methodology made of examples and guidelines helps to cope with such a challenging task.
 
 This paper is a step in that direction. We address an ordinary problem, that of providing the visitor with directions, to promote slow tourism and preserve distinguishing traits of an inland area.
 
@@ -932,7 +932,7 @@ In the case of \emph{Casoli}, the touristic trends and the local vocation portra
 
 The resulting implementation is minimalistic in its deployment. This may encourage the direct participation of the residents community in its implementation: from the production of the QR tags to their deployment and maintenance. The detailed description of the production process enables its reuse as a starting point in future initiatives.
 
-On a medium term perspective, the description of the deployed experiment gives suggestions for the development of new devices or features for existing ones. In our case, a new potential application may foster research aiming at passive or very low-energy devices that can effectively advertise their presence or simply collect statistics in \emph{dead-zones}.
+From a medium-term perspective, the description of the deployed experiment gives suggestions for the development of new devices or features for existing ones. In our case, a new potential application may foster research aiming at passive or very low-energy devices that can effectively advertise their presence or simply collect statistics in \emph{dead-zones}.
 
 From a different point of view, the lack of discoverability suggests a recreational scenario inspired by Geocaching® and Pokemon-GO®.
 
@@ -1210,7 +1210,7 @@ ISTAT & Istituto Nazionale di Statistica
 
 \bio
 {\raisebox{-0.35cm}{\includegraphics[width=3.5cm,height=5.3cm,clip,keepaspectratio]{Definitions/augusto.png}}}
-{\textbf{Augusto Ciuffoletti} Former teacher and researcher at the University of Pisa, retired on September 2023, with recent achievements on the Internet of Things and distributed control, with an interest on low-power devices. Previously active on Grid and, later, Cloud computing in collaboration with INFN. Until 2023, teaching activity at the Degree Course in Computer Humanities of the University of Pisa with two courses respectively on Network Protocols and the Angular 2+ framework.}
+{\textbf{Augusto Ciuffoletti} Former teacher and researcher at the University of Pisa, retired on September 2023, with recent achievements on the Internet of Things and distributed control, with an interest on low-power devices. Previously active on Grid and, later, Cloud computing in collaboration with INFN. Until 2023, he was a teacher at the Degree Course in Computer Humanities at the University of Pisa, where he taught two courses, one on Network Protocols and the other on the Angular 2+ framework.}
 % For the MDPI journals use author-date citation, please follow the formatting guidelines on http://www.mdpi.com/authors/references
 % To cite two works by the same author: \citeauthor{ref-journal-1a} (\citeyear{ref-journal-1a}, \citeyear{ref-journal-1b}). This produces: Whittaker (1967, 1975)
 % To cite two works by the same author with specific pages: \citeauthor{ref-journal-3a} (\citeyear{ref-journal-3a}, p. 328; \citeyear{ref-journal-3b}, p.475). This produces: Wong (1999, p. 328; 2000, p. 475)
